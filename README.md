@@ -392,6 +392,7 @@ cuando lo completes:
 | Dar y recibir feedback |
 | Adaptabilidad |
 | Trabajo en equipo |
+| Responsabilidad |
 | Comunicación eficaz |
 | Presentaciones |
 
