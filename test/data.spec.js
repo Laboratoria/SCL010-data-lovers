@@ -4,8 +4,8 @@ require('../src/data');
 require('./data.spec.js');
 
 
-describe('example', () => {
-  
+describe('pokedata', () => {
+
   it('debería ser una función', () => {
     assert.equal(typeof example, 'function');
   });
