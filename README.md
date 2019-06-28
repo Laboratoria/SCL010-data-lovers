@@ -30,7 +30,7 @@ Según las respuestas (78 respuestas hasta el momento) de los usuarios que juega
     c. Probabilidad de aparición
 7.- Los atributos para ordenar la Pokedex que más consideran son:
     a. Tipo de pokemon
-    b. Fortalezas
+    b. Fortalezas 1
     c. Orden alfabético y numérico
 
 
