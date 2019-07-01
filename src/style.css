@@ -1,0 +1,57 @@
+
+header{
+    background-color: #000000;
+    background-image: url(https://i.ibb.co/B4882JW/1-1.jpg);
+    background-position: 30% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:150px;
+    overflow:hidden;
+ }
+ 
+ body {
+ background: #356ec4
+ 
+ }
+ .navegation {
+    width:1000px;
+    margin: 30px auto;
+    background: rgb(206, 45, 45);
+    z-index: 100;
+ }
+ .navegation ul{
+    list-style: none;
+ }
+ .menu > li{
+ position: inherit;
+    display: inline-block;
+ }
+ .menu > li > a{
+    display: block;
+    padding :15px 20px;
+    background-color: #f8f8f8;
+    font-family:'Open sans';
+    text-decoration: none;
+ }
+ .menu li a:hover{
+    color:#020202;
+ }
+
+ 
+ #submenu{
+ position: absolute;
+    width:100%;
+    visibility: hidden;
+    transition: opacity 1.5s;
+ }
+ #submenu li a{
+    display: block;
+    padding :15px;
+    background-color: #afbdce;
+    font-family:'Open sans';
+    text-decoration: none;
+ }
+ .menu li:hover #submenu{
+    visibility: visible;
+ }
