@@ -9,25 +9,26 @@
   </head>
   <body>
     <header>
-     <div id="logo">
-  <!--     <img src="bannerRM.png" alt="Logo"> -->
-     </div>
+     <img src="banner_RMM.png" id="logo">
+     <img src="bannerRM.png" id="logo2">
      <nav>
+    <div class="navegator">
+    <ul>
     <li><a href="#pageHome">Home</a></li>
-    <li><a href="#index2.html">Mundo</a></li>
+    <li><a href="index2.html">Mundo</a></li>
     <li><a href="#pageCharacters">Personajes</a></li>
     <li><a href="#pageLinks">Links</a></li>
     <li><a href="#pageDevelopers">Desarrolladoras</a></li>
-     </nav>
+  </ul>
+    </div>
+    </nav>
     </header>
 <main>
     <section id="pageHome">
-      <article>
+      <article class="h1">
         <h1>Bienvenidos al Mundo de Rick and Morty</h1>
         <p>Aquí podrás encontrar toda la información sobre la serie</p>
-        <div>
-        <img src="" alt="img1">
-        </div>
+        <img src="img_1.png" id="img_1">
         <button type="button" name="button" id="buttonWorld"></button>
       </article>
       <article class="">
@@ -103,12 +104,13 @@
        <div id="root"></div>
     <footer>
       <div>
-    <!--  <img src="pie.png" alt="footer"> -->
+    <!--  <img src="pie.png" id="footer"> -->
         <h4>Copyright | 2019. Todos los derechos reservados.<br>Laboratoria,Chile. </h4>
           <div>
        </footer>
+            <script src="./data/rickandmorty/rickandmorty.js"></script>
        <script src="data.js"></script>
        <script src="main.js"></script>
-       <script src="./data/rickandmorty/rickandmorty.js"></script>
+
       </body>
 </html>
