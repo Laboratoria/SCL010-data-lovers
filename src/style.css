@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #252525;
+  background: linear-gradient(180deg, rgba(222, 205, 250, 0.53) 0%, rgba(28, 51, 131, 0.15) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background: rgb(207, 201, 252);
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 220px;
+  margin: 5px;
+}
+ul, ol {
+    list-style: none;
+}
+.nav li a{
+    background-color: rgb(223, 212, 245);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: rgb(255, 255, 255);
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.nav li:hover > ul{
+display: block;
+}
+section {
+  padding:20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+section div {
+  text-align: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  background: #BBC9E5;
+  border-radius: 25px;
+}
+section div img {
+  display: flex;
+  width: 90%;
+  height: 90%;
+}
