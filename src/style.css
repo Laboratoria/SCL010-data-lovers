@@ -1,0 +1,8 @@
+.characterCards {
+  max width: 100px;
+  max height: 80px;
+
+  display: inline-block;
+  margin: 100px;
+
+}
