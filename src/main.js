@@ -16,3 +16,9 @@ window.onload = function () {
       pokeSection.appendChild(newDiv);
     }
   };
+
+  // aprendiendo filter con consola
+  const pokemons = POKEMON.pokemon;
+  const pokeFiltered = pokemons.filter(pokemons => pokemons.length > 151);
+  
+  console.log(pokeFiltered);
