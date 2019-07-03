@@ -14,7 +14,7 @@ El usuario, a través de sus necesidades, podrá filtrar, ordenar y hacer algún
 
 ### **Definición de usuario**
 
-Nuestro usuario se definirá a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
+En estre proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer las necesidades principales de nuestros usuarios. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
 
 Acá el link del formulario: https://docs.google.com/forms/d/e/1FAIpQLSd_NWB4fuW7I_ch4WfFUbxgc76pmveutwn39bkAv6BBk9Pq7w/viewform?usp=sf_link
 
@@ -33,6 +33,17 @@ Según las respuestas (78 respuestas hasta el momento) de los usuarios que juega
     b. Fortalezas 1
     c. Orden alfabético y numérico
 
+### **Historias de usuario**
+En base a las encuenstas, y lainformación del data que se nos entregó para el proyecto (pokemon.js), se definieron las siguientes historias de usuario:
+
+Historia de usuario Nº1:
+-"Yo, como usuario intermedio de Pokemon GO, quiero filtrar los pokemones según su tipo, para reconocer con mayor facilidad los pokemones que tengo y no tengo de cada tipo."
+
+Historia de usuario Nº2:
+-"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
+
+Historia de usuario Nº3:
+-"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
 
 #### Prototipo de baja fidelidad
 
