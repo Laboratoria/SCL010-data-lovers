@@ -114,15 +114,12 @@ li {
 width: 100%;
 }
 #logo {
-display: none;
-}
-#logo2{
-display: block;
-width: 100%;
-}
-.navegator{
 
 }
+#logo2{
+width: 100%;
+}
+
 .navegator li {
 font-weight: 600;
 font-size: 25px;
@@ -131,5 +128,21 @@ color: Black;
 display: inline;
 padding: 10px;
 margin: 4%;
+}
+
+ .image {
+  width: 13%;
+  height: 13%;
+ }
+
+ footer{
+  background-image: url('pie.png');
+  height: 120px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-right: 40%;
+  color: white;
 }
 }
