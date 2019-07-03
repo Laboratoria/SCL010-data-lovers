@@ -1,69 +1,127 @@
-
-*{
-margin:0;
-padding:0;
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
-box-sizing:border-box;
-
+body{
+   background-image: url("images/fondo.jpg")
 
 }
 
-body {
-background-image: url("images/fondo.jpg");
-background-repeat: 100px 0px;
-background-size: cover;
 
+
+
+
+
+
+
+
+/* .navegation {
+   width:1000px;
+   margin: 30px auto;
+  
+   
 }
-
-.navegation {
-width:1000px;
-margin: 30px auto;
-}  
-
 .navegation ul{
-list-style: none;
+   list-style: none;
 }
-
 
 .menu > li{
 position: relative;
-display: inline-block;
-} 
+   display: inline-block;
+}
 
 .menu > li > a{
-display: block;
-padding :15px 20px;
-background-color: #f8f8f8;
-
-font-family:'Open sans';
-text-decoration: none;
+   display: block;
+   padding :15px 20px;
+   background-color: #f8f8f8;
+   font-family:'Open sans';
+   text-decoration: none;
 }
-
-
 .menu li a:hover{
-color:#020202;
-
- }
+   color:#020202;
+}
 .submenu{
-position: absolute;
-width:120%;
-visibility: hidden;
-opacity: 0;
-transition: opacity 1.5s;
+   position: absolute;
+      width:120%;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 1.5s;
+   }
+   
+   .submenu li a{
+       display: block;
+       padding :15px;
+       background-color: #afbdce;
+       font-family:'Open sans';
+       text-decoration: none;
+    }
+    
+    .menu li:hover .submenu{
+       visibility: visible;
+       opacity: 1;
+}
+ #img-pokebola{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
  }
 
-     
-.submenu li a{
-display: block;
-padding :15px;
-background-color: #afbdce;
-font-family:'Open sans';
-text-decoration: none;
-}
+ a#logo{
+    text-align: center;
+ }
 
-.menu li:hover .submenu{
-   visibility: visible;
-   opacity: 1;
-}
+ #page-pokemones{
+    margin-top: 5%;
+ }
+
+ /* css card flip */
+
+ /*.flip-card {
+   background-color: transparent;
+   width: 190px;
+   height: 205px;
+   margin-bottom: 10px;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ 
+ 
+ /* This container is needed to position the front and back side */
+ /*.flip-card-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+/* .flip-card:hover .flip-card-inner {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+/* .flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+ }
+ 
+
+ .flip-card-front {
+   background-color: #bbb;
+   color: black;
+   width: 190px;
+   height: 205px;
+ }
+ 
+
+ .flip-card-back {
+   background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+   width: 190px;
+   height: 205px;
+ }
+
+ #img-card{
+    width: 100px;
+    height: 100px;
+ }
  
