@@ -131,7 +131,7 @@ display: inline;
 padding: 10px;
 margin: 4%;
 }
-.select{
+#select{
 width: 477px;
 height: 58px;
 }
@@ -154,13 +154,11 @@ box-shadow: 2px 2px 2px 0 rgba(40,40,40,0.76) inset;
 .cards h2, h3 {
 font: normal 16px/normal Verdana;
 color: rgba(4,19,25,1);
-text-indent: 6px;
--o-text-overflow: clip;
-text-overflow: clip;
 }
 .cards img {
-width: 80%;
-position: fixed;
+width: 115px;
+height: 136px;
+content: ;
 justify-content: center;
 }
 }
