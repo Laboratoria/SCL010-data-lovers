@@ -1,11 +1,3 @@
-/* Manejo del DOM */
-// crear tarjetas
-// hacer for con la info que irá en las tarjetas y luego imprima
-// rellenar tarjetas 
-// imprimir tarjetas
-// _
-// ¿como muestro la foto?
-// SOCORRO
 const data = RICKANDMORTY.results; //.window??? 
 // crear tarjetas
 let card = "";
@@ -17,15 +9,17 @@ const createCards = (data) => {
     data.forEach((i) => {
         cards =  
         `
-                <div id="characterCards" class="characterCards">
-          <img src="${i.image}" alt="foto">
-          <div id="infoCards" class="infoCards">
-            <p>${i.name}</p>
-            ${i.specie}</p>
-            ${i.gender}</p>
-            ${(i.episode.length*100/31).toFixed(1)} </p>
-          </div>
-        </div>
+    
+         <div class="characterCards">
+          <img src="${i.image}" alt="foto" class = "imagenCharacters">
+          <div id = "name"> <p>${i.name}</p> </div>
+           <div class="infoCards">
+            <p> Specie: ${i.species}</p>
+            <p> Gender: ${i.gender}</p>
+            <p>Percentaje: ${i.episode.length} </p>
+            </div>
+         </div>
+       
       `
       characters += cards; 
     });
@@ -35,5 +29,3 @@ createCards(data);
     // card = `
     // aqui va la tarjeta`
 
-    
-   
