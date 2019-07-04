@@ -1,10 +1,16 @@
-/* Manejo de data */
+const searchCharacter = (name) => {
+  const data = RICKANDMORTY.results;
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
+  for(let i=0 ; i<data.length;i++){
+    if(data[i].name==name){
+      return data[i];
+      
+    }
+}
+  return false;
 
-const example = () => {
-  return 'example';
 };
 
-window.example = example;
+window.searchCharacter = searchCharacter;
+
+

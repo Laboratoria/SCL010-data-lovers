@@ -134,6 +134,9 @@ margin: 4%;
   width: 13%;
   height: 13%;
  }
+ div{
+   display: inline
+ }
 
  footer{
   background-image: url('pie.png');
