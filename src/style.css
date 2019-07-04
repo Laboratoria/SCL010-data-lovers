@@ -1,4 +1,4 @@
-body{
+#body{
   background-color: #F0F7F0;
   font-family: 'Roboto', sans-serif;
 }
@@ -9,53 +9,62 @@ body{
   max-width: 100%;
   height: 100px;
   text-align: center;
- 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
 }
+#container_datos{
+display: flex;
+}
+
+#cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #menu{
   background-color: #F0F7F0;
   height: 800px;
   float: left;
 
 }
-
  .characterCards {
-   display: inline-block;
-   max-width: 400px;
-   max-height: 400px;
+   
+   max-width: 200px;
+   /*max-height: 380px;*/
    background-color: #44413C;
    border-radius: 5px;
    margin: 5px;
+   justify-content: end;
  }
  .imagenCharacters{
-   max-width: 380px;
-   max-height: 200px;
+   /*max-width: 180px;
+   max-height: 180px;*/
+   width: 90%;
    padding: 5px;
    border-radius: 5px;
+   align-content: center;
  }
  .infoCards{
    padding: 5px;
-   text-align: initial;
+   text-align: inherit;
    font-size: 15px;
    color: #28AFBF;
-
+   font-family: 'Roboto', sans-serif;
  }
  #name {
    background-color: #7C623B;
-   max-width: 400px;
-   max-height: 30px;
+   width: 100%100%;
    color: #28AFBF;
    font-size: 20px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
  }
-
-
-
-
-
-
- 
+.textAlign {
+  text-align: center;
+}
 .sticky{
    position: sticky;
    top: 0%;
    position: -webkit-sticky;
-
+   border: 2px solid red;
 }
