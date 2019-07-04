@@ -17,24 +17,3 @@ function init() {
 }
 init();
 
-const btnSearch = document.getElementById('buttonsearch');
-btnSearch.addEventListener('click',() =>{
-let saveName = document.getElementById('inputsearch').value;
-let characterData=searchCharacter(saveName);
-if (characterData==false) {
-  alert("no se encontraron coincidencias");
-  
-} else {
-  document.getElementById('characters').innerHTML = `
-      <div class="card">
-        <img src="${characterData.image}" alt="">
-        <h3>${characterData.name}</h3>
-        <p>Estado: ${characterData.status}</p>
-        <p>Especie: ${characterData.species}</p>
-      </div>`;
-  
-}
-
-
-
-})  
