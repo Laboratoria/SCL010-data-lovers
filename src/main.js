@@ -1,15 +1,14 @@
-
 const data = RICKANDMORTY.results; //.window??? 
 // crear tarjetas
 let card = "";
 let characters = "";
 let containerCard = document.getElementById("cards");
- 
+
 // crear relleno de la tarjeta con una funcion que las recorra 
 const createCards = (data) => {
-    data.forEach((i) => {
-        cards =  
-        `
+  data.forEach((i) => {
+    cards =
+      `
     
          <div class="characterCards">
           <img src="${i.image}" alt="foto" class = "imagenCharacters">
@@ -22,11 +21,10 @@ const createCards = (data) => {
          </div>
        
       `
-      characters += cards; 
-    });
-    containerCard.innerHTML= characters;
+    characters += cards;
+  });
+  containerCard.innerHTML = characters;
 };
 createCards(data);
-    // card = `
-    // aqui va la tarjeta`
-
+// card = `
+// aqui va la tarjeta`
