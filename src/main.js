@@ -12,11 +12,11 @@ const createCards = (data) => {
     
          <div class="characterCards">
           <img src="${i.image}" alt="foto" class = "imagenCharacters">
-          <div id = "name"> <p>${i.name}</p> </div>
+          <div id = "name"> <p class="textAlign">${i.name}</p> </div>
            <div class="infoCards">
             <p> Specie: ${i.species}</p>
             <p> Gender: ${i.gender}</p>
-            <p>Percentaje: ${i.episode.length * 100 / 31} </p>
+            <p> Appearances: ${(i.episode.length*100/31).toFixed(1)} % </p>
             </div>
          </div>
        
