@@ -10,7 +10,6 @@ function init() {
       <div class="card">
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
-        <p>Estado: ${characterData[i].status}</p>
         <p>Especie: ${characterData[i].species}</p>
       </div>`;
   }

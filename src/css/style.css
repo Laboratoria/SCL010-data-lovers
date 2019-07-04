@@ -12,9 +12,11 @@ main {
 margin: 5%;
 }
 nav {
+height: 40px;
 justify-content: space-between;
 display:flex;
 min-width: 100;
+text-align: center;
 }
 #logo {
 width: 360px;
@@ -27,6 +29,8 @@ height: 73px;
 background: #EDEBEB;
 opacity: 100%;
 width: 100%;
+font-size: 10%;
+padding-top: 30px ;
 }
 .navegator li {
 font-size: 10px;
@@ -36,7 +40,7 @@ display: inline;
 padding: 16px;
 }
 .navegator li a{
-  color:black;
+  color:rgba(73,188,206,1);
   font-size: roboto;
   font-style: normal;
 }
@@ -109,23 +113,27 @@ margin: 2%;
 nav {
 width: 100%;
 }
-li {
-
-width: 100%;
-}
-#logo {
-
+nav li {
+ 
+ width: 100%;
 }
 #logo2{
 width: 100%;
 }
-
+.navegator{
+  background: #EDEBEB;
+  opacity: 100%;
+  width: 100%;
+  font-size: 10%;
+  padding-top: 11px ;
+  }
 .navegator li {
 font-weight: 600;
 font-size: 25px;
 line-height: 12px;
 color: Black;
 display: inline;
+padding-top: 11px;
 padding: 10px;
 margin: 4%;
 }
@@ -134,18 +142,35 @@ margin: 4%;
   width: 13%;
   height: 13%;
  }
- div{
-   display: inline
- }
+
 
  footer{
-  background-image: url('pie.png');
+  background-image: url('../img/pie.png');
   height: 120px;
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
   padding-top: 30px;
-  padding-right: 40%;
+  padding-right: 70%;
+}
+#footer{
   color: white;
+  display: inline;
+}
+.card{
+  width: 20%;
+  margin: 2%;
+  display: inline-block;
+  background: #88c5cf;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  margin: 15px 0;
 }
 }
