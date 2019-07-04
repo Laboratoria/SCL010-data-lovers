@@ -131,4 +131,36 @@ display: inline;
 padding: 10px;
 margin: 4%;
 }
+.select{
+width: 477px;
+height: 58px;
+}
+#pageCharacters{
+display: flex;
+flex-wrap: wrap;
+}
+
+.cards{
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+cursor: pointer;
+opacity: 0.71;
+padding: 10px 3px 171px 0;
+background: rgba(115, 112, 112, 0.54);
+-webkit-box-shadow: 2px 2px 2px 0 rgba(40,40,40,0.76) inset;
+box-shadow: 2px 2px 2px 0 rgba(40,40,40,0.76) inset;
+}
+.cards h2, h3 {
+font: normal 16px/normal Verdana;
+color: rgba(4,19,25,1);
+text-indent: 6px;
+-o-text-overflow: clip;
+text-overflow: clip;
+}
+.cards img {
+width: 80%;
+position: fixed;
+justify-content: center;
+}
 }
