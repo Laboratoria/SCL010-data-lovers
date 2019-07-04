@@ -1,8 +1,33 @@
-.characterCards {
-  max width: 100px;
-  max height: 80px;
-
-  display: inline-block;
-  margin: 100px;
-
+body{
+  background-color: #F0F7F0;
+  font-family: 'Roboto', sans-serif;
 }
+ .characterCards {
+   display: inline-block;
+   max-width: 400px;
+   max-height: 400px;
+   background-color: #44413C;
+   border-radius: 5px;
+   margin: 5px;
+ }
+ .imagenCharacters{
+   max-width: 380px;
+   max-height: 200px;
+   padding: 5px;
+   border-radius: 5px;
+ }
+ .infoCards{
+   padding: 5px;
+   text-align: initial;
+   font-size: 15px;
+   color: #28AFBF;
+
+ }
+ #name {
+   background-color: #7C623B;
+   max-width: 400px;
+   max-height: 30px;
+   color: #28AFBF;
+   font-size: 20px;
+ }
+

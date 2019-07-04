@@ -17,15 +17,17 @@ const createCards = (data) => {
     data.forEach((i) => {
         cards =  
         `
-        <div id="characterCards" class="characterCards">
-          <img src="${i.image}" alt="foto">
-          <div id="infoCards" class="infoCards">
-            <p>${i.name}</p>
-           <p> ${i.species}</p>
-            <p>${i.gender}</p>
-            <p>${i.episode.length} </p>
-          </div>
-        </div>
+    
+         <div class="characterCards">
+          <img src="${i.image}" alt="foto" class = "imagenCharacters">
+          <div id = "name"> <p>${i.name}</p> </div>
+           <div class="infoCards">
+            <p> Specie: ${i.species}</p>
+            <p> Gender: ${i.gender}</p>
+            <p>Percentaje: ${i.episode.length} </p>
+            </div>
+         </div>
+       
       `
       characters += cards; 
     });
