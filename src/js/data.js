@@ -4,7 +4,7 @@ const searchCharacter = (name) => {
   for(let i=0 ; i<data.length;i++){
     if(data[i].name==name){
       return data[i];
-      
+
     }
 }
   return false;
@@ -12,5 +12,3 @@ const searchCharacter = (name) => {
 };
 
 window.searchCharacter = searchCharacter;
-
-
