@@ -1,14 +1,32 @@
-/* Manejo del DOM 
-let dataName= "";
-const data= RICKANDMORTY.results;
-for (let i= 0; i< 4; i++){
-  dataName += (data[i].name); 
-}
-const containerCards =document.getElementById("cards");
-document.getElementById('onload').addEventListener('click', () => {
-    containerCards.innerHTML = `<h2> 
-   cafeeeeeeeeeeeeeeeeee ${name}
-  </h2>`
-})*/
 
-//
+const data = RICKANDMORTY.results; //.window??? 
+// crear tarjetas
+let card = "";
+let characters = "";
+let containerCard = document.getElementById("cards");
+ 
+// crear relleno de la tarjeta con una funcion que las recorra 
+const createCards = (data) => {
+    data.forEach((i) => {
+        cards =  
+        `
+    
+         <div class="characterCards">
+          <img src="${i.image}" alt="foto" class = "imagenCharacters">
+          <div id = "name"> <p>${i.name}</p> </div>
+           <div class="infoCards">
+            <p> Specie: ${i.species}</p>
+            <p> Gender: ${i.gender}</p>
+            <p>Percentaje: ${i.episode.length} </p>
+            </div>
+         </div>
+       
+      `
+      characters += cards; 
+    });
+    containerCard.innerHTML= characters;
+};
+createCards(data);
+    // card = `
+    // aqui va la tarjeta`
+
