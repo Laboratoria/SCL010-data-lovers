@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
  <head>
@@ -9,20 +8,31 @@
 
 
  <body>
-
+    <header>
+        <div id="POKEMON">
+            <div class="container">
+            <h1> POKEMON</h1>
+            </div>
+            </header>
     <nav>
         <div class="nav-wrapper">
           <a  id="logo" href="#!" class="brand-logo"><img id="img-pokebola" src="http://i.ibb.co/mGjGs1s/pokeball.png"/>POKEINFO</a>
           
     
-        <div id="page-pokemones">
-            <div class="container">
+        <!-- <div id="page-pokemones"> -->
               <div class="row">
+                  <section>
+                      <div id="po-filter-option" class="po-filter-option"></div>
+                                <div class="filter">
+                 
+                                   <input type="button" value="INICIO" id="btnInicio">
+                                   <input type="button" value="CARTAS" id="btnCartas">
+                                   <input type="button" value="BUSCAR" id="btnBuscar">
+                 
       
-                <div  id="select-filter">    
-                  <div id="select1">
-                    <select id="select-type" >
-                      <option value="All">Elige tu tipo</option>
+                <div  id="select-filter">  
+                      <select id="pok-filter" name="filt" class="pok-filter">
+                        <option value="Selected">FILTRA POR TIPO</option>
                       <option value="Grass">Planta</option>
                       <option value="Poison">Veneno</option>
                       <option value="Flying">Volador</option>
@@ -38,12 +48,11 @@
                       <option value="Ice">Hielo</option>
                       <option value="Ghost">Fantasma</option>
                       <option value="Dragon">Dragón</option>
-                    </select>
+                    </select><div id="container"></div>
                   </div>
                 </div>
       
                 <div>    
-                  <div id="select2" class="col s12 m6">
                   <select id="select-order">
                     <option value="AllSort" selected>Ordenar Por:</option>
                     <option value="a-z">a-z</option>
@@ -55,6 +64,7 @@
                 </div>    
       
               </div>
+            </section>
       
               <div id="pokemon-list" class="row" ></div>
       
@@ -74,3 +84,4 @@
 
  </body>
 </html>
+
