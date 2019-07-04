@@ -1,11 +1,4 @@
-/* Manejo del DOM */
-// crear tarjetas
-// hacer for con la info que irá en las tarjetas y luego imprima
-// rellenar tarjetas 
-// imprimir tarjetas
-// _
-// ¿como muestro la foto?
-// SOCORRO
+
 const data = RICKANDMORTY.results; //.window??? 
 // crear tarjetas
 let card = "";
