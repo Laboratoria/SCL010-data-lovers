@@ -24,7 +24,7 @@ const createCards = (data) => {
            <div class="infoCards">
             <p> Specie: ${i.species}</p>
             <p> Gender: ${i.gender}</p>
-            <p>Percentaje: ${i.episode.length} </p>
+            <p>Percentaje: ${i.episode.length * 100 / 31} </p>
             </div>
          </div>
        
