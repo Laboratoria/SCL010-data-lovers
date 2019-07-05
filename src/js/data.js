@@ -16,20 +16,19 @@ const filterSpecies = (specie) => {
   }
   return filterData;
 };
-
-window.filterSpecies = filterSpecies;
-
-const filterGender = (gender) => {
-    const data = RICKANDMORTY.results;
-    let filterData = [];
-    for (let i = 0; i < data.length; i++) {
-  
-      if (data[i].gender == gender) {
+ window.filterSpecies = filterSpecies;
+ 
+ const filterGenders = (gender) => {
+     const data = RICKANDMORTY.results;
+     let filterData = [];
+     for (let i = 0; i < data.length; i++) {
+   
+       if (data[i].gender == gender) {
           filterData.push(data[i]);
-      }
-    }
-    return filterData;
-  };
-  
-  window.filterGender = filterGender;
-  
+       }
+     }
+     return filterData;
+   };
+   
+   window.filterGenders = filterGenders;
+   
