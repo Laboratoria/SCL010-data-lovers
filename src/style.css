@@ -1,27 +1,30 @@
 body{
-   background-color: aqua;
+   background-color:#fff;
+}
+
+#image-pok{
+  background-image: url("https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg");
+position: relative;
+float: left;
+margin: 80px;
 }
 #root{
   column-count: 4;
   margin-top: 5%;
-  height: auto;
+  height: 20px;
   display: flex;
  flex-wrap: wrap;
-  
-
+ margin-bottom: 10px;
 }
+
 .flip-card {
   background-color: transparent;
   width: 190px;
   height: 205px;
   margin-bottom: 10px;
-<<<<<<< HEAD
-  perspective: 1000px; 
-=======
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
- 
-  
->>>>>>> a3636a3e695bfd4e12856a21b55232e94c0c8109
+  margin:20px;
+
 }
 
 
@@ -32,6 +35,7 @@ body{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+ 
 }
 
 
@@ -50,21 +54,21 @@ body{
 
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color:rgba(214, 192, 205, 0.753);
   color: black;
   width: 190px;
   height: 205px;
-  border-radius: 10px;
+  border-radius: 40px;
 }
 
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color:rgb(78, 114, 161);
   color: white;
   transform: rotateY(180deg);
   width: 190px;
   height: 205px;
-  border-radius: 10px;
+  border-radius: 40px;
 }
 
 #img-card{
