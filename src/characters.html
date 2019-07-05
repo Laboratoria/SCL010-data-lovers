@@ -6,23 +6,25 @@
   <meta charset="UTF-8">
   <meta name="RickandMorty" content="Rick and Morty">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <img src="img/banner_RMM.png" id="logo">
-    <img src="img/bannerRM.png" id="logo2">
-    <nav>
-      <div class="navegator">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="characters.html">Personajes</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="padre">
+    <header class"header">
+          <div class="menu">
+          <nav class="nav"> </nav>
+          <ul class="links">
+          <a class="links" href="index.html">Home</a>
+          <a class="links" href="characters.html">Personajes</a>
+          </ul>
+          </nav>
+          <div class="logo"> </div>
+          </div>
   </header>
-  <main>
+   <main>
     <section>
       <label>Especie</label>
       <select name="filterespecie" id="specie">
@@ -57,19 +59,14 @@
 
 
   </main>
-
-  <script src="./data/rickandmorty/rickandmorty.js"></script>
-  <script src="js/data.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-  <footer>
-    <div id="footer">
-      <h4>Copyright | 2019. Todos los derechos reservados.<br>Laboratoria,Chile. </h4>
-      <div>
-  </footer>
-
+<footer class"footer">
+  <div class="pie">
+    <p class="parrafo">Copyright | 2019. Todos los derechos reservados. Laboratoria,Chile. </p>
+  </div>
+</footer>
+</div>
+<script src="./data/rickandmorty/rickandmorty.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
 </body>
-
 </html>

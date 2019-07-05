@@ -1,0 +1,141 @@
+*{
+margin:10px;
+padding: 10px;
+box-sizing: border-box;
+}
+body{
+font-family: "Roboto", sans-serif;
+}
+.padre{
+display: flex;
+flex-flow: column nowrap;
+}
+.header{
+display: flex;
+flex-flow: column nowrap;
+}
+.menu{
+background-image: url(../img/bannerRM.png);
+background-position: center;
+background-attachment: contain;
+background-size:cover;
+display: flex;
+flex-flow: row nowrap;
+height: 280px;
+}
+.nav{
+flex:1 1 auto;
+height: 100px;
+}
+.links{
+display: flex;
+flex-flow: row nowrap;
+color: white;
+font-size: 30px;
+}
+.section{
+background: #F8F4F4;
+display:flex;
+flex-flow: column nowrap;
+}
+.articulo{
+background: #EDEBEB;
+flex:2 1 auto;
+display: flex;
+flex-flow: column nowrap;
+}
+.article{
+flex: 1 1 100%;
+background: #EDEBEB;
+display: flex;
+flex-flow: column nowrap;
+}
+h1 {
+background: #EDEBEB;
+font-size: 40px;
+display: flex;
+flex-flow: column nowrap;
+}
+p{
+background: #EDEBEB;
+display: flex;
+flex-flow: column nowrap;
+font-size: 20px;
+}
+h2{
+background: #EDEBEB;
+display: flex;
+flex-flow: column nowrap;
+font-size: 25px;
+}
+.imagen1{
+background: url(../img/rick-and-morty.jpg);
+background-position: center;
+background-attachment: contain;
+background-size:cover;
+display: flex;
+flex-flow: row nowrap;
+height: 420px;
+}
+.imagen2{
+background: url(../img/links.jpg);
+background-position: center;
+background-attachment: contain;
+background-size:cover;
+display: flex;
+flex-flow: row nowrap;
+height: 420px;
+}
+.button{
+display: flex;
+flex-flow: nowrap;
+flex: 1 1 100%;
+justify-content: center;
+height: 100px;
+}
+.go{
+border-radius: 5%;
+background: #008080;
+color: white;
+height: 90px;
+width: 420px;
+font-size: 30px;
+}
+.footer{
+display: flex;
+flex-flow: column nowrap;
+}
+.pie{
+background: url(../img/pie.png);
+background-position: center;
+background-attachment: contain;
+background-size:cover;
+display: flex;
+flex-flow: row nowrap;
+height: 150px;
+text-align: left;
+align-items: center;
+}
+.parrafo{
+  color: white;
+  font-size: 20px;
+  background: transparent;
+}
+
+
+@media all and (max-width: 800px){
+.section{
+flex-direction: colum;
+}
+.article{
+  flex-direction: column;
+}
+
+@media all and (max-width: 400px){
+.section{
+flex-direction: column;
+}
+.articulo{
+flex-direction: column;
+}
+}
