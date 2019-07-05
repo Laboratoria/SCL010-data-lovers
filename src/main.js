@@ -6,17 +6,17 @@ let containerCard = document.getElementById("cards");
 
 // crear relleno de la tarjeta con una funcion que las recorra 
 const createCards = (data) => {
-  data.forEach((i) => {
+  data.forEach((element) => {
     cards =
       `
     
          <div class="characterCards">
-          <img src="${i.image}" alt="foto" class = "imagenCharacters">
-          <div id = "name"> <p class="textAlign">${i.name}</p> </div>
+          <img src="${element.image}" alt="foto" class = "imagenCharacters">
+          <div id= "name"> <p class="textAlign">${element.name}</p> </div>
            <div class="infoCards">
-            <p> Specie: ${i.species}</p>
-            <p> Gender: ${i.gender}</p>
-            <p> Appearances: ${(i.episode.length*100/31).toFixed(1)} % </p>
+            <p> Specie: ${element.species}</p>
+            <p> Gender: ${element.gender}</p>
+            <p> Appearances: ${(element.episode.length*100/31).toFixed(1)} % </p>
             </div>
          </div>
        
@@ -28,3 +28,13 @@ const createCards = (data) => {
 createCards(data);
 // card = `
 // aqui va la tarjeta`
+
+
+
+
+// FILTRANDO DATITA
+
+let filterBtn = document.getElementById(filterBtnHTML);
+filterBtn.addEventListener("click", (filter) => { 
+
+} );
