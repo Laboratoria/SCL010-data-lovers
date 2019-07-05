@@ -1,13 +1,27 @@
 body{
    background-color: aqua;
 }
+#root{
+  column-count: 4;
+  margin-top: 5%;
+  height: auto;
+  display: flex;
+ flex-wrap: wrap;
+  
 
+}
 .flip-card {
   background-color: transparent;
   width: 190px;
   height: 205px;
   margin-bottom: 10px;
+<<<<<<< HEAD
   perspective: 1000px; 
+=======
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ 
+  
+>>>>>>> a3636a3e695bfd4e12856a21b55232e94c0c8109
 }
 
 
@@ -40,6 +54,7 @@ body{
   color: black;
   width: 190px;
   height: 205px;
+  border-radius: 10px;
 }
 
 
@@ -49,11 +64,16 @@ body{
   transform: rotateY(180deg);
   width: 190px;
   height: 205px;
+  border-radius: 10px;
 }
 
 #img-card{
    width: 100px;
    height: 100px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding-top: 15%;
 }
 
 
