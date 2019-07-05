@@ -2,20 +2,23 @@
 window.onload=() =>{
 
   //ordenar
-const pokeOrder = document.getElementById("name");pokeOrder.addEventListener('change', () => {
+const pokeOrder = document.getElementById("name");
+pokeOrder.addEventListener('change', () => {
   let sortOrder = pokeOrder.value;
   let selectionOrder = sortPokes(myData,"name",sortOrder);
-  container.innerHTML ="";    selectionOrder.forEach(element=> {
+  container.innerHTML ="";    
+  selectionOrder.forEach(element=> {
       container.innerHTML += `
       <div class="flip-card">
  <div class="flip-card-inner">
 
    <div class="flip-card-front">
      <img id="img-card" src="${element.img}" alt="Avatar">
+     <p>${element.name}</p> 
     </div>
 
     <div class="flip-card-back">
-      <p>${element.name}</p> 
+      
       <p id="type-poke">Tipo:${element.type}</p> 
       <p"number-poke">${element.num}</p>
     </div>
@@ -44,10 +47,11 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
    <div class="flip-card-front">
      <img id="img-card" src="${element.img}" alt="Avatar">
+     <p>${element.name}</p> 
     </div>
 
     <div class="flip-card-back">
-      <p>${element.name}</p> 
+    
       <p id="type-poke">Tipo:${element.type}</p> 
       <p"number-poke">${element.num}</p>
     </div>
