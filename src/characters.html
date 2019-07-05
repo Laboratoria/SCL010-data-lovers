@@ -8,12 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
   <div class="padre">
-    <header class"header">
+    <header class="header">
           <div class="menu">
           <nav class="nav"> </nav>
           <ul class="links">
@@ -24,10 +25,10 @@
           <div class="logo"> </div>
           </div>
   </header>
-   <main>
-    <section>
-      <label>Especie</label>
-      <select name="filterespecie" id="specie">
+
+    <section class="section_label">
+      <label class="label">Especie</label>
+      <select class="filter_label" id="specie">
         <option value="">Selecciona</option>
         <option value="Humanoid">Humanoide</option>
         <option value="Human">Humano</option>
@@ -42,9 +43,9 @@
         <option value="Parasite">Parasitos</option>
         <option value="unknown">Otros</option>
       </select>
-  
-    <label>Genero</label>
-    <select name="filtergender" id="gender">
+
+    <label class="label">Genero</label>
+    <select class="filter_label" id="gender">
                <option value="">Selecciona</option>
                <option value="Male">Hombre</option>
                <option value="Female">Mujer</option>
@@ -52,14 +53,14 @@
        </select>
     </section>
 
-    <section id="characters">
+    <section class="section-card">
+      <div class="container-card" id="characters">
+        <!-- html js-->
+      </div>
     </section>
 
 
-
-
-  </main>
-<footer class"footer">
+<footer class="footer">
   <div class="pie">
     <p class="parrafo">Copyright | 2019. Todos los derechos reservados. Laboratoria,Chile. </p>
   </div>
