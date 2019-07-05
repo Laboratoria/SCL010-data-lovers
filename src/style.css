@@ -1,13 +1,23 @@
 body{
    background-color: aqua;
 }
+#root{
+  column-count: 4;
+  margin-top: 5%;
+  height: auto;
+  display: flex;
+ flex-wrap: wrap;
+  
 
+}
 .flip-card {
   background-color: transparent;
   width: 190px;
   height: 205px;
   margin-bottom: 10px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ 
+  
 }
 
 /* This container is needed to position the front and back side */
@@ -39,6 +49,7 @@ body{
   color: black;
   width: 190px;
   height: 205px;
+  border-radius: 10px;
 }
 
 /* Style the back side */
@@ -48,13 +59,17 @@ body{
   transform: rotateY(180deg);
   width: 190px;
   height: 205px;
+  border-radius: 10px;
 }
 
 #img-card{
    width: 100px;
    height: 100px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding-top: 15%;
 }
-
 
 
 
