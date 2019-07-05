@@ -1,14 +1,34 @@
-const searchCharacter = (name) => {
+const loadData = () => {
   const data = RICKANDMORTY.results;
-
-  for(let i=0 ; i<data.length;i++){
-    if(data[i].name==name){
-      return data[i];
-
-    }
-}
-  return false;
-
+  return data;
 };
 
-window.searchCharacter = searchCharacter;
+window.loadData = loadData;
+
+const filterSpecies = (specie) => {
+  const data = RICKANDMORTY.results;
+  let filterData = [];
+  for (let i = 0; i < data.length; i++) {
+
+    if (data[i].species == specie) {
+        filterData.push(data[i]);
+    }
+  }
+  return filterData;
+};
+ window.filterSpecies = filterSpecies;
+ 
+ const filterGenders = (gender) => {
+     const data = RICKANDMORTY.results;
+     let filterData = [];
+     for (let i = 0; i < data.length; i++) {
+   
+       if (data[i].gender == gender) {
+          filterData.push(data[i]);
+       }
+     }
+     return filterData;
+   };
+   
+   window.filterGenders = filterGenders;
+   
