@@ -36,5 +36,7 @@ createCards(data);
 
 let filterBtn = document.getElementById(filterBtnHTML);
 filterBtn.addEventListener("click", (filter) => { 
+ let  characters= "";  
+
 
 } );

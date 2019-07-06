@@ -1,6 +1,6 @@
 
-const example = () => {
+window.filterEpisodes = 
+const filterEpisodes = (data, episodes) => {
   return 'example';
 };
 
-window.data = RICKANDMORTY.results;
