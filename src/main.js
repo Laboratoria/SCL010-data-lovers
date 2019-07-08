@@ -12,15 +12,16 @@ let filteredCards = "";
 const createCards = () => {
   window.data.forEach((element) => {
     cards = //HTML DINÁMICO
+
       `
     
          <div class="characterCards">
-          <img src="${element.image}" alt="foto" class = "imagenCharacters">
-          <div id= "name"> <p class="textAlign">${element.name}</p> </div>
+          <img src="${i.image}" alt="foto" class = "imagenCharacters">
+          <div id = "name"> <p class="textAlign">${i.name}</p> </div>
            <div class="infoCards">
-            <p> Specie: ${element.species}</p>
-            <p> Gender: ${element.gender}</p>
-            <p> Appearances: ${(element.episode.length*100/31).toFixed(1)} % </p>
+            <p> Specie: ${i.species}</p>
+            <p> Gender: ${i.gender}</p>
+            <p> Appearances: ${(i.episode.length*100/31).toFixed(1)} % </p>
             </div>
          </div>
        
@@ -29,6 +30,10 @@ const createCards = () => {
   });
   containerCard.innerHTML = characters;
 };
+
+createCards(data);
+// card = `
+// aqui va la tarjeta`
 createCards(data); 
 //llamado a la función para que se ejecute
 
@@ -45,9 +50,6 @@ const selectedEpisode = document.getElementById("selectedEpisodeHTML");
     
     createCards(filteredCards);
       });
-
-
-
 
 
 
