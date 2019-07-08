@@ -1,0 +1,14 @@
+/* utilizar media queries para tablet (Laptop 1024x893) */
+@media (max-width:1024px){
+
+}
+/* utilizar media queries para Galaxy S5 (360x640) */
+@media (max-width:640px){
+
+}
+/* utilizar media queries para Ipad Pro (768x670) */
+@media screen and (min-width: 321px) and (max-width: 768px) { 
+    .logo{
+width: 70%;
+    }
+}

@@ -1,12 +1,12 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #252525;
   background: linear-gradient(180deg, rgba(222, 205, 250, 0.53) 0%, rgba(28, 51, 131, 0.15) 100%);
   background-repeat: no-repeat;
@@ -14,62 +14,79 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
 header {
   background: rgb(207, 201, 252);
-  padding: 10px;
+  padding: 0.625em;
 }
+
 .logo {
   display: flex;
   align-items: flex-start;
-  max-width: 300px;
-  margin: 20px;
+  max-width: 20em;
+  margin: 1.25em;
 }
-ul, ol {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: rgb(223, 212, 245);
+
+.select {
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* outline: 1px #252525 solid; */
 }
-.nav li a{
-    text-decoration: none;
-    color: #252525;
-    width: 200px;
-    padding: 10px;
-    display: block;
-    text-align: left;
-    /* margin-left: 20px; */
+
+select {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #252525;
+  padding: 0.625em;
+  margin-left: 1.25em;
+  width: 9em;
+  border: none;
+  box-shadow: none;
+  background: url(../img/arrow.png) 90% no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* outline: 1px #252525 solid;*/
+} 
+
+option {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #252525;
+  background: rgb(223, 212, 245);
 }
-.nav li a:hover{
-    background-color: rgb(255, 255, 255);
+
+option:hover {
+  background: rgb(94, 19, 245); /* no funciona*/
 }
-.nav > li{
-    float: left;
+
+.select-menu {
+  background: rgb(223, 212, 245);
+
 }
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 100px;
-}
-.nav li:hover > ul{
-display: block;
-}
+
 section {
-  margin-top: 90px;
-  display:flex;
+  margin-top: 1.875em;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 section div {
-  padding: 10px;
-  margin: 10px;
+  padding: 0.625em;
+  margin: 0.625em;
   text-align: center;
-  font-size: 17px;
+  font-size: 0.8em;
   width: 100px;
   height: 100px;
   background: rgb(197, 208, 230);
   border-radius: 25px;
+  /* display: flex;
+  flex-direction: column-reverse; para dejar texto abajo de la imagen*/
 }
+
 section div img {
   max-width: 70px;
   margin: 5px;

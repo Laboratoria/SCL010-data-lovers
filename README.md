@@ -7,18 +7,41 @@ Uno de los modos de juego es que utiliza la realidad aumentada y de acuerdo con 
 
 La colección de pokemones será nuestra guía en el proyecto KANTODEX
 
+
+![logo](https://i.ibb.co/2vGgY6r/logo-b.png)
+
 ## **¿Qué es KANTODEX?**
 
 KANTODEX es un proyecto donde construiremos una web app para visualizar un grupo de datos que se acomodará a las necesidades detectadas por los usuarios, las cuales se detectaron a través de encuestas y testeos UX.
 El usuario, a través de sus necesidades, podrá filtrar, ordenar y hacer algún cálculo adicional que sea relevante.
 
-### **Definición de usuario**
+### **Flujo**
 
-En estre proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer las necesidades principales de nuestros usuarios. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
+Una de las primeras tareas que definimos fue realizar un fljo de las acciones que podría tener la aplicación, sin tener el usuario definido, con el motivo de tener una idea de cómo se iban a mostrar las acciones.
 
-Acá el link del formulario: https://docs.google.com/forms/d/e/1FAIpQLSd_NWB4fuW7I_ch4WfFUbxgc76pmveutwn39bkAv6BBk9Pq7w/viewform?usp=sf_link
+Aquí presentamos el flujo antes de conocer al usuario y después de conocerlo:
 
-Según las respuestas (78 respuestas hasta el momento) de los usuarios que juegan Pokemon GO, se determina lo siguiente:
+<a href="https://ibb.co/PCQr02R"><img src="https://i.ibb.co/7y4SL3H/IMG-20190627-061528805.jpg" alt="IMG-20190627-061528805" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br /><a href="https://ibb.co/1Xb0ZND"><img src="https://i.ibb.co/n1RwryH/flujo.jpg" alt="flujo" border="0"></a>
+
+
+### **Definición de usuario (UX)**
+
+En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer las necesidades principales de nuestros usuarios. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
+
+[Link del formulario](https://docs.google.com/spreadsheets/d/1MHKQvyeXej_gJM13vSrrJqYACKMsNMiNy3xyihP8SM0/edit?usp=sharing)
+
+<a href="https://ibb.co/hFWvpKx"><img src="https://i.ibb.co/7tWF7Gx/1edad.png" alt="1edad" border="0"></a>
+<a href="https://ibb.co/hFWvpKx"><img src="https://i.ibb.co/7tWF7Gx/1edad.png" alt="1edad" border="0"></a>
+<a href="https://ibb.co/qn04PzL"><img src="https://i.ibb.co/7zgT6Hx/2identidad.png" alt="2identidad" border="0"></a>
+<a href="https://ibb.co/NZBZZL4"><img src="https://i.ibb.co/kQCQQhd/3niveljugador.png" alt="3niveljugador" border="0"></a>
+<a href="https://ibb.co/48CcCLV"><img src="https://i.ibb.co/R3t1tKD/4frecuencia.png" alt="4frecuencia" border="0"></a>
+<a href="https://ibb.co/NjfJtTg"><img src="https://i.ibb.co/jMqQbJ9/5razones.png" alt="5razones" border="0"></a>
+<a href="https://ibb.co/BZh9Lh6"><img src="https://i.ibb.co/85yHMyx/6importancia.png" alt="6importancia" border="0"></a>
+<a href="https://ibb.co/0B8n18q"><img src="https://i.ibb.co/7g8SB8v/7motivaciones.png" alt="7motivaciones" border="0"></a>
+<a href="https://ibb.co/ZTwCPB7"><img src="https://i.ibb.co/5czVyrw/8atributos.png" alt="8atributos" border="0"></a>
+<a href="https://ibb.co/xH8bGnc"><img src="https://i.ibb.co/6BJSbKp/9ordenar.png" alt="9ordenar" border="0"></a>
+
+Según las respuestas (78 en total) de los usuarios que juegan Pokemon GO, se determina lo siguiente:
 1.- El rango de edad varía entre los 20 y 32 años
 2.- Mujeres y hombres
 3.- El nivel de jugadores es intermedio (nivel 27 a 40)
@@ -30,29 +53,74 @@ Según las respuestas (78 respuestas hasta el momento) de los usuarios que juega
     c. Probabilidad de aparición
 7.- Los atributos para ordenar la Pokedex que más consideran son:
     a. Tipo de pokemon
-    b. Fortalezas 1
-    c. Orden alfabético y numérico
+    b. Orden alfabético y numérico
+    c. Fortalezas/Debilidades
 
 ### **Historias de usuario**
 En base a las encuenstas, y lainformación del data que se nos entregó para el proyecto (pokemon.js), se definieron las siguientes historias de usuario:
 
 Historia de usuario Nº1:
--"Yo, como usuario intermedio de Pokemon GO, quiero filtrar los pokemones según su tipo, para reconocer con mayor facilidad los pokemones que tengo y no tengo de cada tipo."
+-"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
 
 Historia de usuario Nº2:
--"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
+-"Yo, como usuario intermedio de Pokemon GO, quiero filtrar los pokemones según su tipo, para reconocer con mayor facilidad los pokemones que tengo y no tengo de cada tipo."
 
 Historia de usuario Nº3:
 -"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
 
 #### Prototipo de baja fidelidad
+Los prototipos de Baja Fidelidad implementan aspectos generales del sistema sin entrar en detalles. Permiten abarcar un espectro mayor de la interacción a realizar. También los prototipos de baja fidelidad permiten aplicar la primera ley de la creatividad de FUDD: «Para obtener una buena idea, obtén un montón de ideas» , y en este caso se puede obtener una gran retroalimentación.
 
-Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que realices, y las subas a tu repositorio, y las menciones en tu
-`README.md`.
+A continuación se presentan las modificaciones que tuvo nuestro prototipo de baja de fidelidad de acuerdo a observaciones de compañeras que se están formando como UX (reducir pantallas, mejorar simbología, demostrar mejor cómo se puede ver un botón, entre otras cosas)
+
+<a href="https://ibb.co/ryrW9CL"><img src="https://i.ibb.co/XJRwHhd/IMG-20190627-061444091.jpg" alt="IMG-20190627-061444091" border="0"></a>
+<a href="https://ibb.co/0JWpVNn"><img src="https://i.ibb.co/mzYrFsR/IMG-20190627-061503532.jpg" alt="IMG-20190627-061503532" border="0"></a>
+<a href="https://ibb.co/KqGZckv"><img src="https://i.ibb.co/LtPwDW7/IMG-20190627-122257373.jpg" alt="IMG-20190627-122257373" border="0"></a>
+<a href="https://ibb.co/Qkrdqj7"><img src="https://i.ibb.co/KDFwQzc/IMG-20190627-123230141.jpg" alt="IMG-20190627-123230141" border="0"></a>
+Videos:
+
+[Test usuario nº1 (compañera Laboratoria)](https://youtu.be/yDA6KDHWFX4)<br>
+[Test usuario nº2 (compañera Laboratoria)](https://youtu.be/qOTkf90T7yg)<br>
+
+Prototipo de baja fidelidad final:
+<a href="https://ibb.co/TmYYYwg"><img src="https://i.ibb.co/nz666wL/prototipo-baja-fidelidad-final.jpg" alt="prototipo-baja-fidelidad-final" border="0"></a> 
+
+
+Luego de simplificar nuestro protipado de baja fidelidad, debemos formular la guía de tareas que el usuario puede realizar, en base a preguntas que haremos tanto a los usuarios como a las tareas designadas.
+
+Guía de usuario (tareas):
+Lo que esperamos de este prototipo es que el usuario pueda completar la tarea de buscar al pokemon Poliwa a través del filtrado por tipo agua (basándonos en la historia de usuario nº1). Para esto se debe definir las siguientes "mini tareas":
+
+a. Visualizar modal de bienvenida a la página
+b. Cerrar modal de bienvenida (si lo completa, se le mostrará la siguiente pantalla)
+c. Visualizar pantalla principal de la página
+d. Detectar selección "Tipo"
+d. Seleccionar "Tipo" (si lo completa, se le mostrará la siguiente pantalla)
+e. Visualizar los tipos de elementos pokemon
+f. Detectar el tipo "agua"
+g. Seleccionar "agua" (si lo completa, se le mostrará la siguiente pantalla)
+h. Visualizar pokemones filtrados por el elemento "agua"
+i. Detectar al pokemon "Poliwa"
+j. Seleccionar "Poliwa" (si lo completa, se le mostrará la siguiente pantalla)
+k. Visualizar modal donde aparece la imagen del pokemon y su definición
+l. Seleccionar botón cerrar para volver a la pantalla anterior (opcional)
+
+Preguntas y comentarios al usuario:
+-"Te voy a dar una serie de tareas..."
+-"Hay algunos caminos que no se podrán seguir..."
+¿Qué piensas mientras ves la pantalla?
+Si no se completó la tarea ¿Por qué no pensaste que podría ser así?
+¿Qué esperabas ver?
+¿Cuál otra manera pensaste para completar la tarea?
+****Enlazar videos testeos ux exterior
 
 #### Prototipo de alta fidelidad
+Redactar paletas de colores
+![paleta1](https://i.ibb.co/YfK1R2p/paleta-colores-btns.png)
+![paleta2](https://i.ibb.co/xhw3ZwZ/paleta-colores-pokedex-y-btn.png)
+
+[Figma](https://www.figma.com/file/at4qIz0DY7NyRVXgKU53oSoh/DataLovers-Estefan%C3%ADa-Nataly?node-id=0%3A1)
+****colocar captura de pantalla figma
 
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
 _User Interface_). Para eso debes aprender a utilizar alguna herramienta de
@@ -69,11 +137,16 @@ tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
 estilo que te dé Zeplin al momento de implementar tus diseños en código.
 
 #### Testeos de usabilidad
+![hola](https://media3.giphy.com/media/U2nN0ridM4lXy/giphy.gif)
 
-Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
-en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los
-mejoraste en tu propuesta final.
+<a href="https://ibb.co/4TfmJrt"><img src="https://i.ibb.co/pzP0nFw/IMG-20190628-WA0007.jpg" alt="IMG-20190628-WA0007" border="0" width="300"></a>
+<a href="https://ibb.co/Dt36ftP"><img src="https://i.ibb.co/nbhVMbq/IMG-20190628-WA0012.jpg" alt="IMG-20190628-WA0012" border="0" width="300"></a>
+<a href="https://ibb.co/y627NBY"><img src="https://i.ibb.co/Pck0rz9/IMG-20190628-WA0013.jpg" alt="IMG-20190628-WA0013" border="0" width="300"></a>
+<a href="https://ibb.co/ZHgT7xk"><img src="https://i.ibb.co/3fFhQcL/IMG-20190628-WA0022.jpg" alt="IMG-20190628-WA0022" border="0" width="300"></a>
+<a href="https://ibb.co/WK291hN"><img src="https://i.ibb.co/bdKhn0j/IMG-20190628-WA0023.jpg" alt="IMG-20190628-WA0023" border="0" width="300"></a>
+
+****redactar primer testeo:
+
 
 ### **5.4 Implementación de la Interfaz de Usuario (HTML/CSS/JS)**
 
