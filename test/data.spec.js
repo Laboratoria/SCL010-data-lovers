@@ -1,16 +1,35 @@
 global.window = global;
 global.assert = require('chai').assert;
-require('../src/data');
+require('../src/data/pokemon/pokemon.js');
+require('../src/data.js')
 require('./data.spec.js');
 
+const testData = [
+  {
+    "name": "Slowpoke",
+    "type":
+    [
+      "Water",
+      "Psychic"
+    ]
+  }
+];
 
-describe('pokedata', () => {
+describe('filterData', () => {
 
   it('debería ser una función', () => {
-    assert.equal(typeof example, 'function');
+    assert.equal(typeof filterData, 'function');
   });
-
-  it('debería retornar "example"', () => {
-    assert.equal(example(), 'example');
+  it('debería devolver el objeto Slowpoke al seleccionar tipo "Water" ', () => {
+    assert.deepEqual(window.filterData(testData, "Water"),[
+      {
+        "name": "Slowpoke",
+        "type":
+        [
+          "Water",
+          "Psychic"
+        ]
+      }
+    ])
   });
-})
+});

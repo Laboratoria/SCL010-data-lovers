@@ -1,32 +1,35 @@
-const pokemons = POKEMON.pokemon;
+const pokemons = window.POKEMON.pokemon;
+let newPokeArray;
+const pokeSection = document.getElementById('poke-section');
+
+function createDivs(array)
+{
+  for (let i = 0; i < array.length;i++)
+  {
+    let newDiv = document.createElement("div");
+    let textNode = document.createTextNode(array[i].name);
+    newDiv.appendChild(textNode);
+    newDiv.setAttribute("id", array[i].num);
+    newDiv.setAttribute("class","card");
+    let pokeIMG = document.createElement("img");
+    pokeIMG.setAttribute("src", array[i].img);
+    newDiv.appendChild(pokeIMG);
+    pokeSection.appendChild(newDiv);
+  }
+}
 
 window.onload = function () {
-    // accedemos a la lista de pokemones
-    const pokeSection = document.getElementById('poke-section');
-
-    for (i = 0; i < pokemons.length;i++)
-    {
-      let divNum = "div" + pokemons[i].num;
-      let newDiv = document.createElement("div");
-      let textNode = document.createTextNode(pokemons[i].name);
-      newDiv.appendChild(textNode);
-      newDiv.setAttribute("id", divNum);
-      newDiv.setAttribute("class","card");
-      let pokeIMG = document.createElement("img");
-      pokeIMG.setAttribute("src", pokemons[i].img);
-      newDiv.appendChild(pokeIMG);
-      pokeSection.appendChild(newDiv);
-    }
+    createDivs(pokemons);
   };
 
   document.getElementById("type-menu").innerHTML  =
   `<select name= "select" id="dropdown-types">
       <option value="Type" class="nombre">Type</option>
       <option value="1">Bug</option>
-      <option value="2">Dark</option>
+      <option value="2">Water</option>
       <option value="3">Dragon</option>
       <option value="4">Electric</option>
-      <option value="5">Fairy</option>
+      <option value="5">Rock</option>
       <option value="6">Fighting</option>
       <option value="7">Fire</option>
       <option value="8">Flying</option>
@@ -38,19 +41,25 @@ window.onload = function () {
       <option value="14">Poison</option>
       <option value="15">Psychic</option>
       <option value="16">Rock</option>
-      <option value="17">Steel</option>
-      <option value="18">Water</option>
     </select>`;
 
-    let allCards = document.getElementsByClassName("card");
+    document.getElementById("order-menu").innerHTML =
+  `<select name="order-select" id="dropdown-order">
+      <option value="order" class="name">Order</option>
+      <option value="az">A-Z</option>
+      <option value="za">Z-A</option>
+      <option value="1-151">1-151</option>
+      <option value="151-1">151-1</option>
+    </select>`;
+
     const selectType = document.getElementById("dropdown-types");
     selectType.addEventListener("change", ()=> {
+      // el tipo seleccionado es almacenado en condition
       let condition = selectType.options[selectType.selectedIndex].text;
-      // también se puede rescatar el value usando .value
-
-      /* 4. Si alguno de los elementos del array del key type
-      del pokemon es igual a condition (pokemons.type[0] o pokemons.type[1], entonces
-      desactivar div de todos los demás pokemones)*/
-      console.log("condition se va a llamar el valor porque eso dice en el readme")
+      // borra contenido de section
+      pokeSection.innerHTML = "";
+      // crea nuevos divs en base a array
+      newPokeArray = window.filterData(pokemons, condition);
+      createDivs(newPokeArray);
     }
   );
