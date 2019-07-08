@@ -19,7 +19,7 @@ pokeOrder.addEventListener('change', () => {
 
     <div class="flip-card-back">
       
-      <p id="type-poke">Tipo:${element.type}</p> 
+      <h4 id="type-poke">Tipo:${element.type}</h4> 
       <p"number-poke">${element.num}</p>
     </div>
   </div>
@@ -52,7 +52,7 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
     <div class="flip-card-back">
     
-      <p id="type-poke">Tipo:${element.type}</p> 
+      <h4 id="type-poke">Tipo:${element.type}</h4> 
       <p"number-poke">${element.num}</p>
     </div>
   </div>
