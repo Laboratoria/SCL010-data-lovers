@@ -23,11 +23,10 @@
           </ul>
           </div>
   </header>
-
-      <section>
-    <!-- select de especie -->
-        <label>Especie</label>
-        <select name="filterespecie" id="specie">
+  <!-- select de especie -->
+      <section class="section_label">
+          <label class="label">Especie</label>
+        <select class="filter_label" id="specie">
           <option value="">Selecciona</option>
           <option value="Humanoid">Humanoide</option>
           <option value="Human">Humano</option>
@@ -43,16 +42,17 @@
           <option value="unknown">Otros</option>
         </select>
     <!-- select de genero -->
-        <label>Genero</label>
-        <select name="filtergender" id="gender">
+        <label class="label">Genero</label>
+        <select class="filter_label" id="gender">
           <option value="">Selecciona</option>
           <option value="Male">Hombre</option>
           <option value="Female">Mujer</option>
           <option value="unknown">Otros</option>
         </select>
-        <label>Estado</label>
-    <!-- select de estado -->
-        <select name="filterstatus" id="status">
+
+          <!-- select de estado -->
+        <label class="label">Estado</label>
+          <select class="filter_label" id="status">
             <option value="">Selecciona</option>
           <option value="Alive">vivo</option>
           <option value="Dead">Muerto</option>
@@ -60,8 +60,11 @@
         </select>
       </section>
 
-      <section id="characters">
-      </section>
+      <section class="section-card">
+          <div class="container-card" id="characters">
+            <!-- html js-->
+          </div>
+        </section>
 
     <footer class="footer">
       <div class="pie">

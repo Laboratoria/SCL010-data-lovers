@@ -150,13 +150,14 @@ height: 280px;
 display: flex;
 flex-flow: row nowrap;
 background: transparent;
-
 }
+
 .label{
 background: transparent;
 color: #008080;
 display: flex;
 font-size: 20px;
+
 }
 .filter_label{
 display: flex;
