@@ -24,7 +24,7 @@ const filterSpices = document.getElementById('specie');
         <p>Especie: ${characterData[i].species}</p>
       </div>`;
       }
-   })
+   });
    
 //filtrado por genero
    const filterGender = document.getElementById('gender');
@@ -36,7 +36,7 @@ const filterSpices = document.getElementById('specie');
        <div class="card">
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
-         <p>Status: ${characterData[i].status}</p>
+         <p>Status: ${characterData[i].gender}</p>
        </div>`;
    }});
 
