@@ -3,8 +3,13 @@
 
 *pokémon*
 **aqui nuestras primeras imagenes*
-()
-()
+([img]http://img.fenixzone.net/i/FKrVsDg.jpeg[/img])
+([img]http://img.fenixzone.net/i/kfzZUVh.jpeg[/img])
+(http://img.fenixzone.net/i/YHIawjC.jpeg[/img])
+(img]http://img.fenixzone.net/i/E7JQ8gn.jpeg[/img])
+([img]http://img.fenixzone.net/i/2WPQoXF.jpeg[/img])
+
+
 **aqui nuestras segunda imagenes del proyecto*
 ()
 **videos probando nuestra pagina con nuestra primera historia de usuario**
