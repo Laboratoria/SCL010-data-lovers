@@ -4,13 +4,14 @@ require('../src/data');
 require('./data.spec.js');
 
 
-describe('example', () => {
+describe('pok-filter', () => {
   
   it('debería ser una función', () => {
-    assert.equal(typeof example, 'function');
+    assert.equal(typeof pok-filter, 'function');
   });
 
   it('debería retornar "example"', () => {
     assert.equal(example(), 'example');
   });
 })
+
