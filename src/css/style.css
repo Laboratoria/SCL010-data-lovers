@@ -33,9 +33,11 @@ flex-flow: row nowrap;
 color: white;
 font-size: 30px;
 height: 40px;
+
 }
 .links a:hover{
 background: rgba(196, 196, 196, 0.329);  
+
 }
 .section{
 background: #F8F4F4;
@@ -114,6 +116,7 @@ height: 90px;
 width: 400px;
 font-size: 40px;
 background-image: linear-gradient(to right top, #051937, #004d7a, #008793);
+
 padding: 3%;
 margin: 6px;
 border-radius: 20px;
@@ -174,7 +177,8 @@ flex: 1 1 auto;
 align-content: flex-start;
 }
 .card{
-background-image: linear-gradient(to top, #008f94, #008c90, #00898c, #008789, #008485, #008383, #008182, #008080, #008080, #008080, #008080, #008080);
+
+background:rgba(73, 188, 206, 0.582);
 border-radius: 5%;
 text-align: center;
 align-items:center;

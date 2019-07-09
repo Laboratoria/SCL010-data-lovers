@@ -5,15 +5,18 @@ const loadData = () => {
 
 window.loadData = loadData;
 
-//filtrado por especie
 
-const filterSpecies = (specie) => {
-  const data = RICKANDMORTY.results;
-  let filterData = [];
-  for (let i = 0; i < data.length; i++) {
+   //seleccion de A-Z y Z-A
+   const selectOrder=document.getElementById('order');
+   selectOrder.addEventListener('change',()=>{
+    let characterData = loadData();
+    let htmlForInyect='';
 
-    if (data[i].species == specie) {
-        filterData.push(data[i]);
+    if(selectOrder.value == '1'){
+      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+    }else{
+      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+      characterData.reverse();
     }
   }
   return filterData;
@@ -51,3 +54,4 @@ const filterSpecies = (specie) => {
   };
 
   window.filterStatus = filterStatus;
+
