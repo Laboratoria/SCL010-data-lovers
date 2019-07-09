@@ -101,7 +101,7 @@ a.active {
 }
 
 div .content {
-  width: 530px;
+  width: 500px;
   height: 270px;
   font-family: Roboto;
   font-size: 20px;
@@ -115,10 +115,10 @@ div .content {
 /*estilo imagen*/
 div .banner,
 .social {
-  width: 450px;
-  height: 240px;
+  width: 480px;
+  height: 260px;
   margin: auto;
-  margin-right: 220px;
+  margin-right: 250px;
   display: flex;
   background: #179387;
 }
@@ -333,16 +333,18 @@ div .conexCh,
 /* Termina CSS gráfico de línea de los indicadores */
 
 /*estilo donas con valor máximo y promedio*/
-#doughnuts {
+.doughnuts {
   width: 100%;
+  margin: 0;
+  display: inline-block;
 }
 #leftDoughnut {
-  width: 50%;
-  float: left;
+margin-left: 5px;
+
 }
 #rightDoughnut {
-  width: 50%;
-  float: right;
+margin-right: 221px;
+
 }
 /*Termina CSS para donas 3era página*/
 

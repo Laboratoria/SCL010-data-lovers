@@ -1,15 +1,20 @@
+/*global Chart:true*/
+/*eslint no-undef: "error"*/
+/*eslint-disable no-unused-vars*/
+
 /* Manejo de data */
 
 // CREACIÓN GRÁFICO DE LÍNEAS PARA LA DATA:
 
-function mostrarIndicador() {
-  console.log(selectIndicator);
-  console.log(selectedData.indicators[selectIndicator]);
+function mostrarIndicador(selectIndicator, selectedData, graphPlaceholder) {
+  // console.log(selectIndicator);
+  // console.log(selectedData.indicators[selectIndicator]);
 
   // Inicializamos los arreglos vacios.
   let arrayToChart = [];
   let labelArray = [];
   let indicatorNumber = selectIndicator;
+  
 
   // Estructura repetitiva para generar los puntos del gráfico en arreglo de objetos, a partir de la data. (no incluye los valores que sean igual cero)
   for (let year in selectedData.indicators[indicatorNumber].data) {
@@ -20,10 +25,11 @@ function mostrarIndicador() {
       labelArray.push(year);
     }
   }
-  console.table(arrayToChart);
+  // console.table(arrayToChart);
 
   // Generando el Gráfico
-  var chart = new Chart(graphPlaceholder, {
+
+  new Chart(graphPlaceholder, {
     type: "line",
     maintainAspectRatio: false,
     data: {
@@ -42,7 +48,8 @@ function mostrarIndicador() {
 }
 
 //Agregando dona con el valor maximo
-function showDoughnutMaxValue() {
+function showDoughnutMaxValue(selectIndicator, selectedData, chartMax) {
+  // let doughnutMax;
   let indicatorNumber = selectIndicator;
   let maxValue = 0;
   let difValue = 0;
@@ -95,11 +102,12 @@ function showDoughnutMaxValue() {
       }
     }
   };
-  var doughnutMax = new Chart(chartMax, config);
+  new Chart(chartMax, config);
 }
 
 // Agrenado dona con valor promedio
-function showDoughnutAverageValue() {
+function showDoughnutAverageValue(selectIndicator, selectedData, chartAverage) {
+
   let indicatorNumber = selectIndicator;
   let count = 0;
   let average = 0;
@@ -112,7 +120,6 @@ function showDoughnutAverageValue() {
     }
   }
   average = mount / count;
-  console.log(average);
   minValue = 100 - average;
 
   var config = {
@@ -155,5 +162,5 @@ function showDoughnutAverageValue() {
       }
     }
   };
-  var doughnutMax = new Chart(chartAverage, config);
+  new Chart(chartAverage, config);
 }

@@ -1,7 +1,11 @@
+/*global WORLDBANK:true*/
+/*global mostrarIndicador:true*/
+/*global showDoughnutMaxValue:true*/
+/*global showDoughnutAverageValue:true*/
+
 /* Manejo del DOM */
 
 /*Varibles para obtener data de cada país, ya separada*/
-//console.log(WORLDBANK);
 const chileData = WORLDBANK.CHL;
 const peruData = WORLDBANK.PER;
 const mexicoData = WORLDBANK.MEX;
@@ -10,7 +14,7 @@ const brasilData = WORLDBANK.BRA;
 /*Lectura y manejo de la variable país*/
 var urlParams = new URLSearchParams(window.location.search);
 let selectCountry = urlParams.get("country");
-console.log(selectCountry);
+
 
 let selectedData;
 switch (selectCountry) {
@@ -53,17 +57,17 @@ for (let i = 0; i < selectedData.indicators.length; i++) {
   indicatorList.add(option);
 }
 
+let graphPlaceholder = document.getElementById("indicatorsChart").getContext("2d");
+let chartMax = document.getElementById("doughnutMax").getContext("2d");
+let chartAverage = document.getElementById("doughnutAverages").getContext("2d");
+
+
 let selectIndicator;
 document.getElementById("indicatorsSelect").addEventListener("change", () => {
   selectIndicator = document.getElementById("indicatorsSelect").value;
-  mostrarIndicador();
-  showDoughnutMaxValue();
-  showDoughnutAverageValue();
+  mostrarIndicador(selectIndicator,selectedData,graphPlaceholder);
+  showDoughnutMaxValue(selectIndicator, selectedData,chartMax);
+  showDoughnutAverageValue(selectIndicator, selectedData,chartAverage);
 });
 
-var graphPlaceholder = document
-  .getElementById("indicatorsChart")
-  .getContext("2d");
-var chartMax = document.getElementById("doughnutMax").getContext("2d");
 
-var chartAverage = document.getElementById("doughnutAverages").getContext("2d");
