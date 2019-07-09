@@ -1,16 +1,27 @@
 global.window = global;
 global.assert = require('chai').assert;
-require('../src/data');
+require('../src/data/worldbank/worldbank.js');
 require('./data.spec.js');
+require('../src/data.js')
 
 
-describe('example', () => {
-  
+
+
+describe('mostrarIndicador', () => {
   it('debería ser una función', () => {
-    assert.equal(typeof example, 'function');
+    assert.equal(typeof mostrarIndicador, 'function');
   });
 
-  it('debería retornar "example"', () => {
-    assert.equal(example(), 'example');
+});
+
+describe('showDoughnutMaxValue', () => {
+  it('debería ser una función', () => {
+    assert.equal(typeof showDoughnutMaxValue, 'function');
   });
-})
+});
+
+describe('showDoughnutAverageValue', () => {
+  it('debería ser una función', () => {
+    assert.equal(typeof showDoughnutAverageValue, 'function');
+  });
+});

@@ -5,12 +5,7 @@
 /* Manejo de data */
 
 // CREACIÓN GRÁFICO DE LÍNEAS PARA LA DATA:
-
-function mostrarIndicador(selectIndicator, selectedData, graphPlaceholder) {
-  // console.log(selectIndicator);
-  // console.log(selectedData.indicators[selectIndicator]);
-
-  // Inicializamos los arreglos vacios.
+const mostrarIndicador = (selectIndicator, selectedData, graphPlaceholder) => {
   let arrayToChart = [];
   let labelArray = [];
   let indicatorNumber = selectIndicator;
@@ -45,10 +40,14 @@ function mostrarIndicador(selectIndicator, selectedData, graphPlaceholder) {
       ]
     }
   });
-}
+};
+
+window.mostrarIndicador = mostrarIndicador;
+
+
 
 //Agregando dona con el valor maximo
-function showDoughnutMaxValue(selectIndicator, selectedData, chartMax) {
+const showDoughnutMaxValue = (selectIndicator, selectedData, chartMax) => {
   // let doughnutMax;
   let indicatorNumber = selectIndicator;
   let maxValue = 0;
@@ -105,8 +104,10 @@ function showDoughnutMaxValue(selectIndicator, selectedData, chartMax) {
   new Chart(chartMax, config);
 }
 
+window.showDoughnutMaxValue = showDoughnutMaxValue;
+
 // Agrenado dona con valor promedio
-function showDoughnutAverageValue(selectIndicator, selectedData, chartAverage) {
+const showDoughnutAverageValue = (selectIndicator, selectedData, chartAverage) => {
 
   let indicatorNumber = selectIndicator;
   let count = 0;
@@ -164,3 +165,5 @@ function showDoughnutAverageValue(selectIndicator, selectedData, chartAverage) {
   };
   new Chart(chartAverage, config);
 }
+
+window.showDoughnutAverageValue = showDoughnutAverageValue;
