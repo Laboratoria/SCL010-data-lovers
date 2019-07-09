@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
 }
-.logo {
+#logo {
   max-width: 20em;
   margin: 1.25em;
   outline: 1px #252525 solid;
@@ -55,7 +55,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   /* outline: 1px #252525 solid;*/
-} 
+}
 
 option {
   font-family: 'Roboto', sans-serif;
