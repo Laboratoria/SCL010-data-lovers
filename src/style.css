@@ -1,20 +1,32 @@
 body{
    background-color:rgb(230, 213, 65);
+
 }
 
 #image-pok{
   background-image: url("https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg");
+  position:relative;
 float: left;
 margin-top:30px;
 margin-left: 70px;
 }
-
-@media {
-
+header{
+  display: flex;
+  justify-content: center;
 }
 
-  
 
+.container-button{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#select-pokemon{
+  margin-bottom: 20px;
+
+
+}
 
 .buttons{
   font-size: 20px;
@@ -58,18 +70,21 @@ margin-left: 70px;
 
 #selects{
   padding-top:50px;
-  padding-right:32% ;
   display:flex;
-  justify-content:center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+ 
 }
 
 #root{
   column-count: 4;
-  margin-top: 2%;
+  margin-top: 5%;
   height: 20px;
   display: flex;
  flex-wrap: wrap;
  margin-bottom: 10px;
+
 }
 .flip-card {
   background-color: transparent;
@@ -78,10 +93,9 @@ margin-left: 70px;
   margin-bottom: 10px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin:40px;
- 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -92,20 +106,21 @@ margin-left: 70px;
  
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front {
   background-color:rgba(214, 192, 205, 0.753);
   color: black;
@@ -114,7 +129,7 @@ margin-left: 70px;
   border-radius: 40px;
 }
 
-/* Style the back side */
+
 .flip-card-back {
   background-color:rgb(82, 55, 182);
   color: white;
@@ -132,6 +147,11 @@ margin-left: 70px;
    margin: 0 auto;
    padding-top: 15%;
 }
+
+/*@media{
+
+}*/
+
 
 
 
