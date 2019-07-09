@@ -9,9 +9,22 @@
   </head>
   <body>
     <div id="root" class="main">
+        <div class="div-header">
       <header>
         <img src="../img/logo_b.png" class="logo">
+        <a title="Info" href="#modal-welcome"><img src="../img/incognita_b.png" alt="Info" class="img-welcome"/></a>
       </header>
+      <div id="modalWCont" class="modalW-container">
+        <div class="modal-welcome">
+          <a href="#">X</a>
+          <h3>Welcome to KANTODEX</h3>
+          <p>Here you can order,<br>
+            filter and see some data<br>
+            of the pokemones of the<br>
+            Kanto generation</p>
+        </div>
+      </div>
+    </div>
       <div class="select-menu">
         <div id="type-menu" class="select">
         </div>
@@ -20,8 +33,10 @@
       </div>
         <section id="poke-section">
         </section>
-        <div id="modal" class="modal-container">
-        </div>
+        <!-- <div id="modal-welcome" class="modalW">
+            <span class="closeModal">&times;</span>
+            <div id="caption-modal" class="captionModal"></div>
+          </div> -->
     </div>
     <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>

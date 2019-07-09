@@ -14,19 +14,26 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
-header {
+/* .modalW{
+  background: rgb(91, 87, 122);
+} */
+.div-header{
   background: rgb(207, 201, 252);
   padding: 0.625em;
-}
-
-.logo {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo {
   max-width: 20em;
   margin: 1.25em;
+  outline: 1px #252525 solid;
 }
-
+.img-welcome{
+  max-width: 5.7em;
+  margin: 1.25em;
+  outline: 1px #252525 solid;
+}
 .select {
   display: inline-flex;
   flex-wrap: wrap;
@@ -40,7 +47,7 @@ select {
   color: #252525;
   padding: 0.625em;
   margin-left: 1.25em;
-  width: 9em;
+  width: 7em;
   border: none;
   box-shadow: none;
   background: url(../img/arrow.png) 90% no-repeat;
@@ -58,9 +65,9 @@ option {
   background: rgb(223, 212, 245);
 }
 
-option:hover {
-  background: rgb(94, 19, 245); /* no funciona*/
-}
+/* select:hover {
+   background: rgba(141, 90, 241); /*funciona pero se borra la flecha
+} */
 
 .select-menu {
   background: rgb(223, 212, 245);
@@ -81,7 +88,7 @@ section div {
   font-size: 0.8em;
   width: 100px;
   height: 100px;
-  background: rgb(197, 208, 230);
+  background: rgb(197, 208, 230, 0.4);
   border-radius: 25px;
   /* display: flex;
   flex-direction: column-reverse; para dejar texto abajo de la imagen*/
@@ -91,4 +98,26 @@ section div img {
   max-width: 70px;
   margin: 5px;
   /* outline: 1px #252525 solid; */
+}
+.modal-welcome{
+  background-color: #ffffff;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modalW-container{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#modalWCont:target{
+  opacity:1;
+  pointer-events:auto;
 }
