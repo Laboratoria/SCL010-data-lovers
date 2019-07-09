@@ -55,7 +55,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   /* outline: 1px #252525 solid;*/
-}
+} 
 
 option {
   font-family: 'Roboto', sans-serif;
@@ -86,8 +86,8 @@ section div {
   margin: 0.625em;
   text-align: center;
   font-size: 0.8em;
-  width: 100px;
-  height: 100px;
+  width: 6.25em;
+  height: 6.25em;
   background: rgb(197, 208, 230, 0.4);
   border-radius: 25px;
   /* display: flex;
@@ -101,9 +101,11 @@ section div img {
 }
 .modal-welcome{
   background-color: #ffffff;
-  width:300px;
+  border-radius: 25px;
+  width: 350px;
+  height: 400px;
   padding: 10px 20px;
-  margin: 20% auto;
+  /* margin: 20% auto; */
   position: relative;
 }
 .modalW-container{
