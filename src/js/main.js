@@ -1,6 +1,7 @@
-
+//DOM
 function init() {
   let characterData = loadData();
+
   for (let i = 0; i < 40; i++) {
    // for (i = 0; i < characterData.length; i++) {
     document.getElementById('characters').innerHTML += `
@@ -27,7 +28,7 @@ const filterSpices = document.getElementById('specie');
       </div>`;
       }
    });
-   
+
 //filtrado por genero
    const filterGender = document.getElementById('gender');
    filterGender.addEventListener('change',() =>{
@@ -37,7 +38,7 @@ const filterSpices = document.getElementById('specie');
      document.getElementById('characters').innerHTML += `
        <div class="card">
          <img src="${characterData[i].image}" alt="">
-         <h3>${characterData[i].name}</h3>  
+         <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].gender}</p>
        </div>`;
    }});
@@ -72,7 +73,5 @@ const filterOrder = document.getElementById('order');
       }
    });
      
-
-
 
 
