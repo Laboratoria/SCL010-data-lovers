@@ -14,13 +14,3 @@
 
 
 // SORTER
-const sorting = (data, sortAZ, sortZA) => {
-  let sorted= [];
-  if (sortOrder == "asc") {
-    sortedPokemons = data.sort((a, b) => a[sortBy].localeCompare(b[sortBy]));
-  } else {
-    sortedPokemons = data.sort((a, b) => a[sortBy].localeCompare(b[sortBy])).reverse();
-  }
-  return sortedPokemons;
-}
-window.sorting = sorting
