@@ -46,4 +46,13 @@ selectedEpisode.addEventListener("change", () => {
   
 
 //ORDER
- 
+  const selectSort = document.getElementById("orderPokemon")
+  selectSort.addEventListener("change", () => {
+    let conditionAZ = selectSort.value
+    let conditionZA = selectSort.value;
+    let sortedData = window.sorting(data, conditionAZ, conditionZA);
+    sortedData.forEach(() => {
+      return createCards(sortedData);
+    })
+  })
+
