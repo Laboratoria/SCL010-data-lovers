@@ -1,7 +1,7 @@
-
+//DOM
 function init() {
   let characterData = loadData();
-  for (i = 0; i < 40; i++) {
+  for (i = 0; i < 42; i++) {
    // for (i = 0; i < characterData.length; i++) {
     document.getElementById('characters').innerHTML += `
       <div class="card">
@@ -36,7 +36,7 @@ const filterSpices = document.getElementById('specie');
      document.getElementById('characters').innerHTML += `
        <div class="card">
          <img src="${characterData[i].image}" alt="">
-         <h3>${characterData[i].name}</h3>    <section class="section_label">
+         <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].gender}</p>
        </div>`;
    }});
@@ -55,3 +55,7 @@ const filterSpices = document.getElementById('specie');
          <p>Status: ${characterData[i].status}</p>
        </div>`;
    }});
+
+
+
+//Ficha de personajes

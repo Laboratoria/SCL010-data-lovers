@@ -1,25 +1,39 @@
 ![enter image description here](https://lh3.googleusercontent.com/BQMWJSYGKifw70A3wnKbuxsrFWAC_GMoIvDooLsGyuJzTEd5DxDJWtO2EICxxTv6i5qfbnoMHsnLUg=s1340)
-## “El MUNDO DE RICK AND MORTY”. ![enter image description here](https://lh3.googleusercontent.com/g3m0h-dWcSqnKM0ajYbXtClBtSTFVHPh7D6z9sJBD263DThbRWswE6USAPM4LbClLEixRaX7TSUjHg=s150)
+## El MUNDO DE RICK AND MORTY![enter image description here](https://lh3.googleusercontent.com/g3m0h-dWcSqnKM0ajYbXtClBtSTFVHPh7D6z9sJBD263DThbRWswE6USAPM4LbClLEixRaX7TSUjHg=s150)
 
-## Resumen del proyecto            
+## Rick and Morty: _resumen del proyecto_.            
 
-El aplicación web "El Mundo de Rick And Morty" nace para dar respuesta a las necesidades de los fans de la serie, entregandoles un lugar donde obtener información sobre su serie favorita y además les entrega herramientas para poder buscar, filtrar y ordenar fichas de personajes, que incluyen información relevante sobre ellos. Pueden acceder al nombre del personaje, a su estado actual (vivo/muerto), a su raza, planeta de procedencia o genero, entre otros datos interesantes. "El Mundo de Rick and Morty", por ahora es un proyecto piloto, si bien ahora la funcionalidad descrita actua con normalidad, se pretende agregar más interacciones  a futuro para sus fans, como información tecnica de la serie, enlaces para ver la serie online e información sobre las desarrolladoras de la página y contenidos adicionales.
+**Rick y Morty**  es considerada como una de las mejores series de animación de nuestra década. La fórmula general en Rick y Morty consiste en la yuxtaposición de dos escenarios que confluyen. Por un lado, se muestran las aventuras que vive un abuelo egoísta y alcohólico (_Rick Sánchez_) por el espacio intergaláctico y/o interdimensional, el cual arrastra a su nieto (_Morty Smith_) quién términa siendo su compañero de viajes y aventuras. Estas aventuras se mezclan en cada episodio con dramas domésticos y familiares más propios del género Sitcom. Su creador Dan Harmon (co-creador junto a Justin Roiland) describe esta fusión de ciencia ficción y ambiente familiar como una mezcla de influencias entre las dos obra de "Matt Groening": _"Los Simpson"_ y _"Futurama"_, además hay notas inspiradas del humor negro de la ya clásica serie _"South Park"_.
+
+Esta serie ha sido ganadora de distintos galardones y  es aclamada por la critica internacional, incluso siendo calificada con un 97% en el sitio Rotten Tomatoes. Fue ganadora de un Emmy en el 2018 como _mejor serie animada_. Por esto y mucho más la creación de una página web dedicada a la serie, responde a las necesidades de sus fans y un mercado creciente de consumidores de la serie y su merchandising.
+
 
 ## Definición del Producto y  perfil del Usuario.
 
-El proyecto de cifrado "La Llave" esta creado para facilitar la realización de eventos privados dirigidos a un público especifico, respondiendo a la necesidad de organizarse y comunicarse entre las partes sin involucrarse de manera pública. Esta primera versión fue pensada para las Microcervecerías y Growler's naciones que necesitan publicitar sus productos pero no cuentan con la patente legal para ello, lo que los deja en la ilegalidad, arriesgándose a multas millonarias o clausuras de sus locales. La Llave, les da una plataforma segura para poder organizar eventos e invitar a un público especifico.
+El aplicación web "El Mundo de Rick And Morty" nace para dar respuesta a las necesidades de los fans de la serie, entregándoles un sitio donde encontrar información sobre la serie, con foco en sus personajes. Incluyendo una base de datos donde podrán buscar, filtrar y ordenar "cards" (_fichas de personajes_) , que contienen información descriptiva de cada personaje. Nuestros usuarios, podrán saber el nombre de sus personajes  favoritos, su estado actual; si esta vivo o muerto, su raza y género. También datos complemnetarios como su planeta de procedencia o el número de veces (_porcentaje_) que aparece en los capítulos de la serie.
+
+Si bien "El Mundo de Rick and Morty", por ahora parte como un proyecto piloto, a futuro se pretenden agregar nuevas funcionalidades e interacciones para el usuario. Como información técnica y datos freaks sobre la serie, incluir enlaces directos para visualizar la serie de manera online e información sobre las desarrolladoras de la página para promocionar otros trabajos con contenidos del área.
+
+###  Quiénes son los principales usuarios de producto.
+Principalmente enfocada en fans de la serie, de los cuales la mayoría son hombres entre 16 y 35 años. Aunque también puede ser utilizada por aficionados, personas que ven la serie por primera vez o cualquier usuario interesado en obtener datos sobre la serie y sus personajes.
+
+### Cuál es el objetivo del producto.
+_Dar_ a los fans de la serie y/o nuevos consumidores, una página web donde recurrir cada vez que necesiten información general o concreta sobre los personajes de la serie y su contenido.
+
+#### Qué problema resuelve.
+El contenido de una serie tiende a ser complejo y muchas veces difícil de retener para los espectadores, perdiéndose detalles o información sobre sus personajes, lo que puede influir en el entendimiento de la trama y su contexto, _"El Mundo de Rick and Morty"_ entrega una herramienta para solucionar esto, y llenar esa falta de información y/o vacíos argumentativos que puede sufrir el espectador. Pudiendo recurrir al sitio web cada vez que presente dudas, quiera obtener o rectificar información sobre los personajes de la serie y su contenido.
+
+## Historias de usuarios.
 
 ## Proceso de diseño y prototipado.
 ![enter image description here](https://lh3.googleusercontent.com/0L6ZL6ae0201V-Z6W9L8yjrANJs1s5aRgaFrOvxOxgWD34l609Z0F5O65Iifr5Q4vXSwGi7x1Hg5eQ=s1340)
 
-#### Quiénes son los principales usuarios de producto.
-Consumidores frecuentes de las Microcerverías y Growler's nacionales, que son invitados personalmente por miembros de esta comunidad. Estos usuarios conocen el rubro y son clientes habituales, por lo cual se genera una red basada en el respeto y la confianza por el rubro.
+Nuestro proceso de diseño se fue gestando en diferentes etapas, y durante todas ellas se recibió feedback constantemente. Tanto de posible usuarios como de otros squad's de trabajo y de coach's especialistas en código (_Front-End Developers_) y en experiencia de usuario (_UX design_). Te detallamos estas etapas a continuación:
 
-#### Cuáles son los objetivos del producto hacia los usuarios.
-- Los usuarios pueden acceder a una comunidad de eventos, catas y redes culinarias en base a la cerveza artesanal. La Llave no solo te abre la puerta de entrada, sino también te hace parte de algo: es comunidad y compañerismo.
-
-#### Cómo el producto resuelve el problema.
-- Fomentando la realización de eventos a nivel secreto, con un público acotado, informado y responsable. Da las herramientas para operar desde la tranquilidad tanto a los anfitriones como a los invitados.
+ 1. El proceso de diseño fue pensado y creado en función del usuario, para ello se utilizaron los principios de diseño, y se fue maqueteando desde una idea inicial hasta llegar al sitio web final.
+ 2. El proceso siempre fue pensado en el usuario y la experiencia (_UX design_) que tendrá al usar nuestra página web, por ello antes de empezar a prototipar, se realizó una encuesta para saber que contenido debería contener la página. Puedes ver la encuesta [aquí](https://docs.google.com/forms/d/1ADnjurOxEhXtIwNOUxjQZbGd-_d_Uus1Abx4fhK_WC4/edit).
+ 3. Luego se realizó el prototipo de alta en Figma, el cual probar en el siguiente [enlace](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=2:4&scaling=scale-down). Este diseño se fue adaptando en medida que era testado con los usuarios, puedes verlos aquí.
+ 4. Finalmente, se llega al diseño final, tomando en cuenta la funcionalidad y el feedback recibido en los testeos, estos fueron realizados a cinco personas con la finalidad de que el diseño sea lo más amigable posible.
 
 
 ## Instalación y Ejecución. ![enter image description here](https://lh3.googleusercontent.com/oYxytvqaF8Fnlt6T2CrytDprI3NUBZa8GAfxDLYQjNC6GxIC0oxGU60N_piUeVg3YtzZU3tzr3ulwQ=s100)

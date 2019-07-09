@@ -35,7 +35,7 @@ font-size: 30px;
 height: 40px;
 }
 .links a:hover{
-background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background: rgba(196, 196, 196, 0.329);  
 }
 .section{
 background: #F8F4F4;
@@ -106,14 +106,17 @@ justify-content: center;
 align-items: center;
 height: 100px;
 text-align: center;
+
 }
 .go{
 color: white;
 height: 90px;
 width: 400px;
 font-size: 40px;
-background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793);
 padding: 3%;
+margin: 6px;
+border-radius: 20px;
 }
 .footer{
 display: flex;
@@ -171,12 +174,12 @@ flex: 1 1 auto;
 align-content: flex-start;
 }
 .card{
-background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background-image: linear-gradient(to top, #008f94, #008c90, #00898c, #008789, #008485, #008383, #008182, #008080, #008080, #008080, #008080, #008080);
 border-radius: 5%;
 text-align: center;
 align-items:center;
 margin: 10px 10px;
-flex: 1 1 20%;
+flex: 1 1 15%;
 }
 .card  img{
 width: 90%;
@@ -196,9 +199,6 @@ display: flex;
 flex-wrap: wrap;
 font-size: 20px;
 }
-
-
-
 
 
 
@@ -226,9 +226,10 @@ flex-direction: column;
 flex-direction: column;
 }
 .go{
-height: 40px;
-width: 60px;
-font-size: 20px;
+height: 70px;
+width: 250px;
+font-size: 25px;
+padding: 4%;
 }
 *{
 margin:2px;
@@ -245,9 +246,10 @@ flex-direction: column;
 flex-direction: column;
 }
 .go{
-height: 30px;
-width: 50px;
-font-size: 18px;
+height: 70px;
+width: 180px;
+font-size: 22px;
+padding: 4%;
 }
 .section_label{
 flex-direction: column;
