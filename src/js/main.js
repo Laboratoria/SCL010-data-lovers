@@ -1,6 +1,6 @@
 //DOM
 function init() {
-  let characterData = loadData();
+  let characterData = data;
 
   for (let i = 0; i < 40; i++) {
    // for (i = 0; i < characterData.length; i++) {
@@ -13,7 +13,7 @@ function init() {
   }
 }
 init();
- 
+
 //filtrado por especie
 const filterSpices = document.getElementById('specie');
   filterSpices.addEventListener('change',() =>{
@@ -57,21 +57,3 @@ const filterSpices = document.getElementById('specie');
          <p>Status: ${characterData[i].status}</p>
        </div>`;
    }});
-
-   // filtrado por orden ascendente y descendente
-const filterOrder = document.getElementById('order');
-  filterSpices.addEventListener('change',() =>{
-    let characterData = filterSpecies(filterSpices.value);
-    document.getElementById("characters").innerHTML="";
-    for (let i = 0; i < characterData.length; i++) {
-    document.getElementById('characters').innerHTML += `
-      <div class="card">
-        <img src="${characterData[i].image}" alt="">
-        <h3>${characterData[i].name}</h3>
-        <p>Especie: ${characterData[i].species}</p>
-      </div>`;
-      }
-   });
-     
-
-
