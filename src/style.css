@@ -5,10 +5,16 @@ body{
 #image-pok{
   background-image: url("https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg");
 float: left;
-margin:40px;
+margin-top:30px;
+margin-left: 70px;
+}
 
+@media {
 
 }
+
+  
+
 
 .buttons{
   font-size: 20px;
@@ -20,6 +26,11 @@ margin:40px;
   border-radius:30px;
   margin-left:80px;
 }
+
+.container-button{
+  display:flex;
+  flex-wrap: wrap;
+}
 #btnBuscar{
   width:400px;
  height: 40px;
@@ -27,6 +38,7 @@ margin:40px;
 
 #pok-filter{
   margin-left:90px;
+  margin-top: 7px;
 } 
 
 .pok-filter{
@@ -36,6 +48,7 @@ margin:40px;
   max-height: 70px;
   color:#20197e ;
   border-radius:20px;
+  margin-top: 7px;
 }
 
 #select-filter, #select-order{
@@ -47,12 +60,12 @@ margin:40px;
   padding-top:50px;
   padding-right:32% ;
   display:flex;
-  justify-content:space-evenly;
+  justify-content:center;
 }
 
 #root{
   column-count: 4;
-  margin-top: 1%;
+  margin-top: 2%;
   height: 20px;
   display: flex;
  flex-wrap: wrap;
