@@ -1,47 +1,39 @@
-/* Manejo de data */
+// data = array | type = tipo objeto poke
 const filterData = (data,type) => {
 
   let newArray = data.filter(poke =>
   {
+    // crea array nuevo con cada objeto que incluya el tipo "condition"
     return poke.type.includes(type)
   });
-return newArray
+  return newArray
 };
 
+// data = array | sortBy = select txt | sortOrder = ascendente o descendente
+const sortData = (data, sortBy, sortOrder) => {
+  let newArray = [];
+  // ordenar strings nombres por orden alfabético
+  let sortingAlph = data.sort((a, b) => a.name.localeCompare(b.name));
+
+  if (sortOrder == "A-Z")
+  {
+    newArray = sortingAlph;
+  }
+  else if (sortOrder == "Z-A")
+  {
+    newArray = sortingAlph.reverse();
+  }
+  else if (sortOrder == "1-151")
+  {
+    // ordenar "id" por menor a mayor
+    newArray = data.sort((first, last) => first.id - last.id);
+  }
+  // "151-1" --> ordenar "id" por mayor a menor
+  else {
+    newArray = data.sort((first, last) => last.id - first.id);
+  }
+  return newArray
+}
+
 window.filterData = filterData;
-
-//EJEMPLO ORDER
-// const sortData = (filteredPokes, sortBy, sortOrder) => {
-//   let orderedPokes = filteredPokes;
-//   if (sortOrder == "A - Z" || sortOrder == "Nº ascendente") {
-//     orderedPokes.sort((a, b) => {
-//       if (a[sortBy] < b[sortBy]) {
-//         return -1;
-//       }
-//       if (a[sortBy] > b[sortBy]) {
-//         return 1;
-//       }
-//       return 0;
-//     })
-//   }
-//   if (sortOrder == "Z - A" || sortOrder == "Nº descendente") {
-//     orderedPokes.sort((a, b) => {
-//       if (a[sortBy] > b[sortBy]) {
-//         return -1;
-//       }
-//       if (a[sortBy] < b[sortBy]) {
-//         return 1;
-//       }
-//       return 0;
-//     })
-//   }
-//   return orderedPokes;
-// }
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-
-// const example = () => {
-//   return 'example';
-// };
-
-// window.example = example;
+window.sortData = sortData;
