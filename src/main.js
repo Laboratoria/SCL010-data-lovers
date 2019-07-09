@@ -1,8 +1,15 @@
+// const filterPoke= (myData, condition) => {
+//   const resultFilterPoke = myData.filter(element =>{
+
+//   })}
+
 //recorrer data
 window.onload=() =>{
 
+ 
+  
   //ordenar
-const pokeOrder = document.getElementById("name");
+const pokeOrder= document.getElementById("name");
 pokeOrder.addEventListener('change', () => {
   let sortOrder = pokeOrder.value;
   let selectionOrder = sortPokes(myData,"name",sortOrder);
@@ -19,7 +26,7 @@ pokeOrder.addEventListener('change', () => {
 
     <div class="flip-card-back">
       
-      <p id="type-poke">Tipo:${element.type}</p> 
+      <h4 id="type-poke">Tipo:${element.type}</h4> 
       <p"number-poke">${element.num}</p>
     </div>
   </div>
@@ -52,7 +59,7 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
     <div class="flip-card-back">
     
-      <p id="type-poke">Tipo:${element.type}</p> 
+      <h4 id="type-poke">Tipo:${element.type}</h4> 
       <p"number-poke">${element.num}</p>
     </div>
   </div>
@@ -107,4 +114,4 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
 
 
-}
+};

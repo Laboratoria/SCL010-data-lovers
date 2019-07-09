@@ -32,3 +32,14 @@ if (sortOrder == "z-a"){
 }
 return orderaPokes;
 }
+
+// const containerRoot = document.getElementById('root');
+// const selectname = document.getElementById('num');let sortPokes = (myData,sortBy,sortOrder)=> {
+//  let orderaPokes = myData;
+//  if (sortOrder == "1-151"){
+// orderaPokes.sort((a,b) => {
+//  if (a[sortBy] < b[sortBy]) {return -1;}
+//  if (a[sortBy] > b[sortBy]) {return  1;}
+//  return 0;
+// })
+// } }
