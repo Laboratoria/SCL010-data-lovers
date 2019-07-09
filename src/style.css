@@ -5,22 +5,29 @@ body{
 #image-pok{
   background-image: url("https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg");
 float: left;
+margin:40px;
+
 
 }
 
-.filter{
+.buttons{
   font-size: 20px;
   width: 120px;
   height: 40px;
-  justify-content:center;
   max-height: 70px;
   max-width: 140px;
   color:#233481 ;
-  margin: 5px;
   border-radius:30px;
-  
-
+  margin-left:80px;
 }
+#btnBuscar{
+  width:400px;
+ height: 40px;
+}
+
+#pok-filter{
+  margin-left:90px;
+} 
 
 .pok-filter{
   font-size: 20px;
@@ -29,25 +36,23 @@ float: left;
   max-height: 70px;
   color:#20197e ;
   border-radius:20px;
-  
- 
 }
 
 #select-filter, #select-order{
   display:inline-block;
-  margin: 9px;
+  margin-left:150px;
 }
 
 #selects{
   padding-top:50px;
   padding-right:32% ;
   display:flex;
-  margin: 0 auto;
-  justify-content:flex-end;
+  justify-content:space-evenly;
 }
+
 #root{
   column-count: 4;
-  margin-top: 3%;
+  margin-top: 1%;
   height: 20px;
   display: flex;
  flex-wrap: wrap;
