@@ -1,15 +1,16 @@
-const data = RICKANDMORTY.results; 
-window.data = data; //declaramos la data
+const data = RICKANDMORTY.results;
+window.data = data; //declaramos la data global
 
 // creando tarjetas
 
 let card = "";
-let characters = "";
+
 let containerCard = document.getElementById("cards");
 
 // crear relleno de la tarjeta con una funcion que las recorra 
-const createCards = () => {
-  window.data.forEach((element) => {
+const createCards = (data) => {
+  let characters = "";
+  data.forEach((element) => {
     card = //HTML DINÁMICO
 
       `
@@ -31,27 +32,17 @@ const createCards = () => {
 };
 
 createCards(data);
-//llamado a la función para que se ejecute
 
 // FILTRANDO EPISODIOS
 
 
 const selectedEpisode = document.getElementById("selectedEpisodeHTML");
-  selectedEpisode.addEventListener("change", () => {
-          let condition = selectedEpisode.options[selectedEpisode.selectedIndex].text;
-
-    // console.log(condition);
-    let filtered= filter(condition);
-        createCards(filtered);
-
-      });
-
-
-
-
-
-
-
-
+selectedEpisode.addEventListener("change", () => {
+  let condition = selectedEpisode.value;
+  let resultFilter = filter (condition);
+   createCards(resultFilter);
+});
+  // console.log(condition);
+  
 
 
