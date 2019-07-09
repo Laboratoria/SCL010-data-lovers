@@ -15,56 +15,66 @@
 <body>
   <div class="padre">
     <header class="header">
-          <div class="menu2">
-          <nav class="nav"> </nav>
-          <ul class="links">
+      <div class="menu2">
+        <nav class="nav"> </nav>
+        <ul class="links">
           <a class="links" href="index.html" style="text-decoration:none">Home</a>
           <a class="links" href="characters.html" style="text-decoration:none">Personajes</a>
-          </ul>
-          </div>
-  </header>
-  <!-- select de especie -->
-      <section class="section_label">
-          <label class="label">Especie</label>
-        <select class="filter_label" id="specie">
-          <option value="">Selecciona</option>
-          <option value="Humanoid">Humanoide</option>
-          <option value="Human">Humano</option>
-          <option value="Alien">Extraterreste</option>
-          <option value="Poopybutthole">Poopybutthole</option>
-          <option value="Robot">Robot</option>
-          <option value="Cronenberg">Cronenberg</option>
-          <option value="Animal">Animales</option>
-          <option value="Mytholog">Mitologico</option>
-          <option value="Vampire">Vampiros</option>
-          <option value="Disease">Enfermedades</option>
-          <option value="Parasite">Parasitos</option>
-          <option value="unknown">Otros</option>
-        </select>
-    <!-- select de genero -->
-        <label class="label">Genero</label>
-        <select class="filter_label" id="gender">
-          <option value="">Selecciona</option>
-          <option value="Male">Hombre</option>
-          <option value="Female">Mujer</option>
-          <option value="unknown">Otros</option>
-        </select>
+        </ul>
+      </div>
+    </header>
 
-          <!-- select de estado -->
-        <label class="label">Estado</label>
-          <select class="filter_label" id="status">
-            <option value="">Selecciona</option>
-          <option value="Alive">vivo</option>
-          <option value="Dead">Muerto</option>
-          <option value="unknown">Desconocido</option>
-        </select>
-      </section>
 
-      <section class="section-card">
-          <div class="container-card" id="characters">
-            <!-- html js-->
-          </div>
-        </section>
+    <section class="section_label">
+
+      <!-- select de orden de A-Z  -->
+      <label class="label">Ordenar</label>
+      <select class="filter_label" id="order">
+        <option value="">Selecciona</option>
+        <option value="1">A-Z</option>
+        <option value="2">Z-A</option>
+      </select>
+
+      <!-- select de especie -->
+      <label class="label">Especie</label>
+      <select class="filter_label" id="specie">
+        <option value="">Selecciona</option>
+        <option value="Humanoid">Humanoide</option>
+        <option value="Human">Humano</option>
+        <option value="Alien">Extraterreste</option>
+        <option value="Poopybutthole">Poopybutthole</option>
+        <option value="Robot">Robot</option>
+        <option value="Cronenberg">Cronenberg</option>
+        <option value="Animal">Animales</option>
+        <option value="Mytholog">Mitologico</option>
+        <option value="Vampire">Vampiros</option>
+        <option value="Disease">Enfermedades</option>
+        <option value="Parasite">Parasitos</option>
+        <option value="unknown">Otros</option>
+      </select>
+      <!-- select de genero -->
+      <label class="label">Genero</label>
+      <select class="filter_label" id="gender">
+        <option value="">Selecciona</option>
+        <option value="Male">Hombre</option>
+        <option value="Female">Mujer</option>
+        <option value="unknown">Otros</option>
+      </select>
+
+      <!-- select de estado -->
+      <label class="label">Estado</label>
+      <select class="filter_label" id="status">
+        <option value="">Selecciona</option>
+        <option value="Alive">vivo</option>
+        <option value="Dead">Muerto</option>
+        <option value="unknown">Desconocido</option>
+      </select>
+    </section>
+
+    <section class="section-card">
+      <div class="container-card" id="characters">
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="pie">
@@ -77,4 +87,5 @@
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
