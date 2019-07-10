@@ -6,8 +6,8 @@ const loadData = () => {
 window.loadData = loadData;
 
 //FILTRADO ASCENDENTE Y DESCENDENTE
-const selectOrder=document.getElementById('order');
-   selectOrder.addEventListener('change',()=>{
+const selectOrder = document.getElementById('order');
+   selectOrder.addEventListener('change', () => {
     let characterData = loadData();
     let htmlForInyect='';
 
@@ -75,10 +75,10 @@ const filterSpecies = (specie) => {
 
   window.filterStatus = filterStatus;
 
-  //calculo matematico
+  //calculo matematico de porcentaje de aparaciciones en la serie
   const calculePercent = (episodes) => {
     let percent = Math.round((episodes * 100) / 31);
     return percent;
   };
-  
+
   window.calculePercent = calculePercent;

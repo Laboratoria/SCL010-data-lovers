@@ -1,6 +1,6 @@
 //DOM
 function init() {
-  let characterData = data;
+  let characterData = window.RICKANDMORTY.results;
   for (let i = 0; i < 40; i++) {
    // for (i = 0; i < characterData.length; i++) {
     document.getElementById('characters').innerHTML += `
@@ -8,7 +8,7 @@ function init() {
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p>Aparece en ${calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
       </div>`;
   }
 }
@@ -17,7 +17,7 @@ init();
 //filtrado por especie
 const filterSpices = document.getElementById('specie');
   filterSpices.addEventListener('change',() =>{
-    let characterData = filterSpecies(filterSpices.value);
+    let characterData = window.filterSpecies(filterSpices.value);
     document.getElementById("characters").innerHTML="";
     for (let i = 0; i < characterData.length; i++) {
     document.getElementById('characters').innerHTML += `
@@ -25,7 +25,7 @@ const filterSpices = document.getElementById('specie');
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p>Aparece en ${calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
       </div>`;
       }
    });
@@ -33,7 +33,7 @@ const filterSpices = document.getElementById('specie');
 //filtrado por genero
    const filterGender = document.getElementById('gender');
    filterGender.addEventListener('change',() =>{
-     let characterData = filterGenders(filterGender.value);
+     let characterData = window.filterGenders(filterGender.value);
      document.getElementById("characters").innerHTML="";
      for (let i = 0; i < characterData.length; i++) {
      document.getElementById('characters').innerHTML += `
@@ -41,7 +41,7 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].gender}</p>
-         <p>Aparece en ${calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
 
@@ -49,7 +49,7 @@ const filterSpices = document.getElementById('specie');
 
    const selectStatus = document.getElementById('status');
    selectStatus.addEventListener('change',() =>{
-     let characterData = filterStatus(selectStatus.value);
+     let characterData = window.filterStatus(selectStatus.value);
      document.getElementById("characters").innerHTML="";
      for (let i = 0; i < characterData.length; i++) {
      document.getElementById('characters').innerHTML += `
@@ -57,6 +57,6 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].status}</p>
-         <p>Aparece en ${calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
