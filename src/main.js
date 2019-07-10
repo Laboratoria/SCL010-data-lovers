@@ -21,7 +21,7 @@ pokeOrder.addEventListener('change', () => {
 
    <div class="flip-card-front">
      <img id="img-card" src="${element.img}" alt="Avatar">
-     <p>${element.name}</p> 
+     <h4>${element.name}</h4> 
     </div>
 
     <div class="flip-card-back">
@@ -54,7 +54,7 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
    <div class="flip-card-front">
      <img id="img-card" src="${element.img}" alt="Avatar">
-     <p>${element.name}</p> 
+     <h4>${element.name}</h4> 
     </div>
 
     <div class="flip-card-back">
