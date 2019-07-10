@@ -1,8 +1,8 @@
 global.window = global;
 global.assert = require('chai').assert;
 require('../src/data/rickandmorty/rickandmorty');
-require('../src/data');
-require('./data.spec.js');
+require('../src/js/data.js');
+require('./src/test/data.spec.js');
 
 //DESCRIBE QUE (A QUIEN) VOY A TESTEAR
 describe(window.filterSpecies, () => {
