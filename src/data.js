@@ -35,5 +35,11 @@ const sortData = (data, sortBy, sortOrder) => {
   return newArray
 }
 
+// get data
+const computeStats = (type, data, condition) => {
+  return `${condition} pokemons are ${(type.length/data.length * 100).toFixed(2)}% of all Kanto pokemons`;
+}
+
 window.filterData = filterData;
 window.sortData = sortData;
+window.computeStats = computeStats;
