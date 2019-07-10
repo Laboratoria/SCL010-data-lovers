@@ -5,7 +5,7 @@ require('../src/data');
 require('./data.spec.js');
 
 //DESCRIBE QUE (A QUIEN) VOY A TESTEAR
-describe(filterSpecies, () => {
+describe(window.filterSpecies, () => {
       const sampleSpice = [{
           "name": "Rick Sanchez",
           "species": "Human"

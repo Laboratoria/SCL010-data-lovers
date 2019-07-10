@@ -1,10 +1,8 @@
-const data = RICKANDMORTY.results;
+const data = window.RICKANDMORTY.results;
 
 const loadData = () => {
   return data;
 };
-
-
 window.loadData = loadData;
 
 //FILTRADO ASCENDENTE Y DESCENDENTE
