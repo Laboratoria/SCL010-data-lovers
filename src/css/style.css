@@ -33,11 +33,15 @@ flex-flow: row nowrap;
 color: white;
 font-size: 30px;
 height: 40px;
+justify-content: flex-end;
+}
+.links li{
+list-style: none;
+display: flex;
 
 }
 .links a:hover{
-background: rgba(196, 196, 196, 0.329);  
-
+background: rgba(196, 196, 196, 0.329);
 }
 .section{
 background: #F8F4F4;
@@ -56,7 +60,7 @@ background: #EDEBEB;
 display: flex;
 flex-flow: column nowrap;
 }
-h1 {
+.welcome {
 background: #EDEBEB;
 font-size: 40px;
 display: flex;
@@ -177,14 +181,18 @@ flex: 1 1 auto;
 align-content: flex-start;
 }
 .card{
-
 background:rgba(73, 188, 206, 0.582);
 border-radius: 5%;
 text-align: center;
 align-items:center;
 margin: 10px 10px;
 flex: 1 1 15%;
+border: 1px solid #b7b7b7;
+-webkit-border-radius: 5px;
+-webkit-box-shadow: 3px 3px 0 0 rgba(38,35,43,0.8) ;
+box-shadow: 3px 3px 0 0 rgba(38,35,43,0.8) ;
 }
+
 .card  img{
 width: 90%;
 border-radius: 5%;
@@ -195,6 +203,7 @@ width: 90%;
 display: flex;
 flex-wrap: wrap;
 font-size: 25px;
+color: black;
 }
 .card p{
 background: transparent;
@@ -203,6 +212,47 @@ display: flex;
 flex-wrap: wrap;
 font-size: 20px;
 }
+
+.card {
+	-webkit-animation: color-change-4x 4s linear infinite alternate both;
+	        animation: color-change-4x 4s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+  0% {
+    background: #4464D6;
+  }
+  33.3333% {
+    background: #7A91C6;
+  }
+  66.666% {
+    background: #5FFBF1;
+  }
+  100% {
+    background: #4098DC;
+  }
+}
+@keyframes color-change-4x {
+  0% {
+    background: #4464D6;
+  }
+  33.3333% {
+    background: #7A91C6;
+  }
+  66.666% {
+    background: #5FFBF1;
+  }
+  100% {
+    background: #4098DC;
+  }
+}
+
+
+
+
+
+
+
 
 
 
