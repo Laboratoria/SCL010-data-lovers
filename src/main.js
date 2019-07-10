@@ -12,7 +12,6 @@ const createCards = (data) => {
   let characters = "";
   data.forEach((element) => {
     card = //HTML DINÁMICO
-
       `
     
          <div class="characterCards">
