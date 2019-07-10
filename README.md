@@ -20,21 +20,21 @@ Principalmente enfocada en fans de la serie, de los cuales la mayoría son hombr
 ### Cuál es el objetivo del producto.
 _Dar_ a los fans de la serie y/o nuevos consumidores, una página web donde recurrir cada vez que necesiten información general o concreta sobre los personajes de la serie y su contenido.
 
-#### Qué problema resuelve.
+### Qué problema resuelve.
 El contenido de una serie tiende a ser complejo y muchas veces difícil de retener para los espectadores, perdiéndose detalles o información sobre sus personajes, lo que puede influir en el entendimiento de la trama y su contexto, _"El Mundo de Rick and Morty"_ entrega una herramienta para solucionar esto, y llenar esa falta de información y/o vacíos argumentativos que puede sufrir el espectador. Pudiendo recurrir al sitio web cada vez que presente dudas, quiera obtener o rectificar información sobre los personajes de la serie y su contenido.
 
 ## Historias de usuarios.
 
-## Proceso de diseño y prototipado.
-![enter image description here](https://lh3.googleusercontent.com/0L6ZL6ae0201V-Z6W9L8yjrANJs1s5aRgaFrOvxOxgWD34l609Z0F5O65Iifr5Q4vXSwGi7x1Hg5eQ=s1340)
+El trabajo se implemento en base a metodología ágil orientada a historias que usuarios, **_¿Qué son las historias de usuarios?_** Las historias de usuario son descripciones, simples  **cortas y esquemáticas**, que resumen la necesidad concreta de un usuario al utilizar un producto o servicio, así como la solución que la satisface. Como muchas otras herramientas Ágiles, las historias de usuario surgieron como una respuesta orientada al sector de desarrollo de software.  Su función principal es identificar problemas y nos ayudan a orientar los esfuerzos para su solución en base al desarrollo.
 
-Nuestro proceso de diseño se fue gestando en diferentes etapas, y durante todas ellas se recibió feedback constantemente. Tanto de posible usuarios como de otros squad's de trabajo y de coach's especialistas en código (_Front-End Developers_) y en experiencia de usuario (_UX design_). Te detallamos estas etapas a continuación:
+### Historia de Usuario 1.
+YO, COMO fans de Rick and Morty, QUIERO poder acceder a una plataforma web con información sobre la serie, PARA poder tener más conocimientos de los personajes de ella.
 
- 1. El proceso de diseño fue pensado y creado en función del usuario, para ello se utilizaron los principios de diseño, y se fue maqueteando desde una idea inicial hasta llegar al sitio web final.
- 2. El proceso siempre fue pensado en el usuario y la experiencia (_UX design_) que tendrá al usar nuestra página web, por ello antes de empezar a prototipar, se realizó una encuesta para saber que contenido debería contener la página. Puedes ver la encuesta [aquí](https://docs.google.com/forms/d/1ADnjurOxEhXtIwNOUxjQZbGd-_d_Uus1Abx4fhK_WC4/edit).
- 3. Luego se realizó el prototipo de alta en Figma, el cual probar en el siguiente [enlace](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=2:4&scaling=scale-down). Este diseño se fue adaptando en medida que era testado con los usuarios, puedes verlos aquí.
- 4. Finalmente, se llega al diseño final, tomando en cuenta la funcionalidad y el feedback recibido en los testeos, estos fueron realizados a cinco personas con la finalidad de que el diseño sea lo más amigable posible.
+### Historia de Usuario 2.
+YO, COMO audiencia de Rick and Morty, QUIERO poder filtrar la información sobre los personajes, PARA poder buscar de manera más fácil información detallada sobre sus personajes.
 
+### Historia de Usuario 3.
+YO, COMO audiencia de Rick and Morty, QUIERO poder conocer el porcentaje de veces que aparecen los personas en la serie  PARA identificar la importancia que tienen en la trama.
 
 ## Instalación y Ejecución. ![enter image description here](https://lh3.googleusercontent.com/oYxytvqaF8Fnlt6T2CrytDprI3NUBZa8GAfxDLYQjNC6GxIC0oxGU60N_piUeVg3YtzZU3tzr3ulwQ=s100)
 
@@ -55,23 +55,32 @@ Nuestro proceso de diseño se fue gestando en diferentes etapas, y durante todas
  - [x] Sus tests unitarios cubren un 100% de _statements_, _functions_
 y _lines_, y un 100% de _branches_. Estos estan incluidos en el boilerplate.
 
+## Proceso de diseño y prototipado.
+![enter image description here](https://lh3.googleusercontent.com/0L6ZL6ae0201V-Z6W9L8yjrANJs1s5aRgaFrOvxOxgWD34l609Z0F5O65Iifr5Q4vXSwGi7x1Hg5eQ=s1340)
+
+Nuestro proceso de diseño se fue gestando en diferentes etapas, y durante todas ellas se recibió feedback constantemente. Tanto de posible usuarios como de otros squad's de trabajo y de coach's especialistas en código (_Front-End Developers_) y en experiencia de usuario (_UX design_). Te detallamos estas etapas a continuación:
+
+ 1. El proceso de diseño fue pensado y creado en función del usuario, para ello se utilizaron los principios de diseño, y se fue maqueteando desde una idea inicial hasta llegar al sitio web final.
+ 2. El proceso siempre fue pensado en el usuario y la experiencia (_UX design_) que tendrá al usar nuestra página web, por ello antes de empezar a prototipar, se realizó una encuesta para saber que contenido debería contener la página. Puedes ver la encuesta [aquí](https://docs.google.com/forms/d/1ADnjurOxEhXtIwNOUxjQZbGd-_d_Uus1Abx4fhK_WC4/edit).
+ 3. Luego se realizó el prototipo de alta en Figma, el cual probar en el siguiente [enlace](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=2:4&scaling=scale-down). Este diseño se fue adaptando en medida que era testado con los usuarios, puedes verlos aquí.
+ 4. Finalmente, se llega al diseño final, tomando en cuenta la funcionalidad y el feedback recibido en los testeos, estos fueron realizados a cinco personas con la finalidad de que el diseño sea lo más amigable posible.
+
 
 ## Prototipado del proyecto
 Para comenzar a crear el proyecto, previamente se realizaron prototipados de baja calidad. En primer lugar se dibujo el control de flujo que tendría el programa y un primer scketch en papel de como se verían sus pantallas. Luego de presentar esta idea a posibles usuarios y recibir feedback se realizó un segundo scketch solucionando los problemas de flujo encontrados en el prototipado inicial. Para terminar finalmente con un wireframe de como se vería el producto final realizado en Figma.
 
-### Control de flujo y Scketch (1)
-![enter image description here](https://i.ibb.co/Q8XqpCg/IMG-20190623-130405-1.jpg)
+### Control de flujo
 
-### Scketch(2)
-![enter image description here](https://i.ibb.co/86TVr70/IMG-20190623-130458.jpg)
-### Wireframe en Figma
-![Figma](https://i.ibb.co/9cXXfrv/mockup-Inicio.png)
+### Scketch en papel
+
+### Mockup
+
 
 
 ## Test con usuarios
 Luego de contar con el Wireframe con el modelo final, se le agregó funcionalidad al programa mediante ES6, Con el programa ya funcionando se realizaron test con posibles usuario para obtener feedback del diseño y funcionamiento.
 
-### Testing
+### Testing y feedback.
 
 Al aplicar el testing a usuarios, nos encontramos con problemas con la recepción de los códigos de invitación, ya que al ingresarlo en la appweb se volvía complicado, esto en el caso de los usuarios-invitados. (NO aplica lo mismo para los anfitriones).
 En primera instancia se pensaba entregar la invitación con el código a descrifrar en formato físico-papel, pero se detectó que no era práctico para el usuario, además de la posibles de perderlo o que se volviera ilegible. Por ello, se reformulo el concepto de entrega y se optó por entregarlo vía digital; para poder ser enviado vía whatsapp o email.
@@ -81,9 +90,9 @@ En la primera imagen observamos el testing con usuarios.
 En la segunda imagen se muestra el primer prototipado de invitación en fomrato fisico y el final en formato digital.
 
 Imagen 1.
-![Probando con usuarios](https://i.ibb.co/b2zWzT0/In-Shot-20190623-131837648.jpg)
+
 Imagen 2.
-![invitación](https://i.ibb.co/hMxqM1j/In-Shot-20190623-132132568.jpg)
+
 
 ## Recursos de organización  ![enter image description here](https://lh3.googleusercontent.com/lIxDaevl93kpTbZ_VlKpt3nxb3uD4GC9mSZ50xvZvolHYW8P9q8MRSyjOzFP992a7tG_rIZ-NKOonQ=s180)
 
