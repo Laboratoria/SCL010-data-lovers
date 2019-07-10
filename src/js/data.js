@@ -1,13 +1,14 @@
+const data = RICKANDMORTY.results;
+
 const loadData = () => {
-  const data = RICKANDMORTY.results;
   return data;
 };
 
+
 window.loadData = loadData;
 
-
-   //seleccion de A-Z y Z-A
-   const selectOrder=document.getElementById('order');
+//FILTRADO ASCENDENTE Y DESCENDENTE
+const selectOrder=document.getElementById('order');
    selectOrder.addEventListener('change',()=>{
     let characterData = loadData();
     let htmlForInyect='';
@@ -18,6 +19,29 @@ window.loadData = loadData;
       characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
       characterData.reverse();
     }
+
+    //for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < characterData.length; i++) {
+       htmlForInyect+= `
+         <div class="card">
+           <img src="${characterData[i].image}" alt="">
+           <h3>${characterData[i].name}</h3>
+           <p>Especie: ${characterData[i].species}</p>
+         </div>`;
+     }
+     document.getElementById('characters').innerHTML = htmlForInyect;
+   });
+
+
+
+//FILTRADO POR ESPECIE
+const filterSpecies = (specie) => {
+  let filterData = [];
+  for (let i = 0; i < data.length; i++) {
+
+    if (data[i].species == specie) {
+        filterData.push(data[i]);
+    }
   }
   return filterData;
 };
@@ -26,7 +50,6 @@ window.loadData = loadData;
  //filtrado por genero
 
  const filterGenders = (gender) => {
-     const data = RICKANDMORTY.results;
      let filterData = [];
      for (let i = 0; i < data.length; i++) {
 
@@ -42,7 +65,6 @@ window.loadData = loadData;
    //filtrado por estado
 
    const filterStatus = (status) => {
-    const data = RICKANDMORTY.results;
     let filterData = [];
     for (let i = 0; i < data.length; i++) {
 
@@ -55,3 +77,10 @@ window.loadData = loadData;
 
   window.filterStatus = filterStatus;
 
+  //calculo matematico
+  const calculePercent = (episodes) => {
+    let percent = Math.round((episodes * 100) / 31);
+    return percent;
+  };
+  
+  window.calculePercent = calculePercent;
