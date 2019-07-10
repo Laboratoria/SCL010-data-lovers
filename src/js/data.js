@@ -1,10 +1,8 @@
-const data = RICKANDMORTY.results;
+const data = window.RICKANDMORTY.results;
 
 const loadData = () => {
   return data;
 };
-
-
 window.loadData = loadData;
 
 //FILTRADO ASCENDENTE Y DESCENDENTE
@@ -76,3 +74,11 @@ const filterSpecies = (specie) => {
   };
 
   window.filterStatus = filterStatus;
+
+  //calculo matematico
+  const calculePercent = (episodes) => {
+    let percent = Math.round((episodes * 100) / 31);
+    return percent;
+  };
+  
+  window.calculePercent = calculePercent;
