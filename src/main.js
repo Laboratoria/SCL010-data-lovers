@@ -1,6 +1,7 @@
 const pokemons = window.POKEMON.pokemon;
 const pokeSection = document.getElementById('poke-section');
 const startingModal = document.getElementById('modalWCont');
+const infoStats = document.getElementById('info-stats');
 let newPokeArray;
 
 // crear cartas
@@ -25,7 +26,7 @@ window.onload = function () {
     // modal de inicio
     startingModal.innerHTML =
     `<div class="modal-welcome">
-          <h3>Welcome to KANTODEX</h3>
+        <h3>Welcome to KANTODEX</h3>
           <p>Here you can order, filter and see some Kanto generation pokemons data</p>
           <a class="CloseX" href="#"><img src="../img/btn_close.png" alt="Close"/></a>
         </div>`;
@@ -77,9 +78,7 @@ selectType.addEventListener("change", ()=> {
   // crea nuevos divs en base a array
   newPokeArray = window.filterData(pokemons, condition);
   createDivs(newPokeArray);
-  // console.log(newPokeArray.length);
-  // console.log(window.computeStats(newPokeArray, pokemons, condition));
-  // console.log(typeof newPokeArray, typeof pokemons, typeof condition);
+  infoStats.innerHTML = `${window.computeStats(newPokeArray, pokemons, condition)}`;
   }
 );
 
@@ -103,5 +102,6 @@ selectOrder.addEventListener("change", ()=> {
     // crea nuevos divs en base a array
     newPokeArray = window.sortData(pokemons, condition, condition);
     createDivs(newPokeArray);
+    infoStats.innerHTML = "";
   }
 );
