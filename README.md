@@ -55,8 +55,16 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66391005_2430729027148485_6387185362124406784_n.jpg?_nc_cat=109&_nc_oc=AQnUWQmQEx835OGRlfiVC8lmVA7HoPO2zK7Jt1kPS-lGaDwkOt9ygG-8r-ITwrOlbWg&_nc_ht=scontent.fscl11-1.fna&oh=2956cfb4d01ae32ea21a0f0d3579baed&oe=5DA77BC4)
 ![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66905891_2430729070481814_5323702853489917952_n.jpg?_nc_cat=107&_nc_oc=AQmVuvVIB1RlDHP8sE-8Mww2umOZh3Pb-MnpPx_YKH3rtE_lBw9gUNXzuZWhL1ZpOyQ&_nc_ht=scontent.fscl11-2.fna&oh=054381e2bc3a2d37dec2ad49f2b33a5c&oe=5D78B406)
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66465449_2430729147148473_5622872738977808384_n.jpg?_nc_cat=109&_nc_oc=AQl_wx9lUZWC9Lhq7JGOpaJtStVWpTK0uCoS0IJX_Tx8VmgFgV1ukYyE1lscV3NyGIA&_nc_ht=scontent.fscl11-1.fna&oh=2b05b1828318542a09200794696831db&oe=5DB37B62)
-#### Pseudo Códigos
+#### Pseudo códigos
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
+### Paleta de colores 
+
+Basamos nuesta paleta de colores en una iamgen representativa de los dos personajes principales de la serie, Rick y Morty.
+![](https://files.slack.com/files-pri/T0NNB6T0R-FLC19P83F/image_banner.jpg), a través de *Coolors*, creamos la paleta.
+![](https://files.slack.com/files-pri/T0NNB6T0R-FL5L3EZSM/b4e5df-e4d7ce-e97c5b-fdfb7f-e3e768.png)
+
+
+
 
 
 #### Prototipo baja fidelidad
