@@ -20,7 +20,9 @@ const createCards = (data) => {
            <div class="infoCards"
             <p> Specie: ${element.species}</p>
             <p> Gender: ${element.gender}</p>
-            <p> Appearances: ${(element.episode.length*100/31).toFixed(1)} % </p>
+            <p> Gender: ${element.location.name}</p>
+            <p> Gender: ${element.origin.name}</p>
+            <h3> Appearances: ${(element.episode.length*100/31).toFixed(1)} % </h3>
             </div>
          </div>
        
