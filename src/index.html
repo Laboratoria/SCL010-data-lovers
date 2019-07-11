@@ -1,20 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <!-- <script src="./data/patient/patient.js"></script> -->
-    <!-- <script src="./data/rickandmorty/rickandmorty.js"></script> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rick&Morty</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="movile.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+  <img src="image_banner/image_banner.jpg">
+  </div>
+  <div id="tittle" class="sticky">
+    <h1>HEY, WANNA KNOW US?</h1>
+  </div>
+    <!--Este texto será centrado verticalmente gracias a display: flex;-->
+  
+  <div id="container_datos">
+    <label id="sortHTML" class="menu"> SORT</label>
+    <select id="alphabetic">
+      <option value="sortAZ" id="sortAZHTML">sort</option>
+      <option value="sortZA" id="sortHTML">sort</option>
+    </select>
+    <!-- filtro -->
+     <label class = "filter_episodes"> <b> FILTER EPISODES</b>
+       <select class="menu"  id="selectedEpisodeHTML">
+        <option class="season">SEASONS 1</option>
+        <option value="https://rickandmortyapi.com/api/episode/1"> 1 </option> 
+        <option value="https://rickandmortyapi.com/api/episode/2"> 2 </option> 
+        <option value="https://rickandmortyapi.com/api/episode/3"> 3 </option>
+        <option value="https://rickandmortyapi.com/api/episode/4"> 4 </option>
+        <option value="https://rickandmortyapi.com/api/episode/5"> 5 </option>
+        <option value="https://rickandmortyapi.com/api/episode/6"> 6 </option>
+        <option value="https://rickandmortyapi.com/api/episode/7"> 7 </option>
+        <option value="https://rickandmortyapi.com/api/episode/8"> 8 </option>
+        <option value="https://rickandmortyapi.com/api/episode/9"> 9 </option>
+        <option value="https://rickandmortyapi.com/api/episode/10"> 10 </option>
+        <option value="https://rickandmortyapi.com/api/episode/11"> 11 </option>
+
+        <option class="season">SEASON 2</option>
+        <option value="https://rickandmortyapi.com/api/episode/12">1</option>
+        <option value="https://rickandmortyapi.com/api/episode/13">2</option>
+        <option value="https://rickandmortyapi.com/api/episode/14">3</option>
+        <option value="https://rickandmortyapi.com/api/episode/15">4</option>
+        <option value="https://rickandmortyapi.com/api/episode/16">5</option>
+        <option value="https://rickandmortyapi.com/api/episode/17">6</option>
+        <option value="https://rickandmortyapi.com/api/episode/18">7</option>
+        <option value="https://rickandmortyapi.com/api/episode/19">8</option>
+        <option value="https://rickandmortyapi.com/api/episode/20">9</option>
+        <option value="https://rickandmortyapi.com/api/episode/21">10</option>
+
+        <option class="season">SEASON 3</option>
+        <option value="https://rickandmortyapi.com/api/episode/22">1</option>
+        <option value="https://rickandmortyapi.com/api/episode/23">2</option>
+        <option value="https://rickandmortyapi.com/api/episode/24">3</option>
+        <option value="https://rickandmortyapi.com/api/episode/25">4</option>
+        <option value="https://rickandmortyapi.com/api/episode/26">5</option>
+        <option value="https://rickandmortyapi.com/api/episode/27">6</option>
+        <option value="https://rickandmortyapi.com/api/episode/28">7</option>
+        <option value="https://rickandmortyapi.com/api/episode/29">8</option>
+        <option value="https://rickandmortyapi.com/api/episode/30">9</option>
+        <option value="https://rickandmortyapi.com/api/episode/31">10</option>
+
+
+
+      </select>
+    </div>
+  </div>
+    </label>
+    
+    <br>
+ <div id="container_cards">
+    <div id="cards">
+      <!--imagenes-->
+    </div>
+  </div>
+    <script src="./data/rickandmorty/rickandmorty.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
-  </body>
+</body>
+
 </html>

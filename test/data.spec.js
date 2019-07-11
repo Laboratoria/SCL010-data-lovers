@@ -4,11 +4,11 @@ require('../src/data');
 require('./data.spec.js');
 
 
-describe('example', () => {
-  
+describe('condition', () => {
+  const data = [
   it('debería ser una función', () => {
     assert.equal(typeof example, 'function');
-  });
+  })];
 
   it('debería retornar "example"', () => {
     assert.equal(example(), 'example');
