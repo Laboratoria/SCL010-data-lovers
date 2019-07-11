@@ -53,47 +53,63 @@ Rick logra escapar y obligar a la Federación a salir de la Tierra. Jerry quiere
 El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
 
 ### **Proceso de Diseño**
+Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta]https://forms.gle/qKC51WMMVavy2vQLA(https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
+Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers), donde organizamos tareas, definimos historias de usuario, y jerarquizamos nuestro trabajo.  
+
+#### Primeros bosquejos e ideas 
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66391005_2430729027148485_6387185362124406784_n.jpg?_nc_cat=109&_nc_oc=AQnUWQmQEx835OGRlfiVC8lmVA7HoPO2zK7Jt1kPS-lGaDwkOt9ygG-8r-ITwrOlbWg&_nc_ht=scontent.fscl11-1.fna&oh=2956cfb4d01ae32ea21a0f0d3579baed&oe=5DA77BC4)
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66905891_2430729070481814_5323702853489917952_n.jpg?_nc_cat=107&_nc_oc=AQmVuvVIB1RlDHP8sE-8Mww2umOZh3Pb-MnpPx_YKH3rtE_lBw9gUNXzuZWhL1ZpOyQ&_nc_ht=scontent.fscl11-2.fna&oh=054381e2bc3a2d37dec2ad49f2b33a5c&oe=5D78B406)
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66465449_2430729147148473_5622872738977808384_n.jpg?_nc_cat=109&_nc_oc=AQl_wx9lUZWC9Lhq7JGOpaJtStVWpTK0uCoS0IJX_Tx8VmgFgV1ukYyE1lscV3NyGIA&_nc_ht=scontent.fscl11-1.fna&oh=2b05b1828318542a09200794696831db&oe=5DB37B62)
+#### Pseudo Códigos
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
 
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+#### Prototipo baja fidelidad
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66382840_2430731283814926_8445785533812047872_n.jpg?_nc_cat=111&_nc_oc=AQlhZhV03RGW_MLcfHEoXepOujaKx534XOryWRWI_YDhmCRf6W18OToYyphFI2ACLoA&_nc_ht=scontent.fscl11-1.fna&oh=5ea04b9de3e8bc3a3e1a934d614aa3de&oe=5DA7FDE9)
 
-Dicho en palabras sencillas, aprenderás a:
+Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuarios.
 
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) en la organización y planificación de tu
-  trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
+[video 1]().
 
-## **4. Consideraciones generales**
+[video 2]().
 
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: El proyecto dura 2.5
- semanas, trabaja con sprints 
-y planificando tus tareas.
-* La división y organización del trabajo debe permitir, sin excepciones, que **cada integrante** del equipo practique el aprendizaje de todo lo involucrado en **cada historia**. No se dividan el trabajo como en una fábrica.
-* Antes de comenzar, conversen sobre cómo le fue a cada una en el proyecto anterior para que puedan entender mejor cómo organizarse. No caigan en el error de cada una hacer lo que ya sabe bien cómo hacer. Aprovechen la oportunidad de hacer lo que no saben bien. Acá estás para aprender, no para "entregar" proyectos solamente.
-* Una vez que hayan definido y priorizado sus Historias de Usuario, solamente podrán trabajar en una por vez, no pueden avanzar a la siguiente sin haber completado la anterior. La historia se completa cuando se cumplen **todos** sus Criterios de Aceptación + **toda** su Definición de Terminado.
+[video 3]().
 
-## **5. Criterios de Aceptación Mínimos del Proyecto**
+Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
-Los criterios para considerar que has completado este proyecto son:
+#### Prototipo de alta fidelidad 
+![]()
+
+
+
+
+
+
+## **Historias de usuario**
+El proyecto se resume a 3 historias de usuario.
+* Historia 1: Mostrar.
+➕Yo, como fan de la serie Rick and Morty, quisiera poder ver a todos los personajes y conocer información específica, como su nombre, especie, origen, locación, y género. Para poder conocerlos, y ubicarlos con más facilidad.
+
+
+✔Para esto, creamos tarjetas que muestran la información y foto de cada personaje, ordenadas por jerarquía de protagonismo.
+
+*Historia 2: Filtrar.
+
+➕Yo, como fan de la serie Rick and Morty, quisiera poder filtrar los personajes según temporada y episodio, para ubicarlos con más facilidad.
+
+✔Para esto, creamos un botón que permite seleccionar el episodio dentro de un arreglo de capítulos por temporada.
+
+* Historia 3: Ordenar.
+
+➕Yo, como fan de la serie Rick and Morty, quisiera poder ordenar los personajes según su nombre por orden alfabético, para ubicarlos con más facilidad.
+
+✔Para esto, creamos un botón que permite seleccionar el tipo de orden (ascendente o descendente) dentro de todos los personajes.
+
+* Historia 4: Porcentajes.
+
+➕Yo, como fan de la serie Rick and Morty, quisiera poder ver los porcentajes de aparición de mis personajes favoritos, para que el orden sea más descriptivo aún.
+
+✔Para esto, manejamos la data para que mostrara el porcentaje de aparición de cada personaje.
 
 ### **5.1 Definición del producto**
 
