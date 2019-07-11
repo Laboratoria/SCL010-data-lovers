@@ -25,6 +25,14 @@ describe('loadData', () => {
     assert.deepEqual(typeof window.loadData, 'function');
   });
 });
+describe('loadData', () => {
+  it('debería ser una función', () => {
+    assert.deepEqual(typeof window.loadData, 'function');
+  });
+  it('deberia contener un arreglo con todos los personajes', () => {
+    assert.equal(window.loadData(), window.RICKANDMORTY.results);
+  });
+});
 
 describe("filterSpecies", () => {
   it('deberia retornar el objeto Rick Sanchez al filtrar por especie humano', () => {

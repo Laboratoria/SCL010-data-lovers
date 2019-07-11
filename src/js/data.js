@@ -1,4 +1,3 @@
-
 const data = window.RICKANDMORTY.results;
 
 const loadData = () => {
@@ -25,15 +24,15 @@ const filterSpecies = (data,specie) => {
  //filtrado por genero
 
  const filterGenders = (data,gender) => {
-     let filterData = [];
-     for (let i = 0; i < data.length; i++) {
+  let filterData = [];
+  for (let i = 0; i < data.length; i++) {
 
-       if (data[i].gender == gender) {
-          filterData.push(data[i]);
-       }
+     if (data[i].gender == gender) {
+        filterData.push(data[i]);
      }
+   }
      return filterData;
-   };
+  };
 
    window.filterGenders = filterGenders;
 
