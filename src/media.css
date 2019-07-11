@@ -1,14 +1,47 @@
-/* utilizar media queries para tablet (Laptop 1024x893) */
-@media (max-width:1024px){
-
+/* utilizar media queries para tablet y Laptop */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .modal-welcome h3{
+        font-size: 1.8em;
+      }
+      .modal-welcome p{
+        font-size: 1.5em;
+        line-height : 1.5em;
+      }
+      .CloseX img {
+        width: 3em;
+        margin-top: 4em;
+        margin-left: 8.5em;
+      }
 }
 /* utilizar media queries para Galaxy S5 (360x640) */
-@media (max-width:640px){
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 640px) {
 
-}
-/* utilizar media queries para Ipad Pro (768x670) */
-@media screen and (min-width: 321px) and (max-width: 768px) {
     .logo{
-width: 70%;
+width: 90%;
+}
+.img-welcome{
+width: 50%;
     }
+.modal-welcome{
+    width: 50%;
+    height: 20%;
+    padding: 7%;
+    margin: 50% auto;
+}
+.modal-welcome h3{
+    font-size: 80%;
+  }
+  .modal-welcome p{
+    font-size: 80%;
+    line-height : 100%;
+  }
+  .CloseX img {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
 }
