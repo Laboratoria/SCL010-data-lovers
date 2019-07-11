@@ -60,3 +60,6 @@ const filterSpices = document.getElementById('specie');
          <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
+
+//borrar es para hacer un push
+console.log(selectStatus);
