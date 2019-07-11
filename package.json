@@ -15,8 +15,12 @@
     "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
     "mocha": "^5.2.0"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "nyc": "^14.1.1"
+=======
+    
+>>>>>>> e24748d8ec6b07bc227148ad1f870625fc92e27c
   }
 }
