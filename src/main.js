@@ -39,8 +39,8 @@ createCards(data);
 
 const selectedEpisode = document.getElementById("selectedEpisodeHTML");
 selectedEpisode.addEventListener("change", () => {
-  let condition = selectedEpisode.options[selectedEpisode.selectedIndex].text;
-  let resultFilter = filter (condition);
+  let condition = selectedEpisode.value;
+  let resultFilter = filter (data, condition);
    createCards(resultFilter);
 });
   // console.log(condition);
@@ -53,8 +53,6 @@ selectedSort.addEventListener("change", () => {
  let name = selectedSort.options[selectedSort.selectedIndex].getAttribute("sortby"); //ordenar segun nombre
  let orderBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("orderby");
  let sorted = window.sorter(data, name, orderBy); //entregamos parametros para ejecutar la funcion
- sorted.forEach(() => {
    createCards(sorted);
- })
 })
 
