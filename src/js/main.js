@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 //DOM
 function init() {
   let characterData = window.loadData();
@@ -40,7 +39,7 @@ const selectOrder=document.getElementById('order');
      }
      document.getElementById('characters').innerHTML = htmlForInyect;
    });
-   
+
 
 
 //filtrado por especie
@@ -89,4 +88,3 @@ const filterSpices = document.getElementById('specie');
          <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
->>>>>>> e24748d8ec6b07bc227148ad1f870625fc92e27c

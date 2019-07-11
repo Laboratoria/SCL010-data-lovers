@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 const data = window.RICKANDMORTY.results;
 
 const loadData = () => {
@@ -58,7 +57,6 @@ const filterSpecies = (data,specie) => {
     let percent = Math.round((episodes * 100) / 31);
     return percent;
   };
-  
-  
+
+
   window.calculePercent = calculePercent;
->>>>>>> e24748d8ec6b07bc227148ad1f870625fc92e27c
