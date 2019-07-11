@@ -1,4 +1,4 @@
-# **Data Lovers**
+# **DATA LOVERS; Rick and Morty**
 
 ## **Índice**
 
@@ -15,72 +15,45 @@
 
 ***
 
-## **1. Preámbulo**
+## **Rick and Morty**
 
-Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
+Rick y Morty es un estadounidense de animación para adultos de ciencia ficción comedia creada por Justin Roiland y Dan Harmon para Cartoon Network nocturno 's bloque de programación Adult Swim . La serie sigue las desventuras del cínico científico loco Rick Sanchez y su nieto de buen corazón pero inquieto Morty Smith , quien dividió su tiempo entre la vida doméstica y las aventuras interdimensionales.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+Roiland da voz a los personajes del mismo nombre, con Chris Parnell , Spencer Grammer y Sarah Chalke expresando al resto de la familia. La serie se originó a partir de una corta parodia animada de Back to the Future , creada por Roiland para Channel 101 , un festival de cortometrajes co-fundado por Harmon. La serie ha sido aclamada por la crítica por su originalidad, creatividad y humor.
+El espectáculo gira en torno a las aventuras de los miembros de la familia Smith, que consta de los padres Jerry y Beth , sus hijos Summer y Morty , y el padre de Beth, Rick Sanchez , que vive con ellos como invitado. Según Justin Roiland, la familia vive fuera de Seattle , Washington . [2] Las aventuras de Rick y Morty , sin embargo, tienen lugar en un número infinito de realidades, con los personajes viajando a otros planetas y dimensiones a través de portales y el auto volador de Rick.
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario.
+Rick es un científico loco , excéntrico y alcohólico , que evita muchas convenciones comunes como la escuela, el matrimonio, el amor y la familia. Con frecuencia continúa sus aventuras con su nieto de 14 años, Morty, un chico de buen corazón pero que se angustia fácilmente, cuya brújula moral ingenua pero fundamentada juega un contrapunto al ego maquiavélico de Rick. La hermana de 17 años de Morty, Summer, es una adolescente más convencional, que se preocupa por mejorar su estatus entre sus compañeros y, a veces, sigue a Rick y Morty en sus aventuras. La madre de los niños, Beth, es una persona generalmente sensata y una fuerza asertiva en el hogar, aunque consciente de su papel profesional como cirujana de caballos. Está insatisfecha con su matrimonio con Jerry, una persona sencilla e insegura, que desaprueba a Rick '
 
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+Diferentes versiones de los personajes habitan otras dimensiones a lo largo del multiverso y sus características personales pueden variar de una realidad a otra. El Rick original del programa se identifica a sí mismo como "Rick Sánchez de la Dimensión de la Tierra C-137", en referencia a su universo original, pero esto no se aplica necesariamente a todos los demás miembros de la familia Smith. Por ejemplo, en el episodio de la primera temporada " Rick Potion # 9 ", después de convertir a toda la población mundial en monstruos, Rick y Morty se mudan a una dimensión diferente, dejando a Summer, Beth y Jerry atrás.
 
-\* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
 
-## **2. Resumen del proyecto**
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+## **Episodios**
 
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
+* Temporada 1 (2013-2014). 
 
-Una vez que definas tu área de interés, entiende quién es tu usuario y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que le
-ayude a interactuar y entender mejor esos datos.
+Rick convence a su hija, Beth, y a su yerno, Jerry, para permitir que su hijo, Morty, continúe siguiéndolo en sus aventuras interdimensionales, prometiendo que esto mejorará su rendimiento escolar. Morty, sus padres y su hermana, Summer, se ven arrastrados a peligrosas aventuras a lo largo del multiverso, de las que logran escapar, en gran parte gracias al ingenio de Rick. Cuando Rick y Morty accidentalmente convierten a la población de la Tierra en monstruos, se mueven a una dimensión alternativa donde se evitó el desastre, dejando a Beth, Jerry y Summer atrás. Se adaptan a una realidad aparentemente idéntica, ya que toman el lugar de versiones alternativas de sí mismos que murieron momentos antes de su llegada. Se revela que Rick sigue utilizando a Morty como su compañero, porque sus ondas cerebrales inferiores neutralizan las ondas cerebrales geniales de Rick, haciéndolo indetectable. Cuando Beth y Jerry se van de vacaciones, Rick y los niños tienen una fiesta con numerosos invitados que convierten la casa en un desastre. Rick congela el tiempo para que él y los niños puedan reparar la casa antes de que sus padres regresen.
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66448487_2429661567255231_2589591372243664896_n.jpg?_nc_cat=107&_nc_oc=AQnJsKKk9HWlQb3M67AZ2jdL3kBIBQNDNx26SshcikqVJ71AG8tibYiBjHYICubVfeQ&_nc_ht=scontent.fscl11-2.fna&oh=42a5e600f9d3a67e7b240a39a825bda4&oe=5DAD5104).
 
-Estos son datos que te proponemos:
 
-* [Banco Mundial](src/data/worldbank/worldbank.json) Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile, 
-  México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
-  comerciales.
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](https://pokemongolive.com).
-* [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en
-  este [link](https://developer.riotgames.com/api-methods/).
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicileta, ...).
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json): Este set nos proporciona la lista de los personajes de la serie Rick and Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com/)
-* [Pacientes en EEUU](src/data/patient/patient.json): Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la documentación de su API en este [link](https://r2.smarthealthit.org/Patient)
+* Temporada 2 (2015). 
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
-con cálculo agregado nos referimos a distintos cálculos que puedes hacer con
-la data que tienes para mostrar información aún más relevante a los usuarios.
-Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
-por ejemplo, si tenemos una colección que representa a un grupo de personas,
-y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
-podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
+Seis meses más tarde, Rick descongela el tiempo pero termina con sus nietos en una dimensión en descomposición, dividida en numerosas líneas de tiempo. En uno de ellos, Rick se sacrifica para salvar la vida de Morty, pero al final los tres logran salir a salvo. Mientras Rick y Morty continúan aventuras, Morty enfrenta dilemas morales relacionados con la libertad y el valor de la vida, mientras que Rick está deprimido por su soledad y vejez. La Tierra se convierte en un protectorado de la Federación Galáctica, una organización intergaláctica contra la cual Rick se ha rebelado. La Federación intenta arrestar a Rick, quien se esconde junto con los otros miembros de la familia Smith. Finalmente, Rick se entrega a sí mismo y es encarcelado en una prisión de máxima seguridad, para garantizar la seguridad de su familia.
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66384721_2429661580588563_1002008761985925120_n.jpg?_nc_cat=111&_nc_oc=AQmJY5jNHGLHWmbmzOTnjG81jhIgHlTH1pbLITrM1w44GRtYC3M09WFZFaHe9qOxZ2E&_nc_ht=scontent.fscl11-1.fna&oh=6ea07b56acfc05c24a625aed347b7ab0&oe=5DB83DBF).
 
-## **3. Objetivos de aprendizaje**
+* Temporada 3 (2017). 
+Rick logra escapar y obligar a la Federación a salir de la Tierra. Jerry quiere que Rick sea eliminado de sus vidas, así que le pide a Beth que elija entre él y Rick. Beth elige a su padre y Jerry sale de la casa. Mientras Jerry lucha por manejar su nueva vida, Beth utiliza su tiempo lejos de su marido para descubrir su independencia nuevamente, pero se encuentra en una crisis existencial. Los niños manejan la separación de sus padres haciendo un esfuerzo para determinar sus propias vidas. Morty comienza a desafiar frecuentemente a Rick en sus aventuras mientras cuestiona la moralidad de Rick, mientras que Summer muestra un lado más oscuro de sí misma. A pesar de su éxito en sacar a su yerno de la casa, Rick sigue sin poder vincularse con su hija y sus nietos. Esto les hace darse cuenta de lo mucho que necesitan a Jerry, quien finalmente será bienvenido de nuevo a la familia.
+
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66377084_2429662027255185_8098514488510119936_n.jpg?_nc_cat=101&_nc_oc=AQnW1DH1PH_7XVm5zms57_aX3avtJntUerDEWKBiIxflCt42zze5oszaytm1TcDE3Fs&_nc_ht=scontent.fscl11-2.fna&oh=fea6ac5ca22c56b0968754f7cca07a77&oe=5DC47CD7)
+
+
+## **HEY, WANNA KNOW US?**
+### **Objetivos del proyecto**
+
+El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
+
+### **Proceso de Diseño**
+
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
