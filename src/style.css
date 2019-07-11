@@ -78,7 +78,8 @@ body {
   .infoCards{
     padding: 5px;
     text-align: inherit;
-    font-size: 90%;
+    font-size: 60%;
+    min-zoom: 60%;
     color: rgb(10, 44, 48);
     font-family: 'Lato', sans-serif;
   }

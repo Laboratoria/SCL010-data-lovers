@@ -28,3 +28,8 @@ window.sorter = sorter; //global
 
 
 //calculo
+ const apparitionPercent = (episodes) => {
+  let percentajeTotal = Math.round((episodes * 100) / 31);
+  return percentajeTotal;
+};
+window.apparitionPercent = apparitionPercent;
