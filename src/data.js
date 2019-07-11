@@ -74,7 +74,7 @@ const showDoughnutMaxValue = (selectIndicator, selectedData, chartMax) => {
     options: {
       layout: {
         padding: {
-          left: 640,
+          left: 0,
           right: 0,
           top: 0,
           bottom: 0
@@ -92,7 +92,7 @@ const showDoughnutMaxValue = (selectIndicator, selectedData, chartMax) => {
             {
               text: maxValue + "%",
               font: {
-                size: "100"
+                size: "300"
               },
               color: "grey"
             }
@@ -135,14 +135,14 @@ const showDoughnutAverageValue = (selectIndicator, selectedData, chartAverage) =
     },
     options: {
       cutoutPercentage: 80,
-      layout: {
-        padding: {
-          left: 0,
-          right: 640,
-          top: 0,
-          bottom: 0
-        }
-      },
+      // layout: {
+      //   padding: {
+      //     left: 0,
+      //     right: 0,
+      //     top: 0,
+      //     bottom: 0
+      //   }
+      // },
       title: {
         display: true,
         text: "Valor Promedio",
@@ -154,7 +154,7 @@ const showDoughnutAverageValue = (selectIndicator, selectedData, chartAverage) =
             {
               text: average + "%",
               font: {
-                size: "100"
+                size: "300"
               },
               color: "grey"
             }
