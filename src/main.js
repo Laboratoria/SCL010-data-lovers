@@ -25,9 +25,9 @@ window.onload = function () {
     // modal de inicio
     startingModal.innerHTML =
     `<div class="modal-welcome">
-          <a href="#">X</a>
           <h3>Welcome to KANTODEX</h3>
           <p>Here you can order, filter and see some Kanto generation pokemons data</p>
+          <a class="CloseX" href="#"><img src="../img/btn_close.png" alt="Close"/></a>
         </div>`;
   };
 
