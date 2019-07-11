@@ -21,6 +21,9 @@ const createCards = (data) => {
            <div class="infoCards"
             <p> Specie: ${element.species}</p>
             <p> Gender: ${element.gender}</p>
+
+            <p> Appearances: ${(element.episode.length * 100 / 31).toFixed(1)} % </p>
+
             <p> Location: ${element.location.name}</p>
             <p> Origin: ${element.origin.name}</p>
 
@@ -43,11 +46,13 @@ createCards(data);
 const selectedEpisode = document.getElementById("selectedEpisodeHTML");
 selectedEpisode.addEventListener("change", () => {
   let condition = selectedEpisode.value;
+
   let resultFilter = filter(data, condition);
    createCards(resultFilter);
+
 });
-  // console.log(condition);
-  
+// console.log(condition);
+
 
 // ORDENANDO POR NOMBRE
 const selectedSort = document.getElementById("selectedSortHTML") //llamado alboton, le dimos evento y funcion a ejecutar
@@ -61,6 +66,4 @@ selectedSort.addEventListener("change", () => {
 
 //CALCULO PORCENTAJE
 let percentContainer = document.getElementById("percentajeTotal");
-
-
 
