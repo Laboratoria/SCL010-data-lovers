@@ -4,7 +4,7 @@
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
-    "htmlhint": "htmlhint src/*.html test/*.html",
+    "htmlhint": "htmlhint src/.html test/.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "nyc mocha"
@@ -15,6 +15,8 @@
     "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
     "mocha": "^5.2.0"
-    
+  },
+  "devDependencies": {
+    "nyc": "^14.1.1"
   }
 }
