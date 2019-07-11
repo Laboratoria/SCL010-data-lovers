@@ -4,7 +4,7 @@
 
 
 
-## **Rick and Morty**
+## **Rick and Morty**🚀
 
 Rick y Morty es un estadounidense de animación para adultos de ciencia ficción comedia creada por Justin Roiland y Dan Harmon para Cartoon Network nocturno 's bloque de programación Adult Swim . La serie sigue las desventuras del cínico científico loco Rick Sanchez y su nieto de buen corazón pero inquieto Morty Smith , quien dividió su tiempo entre la vida doméstica y las aventuras interdimensionales.
 
@@ -41,6 +41,9 @@ Rick logra escapar y obligar a la Federación a salir de la Tierra. Jerry quiere
 ### **Objetivos del proyecto**
 
 El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
+
+![](https://media2.giphy.com/media/y1WEHrxMXAV7q/giphy.gif)
+
 
 ### **Proceso de Diseño**
 Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA(https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
