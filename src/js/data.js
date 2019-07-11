@@ -5,35 +5,11 @@ const loadData = () => {
 };
 window.loadData = loadData;
 
-//FILTRADO ASCENDENTE Y DESCENDENTE
-const selectOrder=document.getElementById('order');
-   selectOrder.addEventListener('change',()=>{
-    let characterData = loadData();
-    let htmlForInyect='';
-
-    if(selectOrder.value == '1'){
-      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
-    }else{
-      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
-      characterData.reverse();
-    }
-
-    //for (let i = 0; i < 30; i++) {
-    for (let i = 0; i < characterData.length; i++) {
-       htmlForInyect+= `
-         <div class="card">
-           <img src="${characterData[i].image}" alt="">
-           <h3>${characterData[i].name}</h3>
-           <p>Especie: ${characterData[i].species}</p>
-         </div>`;
-     }
-     document.getElementById('characters').innerHTML = htmlForInyect;
-   });
 
 
 
 //FILTRADO POR ESPECIE
-const filterSpecies = (specie) => {
+const filterSpecies = (data,specie) => {
   let filterData = [];
   for (let i = 0; i < data.length; i++) {
 
@@ -47,7 +23,7 @@ const filterSpecies = (specie) => {
 
  //filtrado por genero
 
- const filterGenders = (gender) => {
+ const filterGenders = (data,gender) => {
      let filterData = [];
      for (let i = 0; i < data.length; i++) {
 
@@ -62,7 +38,7 @@ const filterSpecies = (specie) => {
 
    //filtrado por estado
 
-   const filterStatus = (status) => {
+   const filterStatus = (data,status) => {
     let filterData = [];
     for (let i = 0; i < data.length; i++) {
 
@@ -80,5 +56,6 @@ const filterSpecies = (specie) => {
     let percent = Math.round((episodes * 100) / 31);
     return percent;
   };
+  
   
   window.calculePercent = calculePercent;
