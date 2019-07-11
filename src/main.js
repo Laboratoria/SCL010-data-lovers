@@ -39,7 +39,7 @@ createCards(data);
 
 const selectedEpisode = document.getElementById("selectedEpisodeHTML");
 selectedEpisode.addEventListener("change", () => {
-  let condition = selectedEpisode.value;
+  let condition = selectedEpisode.options[selectedEpisode.selectedIndex].text;
   let resultFilter = filter (condition);
    createCards(resultFilter);
 });
