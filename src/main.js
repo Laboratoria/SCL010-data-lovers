@@ -50,9 +50,9 @@ selectedEpisode.addEventListener("change", () => {
 const selectedSort = document.getElementById("selectedSortHTML") //llamado alboton, le dimos evento y funcion a ejecutar
 selectedSort.addEventListener("change", () => {
  //llamamos los atributos que le dimos en HTML ordenar según y, ordenar como
- let name = selectedSort.options[selectedSort.selectedIndex].getAttribute("sortby"); //ordenar segun nombre
+ let sortBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("sortby"); //ordenar segun nombre
  let orderBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("orderby");
- let sorted = window.sorter(data, name, orderBy); //entregamos parametros para ejecutar la funcion
+ let sorted = window.sorter(data, sortBy , orderBy); //entregamos parametros para ejecutar la funcion
    createCards(sorted);
 })
 
