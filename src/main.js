@@ -1,4 +1,4 @@
-const data = window.RICKANDMORTY.results;
+const data = RICKANDMORTY.results;
 window.data = data; //declaramos la data global
 
 // creando tarjetas
@@ -21,8 +21,9 @@ const createCards = (data) => {
            <div class="infoCards"
             <p> Specie: ${element.species}</p>
             <p> Gender: ${element.gender}</p>
-            <p> Gender: ${element.location.name}</p>
-            <p> Gender: ${element.origin.name}</p>
+            <p> Location: ${element.location.name}</p>
+            <p> Origin: ${element.origin.name}</p>
+
             
            
             </div>
@@ -59,6 +60,7 @@ selectedSort.addEventListener("change", () => {
 });
 
 //CALCULO PORCENTAJE
+let percentContainer = document.getElementById("percentajeTotal");
 
 
 

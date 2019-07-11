@@ -24,3 +24,7 @@ const sorter = (data, sortBy, sortOrder) => {
   return sortedData;
 }
 window.sorter = sorter; //global
+
+
+
+//calculo
