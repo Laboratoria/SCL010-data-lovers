@@ -5,6 +5,7 @@
 
 
 ## **Rick and Morty**🚀
+### TIME TO GET SCHWIFTY!
 
 Rick y Morty es un estadounidense de animación para adultos de ciencia ficción comedia creada por Justin Roiland y Dan Harmon para Cartoon Network nocturno 's bloque de programación Adult Swim . La serie sigue las desventuras del cínico científico loco Rick Sanchez y su nieto de buen corazón pero inquieto Morty Smith , quien dividió su tiempo entre la vida doméstica y las aventuras interdimensionales.
 
@@ -37,7 +38,8 @@ Rick logra escapar y obligar a la Federación a salir de la Tierra. Jerry quiere
 ![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66377084_2429662027255185_8098514488510119936_n.jpg?_nc_cat=101&_nc_oc=AQnW1DH1PH_7XVm5zms57_aX3avtJntUerDEWKBiIxflCt42zze5oszaytm1TcDE3Fs&_nc_ht=scontent.fscl11-2.fna&oh=fea6ac5ca22c56b0968754f7cca07a77&oe=5DC47CD7)
 
 
-## **HEY, WANNA KNOW US?**
+## **TIME TO GET SCHWIFTY IN HERE🎊**
+
 ### **Objetivos del proyecto**
 
 El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
