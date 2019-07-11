@@ -24,17 +24,14 @@ header{
 .logo {
   max-width: 20em;
   margin: 1.25em;
-  /* outline: 1px #252525 solid; */
 }
 .img-welcome{
   max-width: 4em;
   margin: 1.25em;
-  /* outline: 1px #252525 solid; */
 }
 .select {
   display: inline-flex;
   flex-wrap: wrap;
-  /* outline: 1px #252525 solid; */
 }
 
 select {
