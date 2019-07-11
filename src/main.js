@@ -60,8 +60,8 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
     <div class="flip-card-back">
     
       <h4 id="type-poke">Tipo:${element.type}</h4> 
-      <p"number-poke">${element.num}</p>
-      <p "weigh
+      <p"number-poke">Numero:${element.num}</p>
+      <p "weight">peso:${element.weight}</p>
     </div>
   </div>
  </div>`  
@@ -77,52 +77,13 @@ document.getElementById("pok-filter").addEventListener("change",() => {
  sum.innerHTML ="";
  sum.innerHTML +=  `
  <div>
- <h3> Del total de pokemones; ${calcResult} son de tipo </h3>
+ <h3> Del total de pokemones; ${calcResult} Son de tipo </h3>
  </div>
  `
 });
-//   showcards(POKEMON.pokemon)
-
-
-//  function showcards(filterPoke){
-
-  
-
-//  document.getElementById('root').innerHTML='';
-
-// document.getElementById('pokemon-list').innerHTML='';
-// for(let i=0; i<filterPoke.length; i++){
-
-//  document.getElementById('pokemon-list').innerHTML+=`
-
-// <div class="col s6 m3 l3">
-
-{/* <div class="flip-card">
- <div class="flip-card-inner">
-
-   <div class="flip-card-front">
-     <img id="img-card" src="${filterPoke[i].img}" alt="Avatar">
-    </div>
-
-    <div class="flip-card-back">
-      <p>${filterPoke[i].name}</p> 
-      <p id="type-poke">Tipo:${filterPoke[i].type}</p> 
-      <p"number-poke">${filterPoke[i].num}</p>
-    //</div>
-  //</div>
-//  </div> */}
-//   </div>`
-
-// }
-{/* <div class="img">
-<img src="${element.img}">
-</div>
-<h3>${element.name}</h3>
-<p>${element.type}</p>`
-// } */}
-
-
-
-
 
 };
+
+
+
+

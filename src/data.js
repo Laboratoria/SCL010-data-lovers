@@ -14,7 +14,8 @@ const filterPoke = (myData,type) => {
  window.filterPoke = filterPoke;
 
  const containerRoot = document.getElementById('root');
-const selectname = document.getElementById('name');let sortPokes = (myData,sortBy,sortOrder)=> {
+const selectname = document.getElementById('name');
+let sortPokes = (myData,sortBy,sortOrder)=> {
  let orderaPokes = myData;
  if (sortOrder == "a-z"){
 orderaPokes.sort((a,b)=> {
@@ -34,19 +35,10 @@ return orderaPokes;
 }
 
 const computeStats = (myData,type) => {
-  let calculateResult = filterPoke(myData,type).length;  return calculateResult;
+  let calculateResult = filterPoke(myData,type).length;  
+  return calculateResult;
 
-  return calculateResult }
+ }
  //length: que mi funcion calculate me devuleva el numero de elmentos que contiene el filtro que eligió el usuario
  window.computeStats = computeStats;
 
-// const containerRoot = document.getElementById('root');
-// const selectname = document.getElementById('num');let sortPokes = (myData,sortBy,sortOrder)=> {
-//  let orderaPokes = myData;
-//  if (sortOrder == "1-151"){
-// orderaPokes.sort((a,b) => {
-//  if (a[sortBy] < b[sortBy]) {return -1;}
-//  if (a[sortBy] > b[sortBy]) {return  1;}
-//  return 0;
-// })
-// } }
