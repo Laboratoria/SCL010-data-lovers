@@ -1,0 +1,160 @@
+body{
+   background-color:rgb(15, 61, 185);
+
+}
+
+#image-pok{
+  background-image: url("https://i.ibb.co/Bg6fCrX/pokipoki.jpg");
+  position:relative;
+width: 100%;
+
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+
+
+.container-button{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#select-pokemon{
+  margin-bottom: 20px;
+
+
+}
+
+#pok-filter{
+  margin-left:10px;
+  margin-top: 8px;
+} 
+
+.pok-filter{
+  font-size: 20px;
+  width: 280px;
+  height: 40px;
+  max-height: 70px;
+  color:#20197e ;
+  border-radius:20px;
+  margin-top: 7px;
+}
+
+#select-filter, #select-order{
+  display:inline-block;
+  margin-left:50px;
+}
+
+#selects{
+  padding-top:50px;
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+ 
+}
+
+#root{
+  column-count: 4;
+  margin-top: 3%;
+  height: 20px;
+  display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 1px;
+ justify-content: center;
+
+}
+.flip-card {
+  background-color: transparent;
+  width: 190px;
+  height: 205px;
+  margin-bottom: 10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin:20px;
+justify-content: center;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
+
+
+.flip-card-front {
+  background-color:rgb(208, 150, 219);
+  color: black;
+  width: 190px;
+  height: 205px;
+  border-radius: 40px;
+
+}
+
+
+.flip-card-back {
+  background-color:rgb(197, 195, 62);
+  color: rgb(7, 6, 6);
+  transform: rotateY(180deg);
+  width: 190px;
+  height: 205px;
+  border-radius: 40px;
+}
+
+#img-card{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding-top: 15%;
+}
+
+@media(max-width:475px){
+  #root{
+    justify-content: center
+  }
+  #select-filter{
+    margin-left: 0px;
+  }
+  #select-order{
+    margin-left:0px;
+  }
+  #pok-filter {
+    margin: 0;
+  }
+}
+#calculation{
+  text-align:center;
+
+  
+}
+
+
+
+
+
+
+
+
+
