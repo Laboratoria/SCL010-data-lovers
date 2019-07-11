@@ -1,4 +1,4 @@
-const data = RICKANDMORTY.results;
+const data = window.RICKANDMORTY.results;
 window.data = data; //declaramos la data global
 
 // creando tarjetas
@@ -12,6 +12,7 @@ const createCards = (data) => {
   let characters = "";
   data.forEach((element) => {
     card = //HTML DINÁMICO
+  
       `
     
          <div class="characterCards">
@@ -22,7 +23,8 @@ const createCards = (data) => {
             <p> Gender: ${element.gender}</p>
             <p> Gender: ${element.location.name}</p>
             <p> Gender: ${element.origin.name}</p>
-            <h3> Appearances: ${(element.episode.length*100/31).toFixed(1)} % </h3>
+            
+           
             </div>
          </div>
        
@@ -40,7 +42,7 @@ createCards(data);
 const selectedEpisode = document.getElementById("selectedEpisodeHTML");
 selectedEpisode.addEventListener("change", () => {
   let condition = selectedEpisode.value;
-  let resultFilter = filter (data, condition);
+  let resultFilter = filter(data, condition);
    createCards(resultFilter);
 });
   // console.log(condition);
@@ -54,5 +56,9 @@ selectedSort.addEventListener("change", () => {
  let orderBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("orderby");
  let sorted = window.sorter(data, sortBy , orderBy); //entregamos parametros para ejecutar la funcion
    createCards(sorted);
-})
+});
+
+//CALCULO PORCENTAJE
+
+
 
