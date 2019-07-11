@@ -37,7 +37,7 @@ const sortData = (data, sortBy, sortOrder) => {
 
 // get data
 const computeStats = (type, data, condition) => {
-  return `${condition} pokemons are ${(type.length/data.length * 100).toFixed(2)}% of all Kanto pokemons`;
+  return `Los pokemones de tipo ${condition} son el ${((type.length/data.length) * 100).toFixed(2)}% de los pokemones de Kanto`;
 }
 
 window.filterData = filterData;

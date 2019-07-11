@@ -34,23 +34,23 @@ const testData = [
   }
 ];
 
+const water = [{ "id": 79,
+    "num": "079",
+    "name": "Slowpoke",
+    "type":
+    [
+      "Water",
+      "Psychic"
+    ]
+  }];
+
 describe("filterData", () => {
 
   it('Debería ser una función', () => {
     assert.equal(typeof filterData, "function");
   });
   it('Debería devolver el objeto Slowpoke al seleccionar tipo "Water" ', () => {
-    assert.deepEqual(window.filterData(testData, "Water"),[
-      { "id": 79,
-        "num": "079",
-        "name": "Slowpoke",
-        "type":
-        [
-          "Water",
-          "Psychic"
-        ]
-      }
-    ])
+    assert.deepEqual(window.filterData(testData, "Water"), water)
   });
 });
 
@@ -182,4 +182,29 @@ describe("sortData", () => {
           }
       ])
     });
+});
+
+describe("computeStats", () => {
+
+  it('Debería ser una función', () => {
+    assert.equal(typeof computeStats, "function");
+  });
+  it('El objeto "water" debería ser un objeto de tipo "Water" ', () => {
+    assert.equal(typeof water, "object");
+  });
+  it('El objeto/argumento "testData" debería ser un objeto ', () => {
+    assert.equal(typeof testData, "object");
+  });
+  it('El largo del objeto/argumento "water" debería ser "1" ', () => {
+    assert.equal(water.length, 1);
+  });
+  it('El largo del objeto/argumento "testData" debería ser "3" ', () => {
+    assert.equal(testData.length, 3);
+  });
+  it("El % total de pokemones de agua en testData debería ser de 33.33%", () => {
+    assert.equal(`${(water.length/testData.length * 100).toFixed(2)}%`,"33.33%");
+  });
+  it('Debería retornar "Los pokemones de tipo Water son el 33.33% de los pokemones de Kanto", usando la testData como total', () => {
+    assert.deepEqual(window.computeStats(water, testData, "Water"),"Los pokemones de tipo Water son el 33.33% de los pokemones de Kanto")
+  });
 });

@@ -77,8 +77,6 @@ selectType.addEventListener("change", ()=> {
   // crea nuevos divs en base a array
   newPokeArray = window.filterData(pokemons, condition);
   createDivs(newPokeArray);
-  // console.log(newPokeArray.length);
-  // console.log(window.computeStats(newPokeArray, pokemons, condition));
   }
 );
 
