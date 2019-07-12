@@ -5,35 +5,37 @@
   <meta charset="utf-8">
   <title>Schwifty</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- <link rel="stylesheet" href="movile.css"> -->
+  <link rel="shortcut icon" href="https://i.imgur.com/vPxxH5O.png">
   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!--titulo e imagen de banner-->
-  <div id="top_page">
-    <div class="banner">
-      <img src="image_banner/image_banner.jpg">
-    </div>
-    <div id="tittle" class="sticky">
-      <h1>TIME TO GET SCHWIFTY</h1>
-      <h2>Hey, wanna know us?</h2>
-    </div>
-  </div>
   <!--Este texto será centrado verticalmente gracias a display: flex;-->
   <div id="principalPage">
-    <div id="container_datos">
+
+    <div id="container_datos" class="sticky">
+
+      <!-- TITULO PRINCIPAL -->
+      <div id="tittle" class="sticky">
+        <h1>TIME TO GET SCHWIFTY </h1>
+        <h2>Hey, Wanna know us?</h2>
+      </div>
+
+
+
+      <!-- BOTON DE ORDENAR -->
       <select class="menu" id="selectedSortHTML">
-        <option class="season"> SORT BY </option>
+        <option class="season">Sort by alphabet</option>
         <option sortby="name" orderby="asc"> A - Z</option>
         <option sortby="name" orderby="des"> Z - A</option>
       </select>
-      <!-- filtro -->
-      <label class="filter_episodes"> <b> Filter Episodes</b></label>
-      <select class="menu" id="selectedEpisodeHTML">
+      <br>
 
-        <option class="season">SEASONS 1</option>
+      <!-- BOTON DE FILTRO -->
+      <select class="menu" id="selectedEpisodeHTML">
+        <option class="season">Filter by episodes</option>
+        <option class="season">Season 1</option>
         <option value="https://rickandmortyapi.com/api/episode/1"> 1 </option>
         <option value="https://rickandmortyapi.com/api/episode/2"> 2 </option>
         <option value="https://rickandmortyapi.com/api/episode/3"> 3 </option>
@@ -46,7 +48,7 @@
         <option value="https://rickandmortyapi.com/api/episode/10"> 10 </option>
         <option value="https://rickandmortyapi.com/api/episode/11"> 11 </option>
 
-        <option class="season">SEASON 2</option>
+        <option class="season">Season 2</option>
         <option value="https://rickandmortyapi.com/api/episode/12">1</option>
         <option value="https://rickandmortyapi.com/api/episode/13">2</option>
         <option value="https://rickandmortyapi.com/api/episode/14">3</option>
@@ -58,7 +60,7 @@
         <option value="https://rickandmortyapi.com/api/episode/20">9</option>
         <option value="https://rickandmortyapi.com/api/episode/21">10</option>
 
-        <option class="season">SEASON 3</option>
+        <option class="season">Season 3</option>
         <option value="https://rickandmortyapi.com/api/episode/22">1</option>
         <option value="https://rickandmortyapi.com/api/episode/23">2</option>
         <option value="https://rickandmortyapi.com/api/episode/24">3</option>
@@ -70,16 +72,26 @@
         <option value="https://rickandmortyapi.com/api/episode/30">9</option>
         <option value="https://rickandmortyapi.com/api/episode/31">10</option>
       </select>
+      <br>
+
+      <!-- BOTON LIMPIAR -->
+
+      <button id="clear" class="clear">Let's clear</button>
+
     </div>
-    <div id="container_cards">
-      <div id="cards">
-        <!--imagenes-->
-      </div>
-    </div>
-  </div>
-  <script src="./data/rickandmorty/rickandmorty.js"></script>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+
+
+    <!-- TARJETAS -->
+
+    <div id="container_cards"></div>
+    <div id="cards"></div>
+    <!--imagenes-->
+
+</div>
+
+    <script src="./data/rickandmorty/rickandmorty.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -1,93 +1,115 @@
-body { 
+body {
   margin: 0;
-    }
-   .banner {
-      margin: 0 auto;
-      width: 100%;
-      height: 20%;
-   }
-    .banner img {
-      margin: 0 auto ;
-      height : 100%;
-      width: 100%;
-    }
-  
-  .sticky
-  {
-    position: sticky;
-    background: #B4E5DF;
-    height: 80px;
-    top: 0;
-    margin-top: 0;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: #E97C5B;
-    text-align: center;
-    box-sizing: border-box;
-    vertical-align: center;
-  }
-  h1 {
-    margin-top: 0;
-  }
-  #principalPage {
-    display: flex;
-  }
-   #container_datos {
-    display: flex;
-    position: sticky;
-    flex-direction: column;
-    align-items: end;
-    font-family: 'Lato', sans-serif;
-    background: #B4E5DF;
-   }
-   .menu {
-    font-family: 'Lato', sans-serif;
-    color: rgb(38, 22, 75);
-    position: sticky;
-   }
-   .filter_episodes {
-    font-family: 'Lato', sans-serif;
-    font-size:100% ;
-    color: rgb(38, 22, 75);
-    position: sticky;
+  background-color: black;
+  font-family: 'Lato',
+    sans-serif;
+}
+
+
+.sticky {
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#tittle {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #D7B445;
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: center;
+}
+
+h2 {
+  font-family: 'Lato',
+    sans-serif;
+  color: #454A44;
+  font-size: 20px;
+  margin-bottom: 90px;
+
+}
+
+#principalPage {
+  display: flex;
+}
+
+#container_datos {
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+}
+
+.menu {
+  font-family: 'Lato', sans-serif;
+  color: #D7B445;
+  position: sticky;
+  background-color: black;
+  min-width: 150px;
+  min-height: 50px;
+  border: none;
+  transition: background-color 2s ease-out;
+}
+
+.menu:hover {
+  background-color: #D7B445;
+
+}
+
+
+.season {
+  background-color: #454A44;
+  color: #D7B445;
+}
+
+#container_cards {
+  display: flex;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.characterCards {
+  max-width: 200px;
+  background-color: #454A44;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+.imagenCharacters {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.infoCards {
+  padding: 10px;
+  text-align: inherit;
+  font-size: 60%;
+  min-zoom: 60%;
+  color: #D7B445;
+}
+
+#name {
+  background-color: #D7B445;
+  width: 100%;
+  color: #454A44;
+  font-size: 130%;
+  text-align: center;
+}
+
+.clear {
+  color: black;
+  background-color: #D7B445;
+  min-width: 150px;
+  min-height: 50px;
+  border: none;
    }
 
-  #container_cards {
-    display: flex;
-  }
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .characterCards {
-    max-width: 200px;
-    background-color:rgb(185, 226, 173) ;
-    border-radius: 5px;
-    margin: 5px;
-    
-  }
-  .imagenCharacters{
-    width: 90%;
-    padding: 5px;
-    border-radius: 5px;
-    align-content: center;
-    
-  }
-  .infoCards{
-    padding: 5px;
-    text-align: inherit;
-    font-size: 60%;
-    min-zoom: 60%;
-    color: rgb(10, 44, 48);
-    font-family: 'Lato', sans-serif;
-  }
-  #name {
-    background-color: rgb(250, 252, 160);
-    width: 100%;
-    color: rgb(38, 22, 75);
-    font-size: 130%;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }

@@ -23,7 +23,7 @@ const createCards = (data) => {
             <p> Gender: ${element.gender}</p>
             <p> Location: ${element.location.name}</p>
             <p> Origin: ${element.origin.name}</p>
-                 <h3> Appearance percentaje: ${window.apparitionPercent(element.episode.length)} % </h3>
+            <h3> APPEARANCE PERCENT: ${window.apparitionPercent(element.episode.length)} % </h3>
 
             
            
@@ -62,6 +62,10 @@ selectedSort.addEventListener("change", () => {
   createCards(sorted);
 });
 
-/*CALCULO PORCENTAJE
-let percentContainer = document.getElementById("percentajeTotal");
-*/
+
+// refrescar index 
+
+let index = document.getElementById("clear")
+clear.addEventListener('click', () => {
+  location.reload();
+  });
