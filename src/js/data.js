@@ -18,7 +18,7 @@ if(option== 'za') {
   filterOrder = data.sort((a, b) => {
     return a.name.localeCompare(b.name);
   });
-
+ 
   filterOrder.reverse();
 }
 return filterOrder;
@@ -76,6 +76,6 @@ const filterSpecies = (data,specie) => {
     let percent = Math.round((episodes * 100) / 31);
     return percent;
   };
-
-
+  
+  
   window.calculePercent = calculePercent;
