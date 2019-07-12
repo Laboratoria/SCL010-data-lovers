@@ -47,11 +47,16 @@ YO, COMO audiencia de Rick and Morty, QUIERO poder conocer el porcentaje de vece
   ![enter image description here](https://lh3.googleusercontent.com/Z1PIdBXIiE-Fh4g_Qwt-6fSeQIAmDERcG7xsISX7wJjxYA44kRQ7TsTG6jq58u81ti0C11Sp2Zmfyg)
  3. Al bajar en "Home" encontrarás una breve descripción de la serie, y un apartado de "Personajes" el cual también te rediccionará a la siguiente página al hacer "click" en el botón.
  ![enter image description here](https://lh3.googleusercontent.com/fUl_BDoEVQe1iHJI8F4ot0xxnS2RQ1C6BrlxkjPqXRcLzgjZmoBtccrJ3KbZyCLOPmGZiZAYs1Ge2A)
- 4. En la página de "Personajes" podrás ver "cards" que contienen información sobre cada personaje y su fotografía correspondiente.
+
+ 4. En la página de "Personajes" podrás ver "cards" que contienen información sobre cada personaje y su fotografía correspondiente en miniatura.
+
  ![enter image description here](https://lh3.googleusercontent.com/VRd0AJEODV3qYKc2a7EeA6VA4jbCHNMra-y6d9kVkKqTcXuWbNf-jAn9jxW4Wrcc7PsJtjce9VaiOA)
- 5. Tendrás además una barra de filtrado, donde podrás buscar de manera especifica según su especie, género o estado, también podrás ordenarlas por sus nombres de A a Z o de manera inversa (Z-A). Para ello solos debes hacer "clik" en el filtro que deseas usar y se desplegará una lista de opciones, selecciona la que más te guste y las "cards" se mostrarán según el filtro usado.  
+
+   5. Tendrás además una barra de filtrado, donde podrás buscar de manera especifica según su especie, género o estado, también podrás ordenarlas por sus nombres de A a Z o de manera inversa (Z-A). Para ello solos debes hacer "clik" en el filtro que deseas usar y se desplegará una lista de opciones, selecciona la que más te guste y las "cards" se mostrarán según el filtro usado.  
+
  ![enter image description here](https://lh3.googleusercontent.com/UBvTVnBPXNKyZ_kulxGZ7K85tpPjYEprsjVT9RVyg9qd52CbHWglKE3ggQR6hgL3juwJ5dQBg1wsfQ)
- 7. ¡Listo!, ya puedes filtrar y buscar tus personajes a gusto.
+
+ 6. ¡Listo!, ya puedes filtrar y buscar tus personajes a gusto.
 
 
 ## Visual Design y Prototipado.
@@ -77,8 +82,10 @@ Durante el proceso de diseño se trabajo en diferentes etapas, y en el transcurs
 ![enter image description here](https://lh3.googleusercontent.com/CDG-xF-EFo15P6p9rdmwhYlredGkouVrdLuQiL_N0Lp4runCpzuAgPx_gBAYFQW9IT4ZYE6Rqgr8AA)
 
 #### Mockup Final (Mobile)
-Finalmente, en base a la experiencia de usuario obtenida de los testeos con el _usuario objetivo_, se adapto el prototipo inicial a solo 2 pantallas, donde el usuario podría acceder de manera más simple al contenido de la data. Este prototipo fue testeado con usuarios (_más adelante te lo detallamos_), y obtuvo una buena recepción. También puedes probarlo en el siguiente link    [prototipado final Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=167:4&scaling=min-zoom).
+Finalmente, en base a la experiencia de usuario obtenida de los testeos con el _usuario objetivo_, se adapto el prototipo inicial a solo 2 pantallas, donde el usuario podría acceder de manera más simple al contenido de la data. Este prototipo fue testeado con usuarios (_más adelante te lo detallamos_), y obtuvo una buena recepción. También puedes probarlo en el siguiente link:    [Prototipado final Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=167:4&scaling=min-zoom).
+
 ![enter image description here](https://lh3.googleusercontent.com/eguDzVvVu2ez6T5SRTcieTWO_hb6kVmXn1pZC-xW9eioxCRaPnRGPMBSpZxsItW6svuG8gdUAZ717g)
+
 ## RESEARCH
 
 ### Evaluación Huerística  
