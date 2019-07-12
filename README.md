@@ -59,9 +59,11 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
 ### Paleta de colores 
 
-Basamos nuesta paleta de colores en una iamgen representativa de los dos personajes principales de la serie, Rick y Morty.
-![](https://files.slack.com/files-pri/T0NNB6T0R-FLC19P83F/image_banner.jpg), a través de *Coolors*, creamos la paleta.
-![](https://files.slack.com/files-pri/T0NNB6T0R-FL5L3EZSM/b4e5df-e4d7ce-e97c5b-fdfb7f-e3e768.png)
+Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta.
+![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66403564_2431092957112092_8878541464984879104_n.jpg?_nc_cat=107&_nc_oc=AQlObLYPdU9A37R3ptVeViy2lGudQDDqv-srR3sZeQUR6VDBKHGpoyxQeFZDysWOKU0&_nc_ht=scontent.fscl3-1.fna&oh=b005acbda0d064e14b16eb2680378435&oe=5DC67D45)
+
+Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
+
 
 
 
@@ -81,7 +83,8 @@ Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuari
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 #### Prototipo de alta fidelidad 
-![]()
+    !Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz.
+![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66492746_2431095467111841_9183748309259386880_n.jpg?_nc_cat=107&_nc_oc=AQnFYKSKVncmgZzEDATFm-p8pEw2T01GJnT9vPk-3SXIZxVNNu1rJStdxoWeN0cyxu8&_nc_ht=scontent.fscl3-1.fna&oh=a88e9cd6081cd6c98fafd9a8d4ae68b5&oe=5DBA806B)
 
 
 
@@ -121,21 +124,21 @@ El proyecto se resume a 3 historias de usuario.
 
 ## **Checklist**
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
+* [x] Usa VanillaJS.
+* [x] No hace uso de `this`.
 * [ ] Pasa linter (`npm pretest`)
 * [ ] Pasa tests (`npm test`)
 * [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+* [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
+* [x] Incluye historias de usuario en `README.md`.
+* [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+* [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
 * [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
+* [x] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
+* [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
+* [x] UI: Permite ordenar data por uno o más campos (asc y desc).
+* [x] UI: Permite filtrar data en base a una condición.
