@@ -12,7 +12,7 @@ const createCards = (data) => {
   let characters = "";
   data.forEach((element) => {
     card = //HTML DINÁMICO
-  
+
       `
     
          <div class="characterCards">
@@ -21,7 +21,7 @@ const createCards = (data) => {
            <div class="infoCards"
             <p> Specie: ${element.species}</p>
             <p> Gender: ${element.gender}</p>
-            <p> Appearances: ${(element.episode.length * 100 / 31).toFixed(1)} % </p>
+            <p> Appearances: ${window.calculePercent(character[i].episode.length)}% </p>
 
             <p> Location: ${element.location.name}</p>
             <p> Origin: ${element.origin.name}</p>
@@ -47,7 +47,7 @@ selectedEpisode.addEventListener("change", () => {
   let condition = selectedEpisode.value;
 
   let resultFilter = filter(data, condition);
-   createCards(resultFilter);
+  createCards(resultFilter);
 
 });
 // console.log(condition);
@@ -56,13 +56,13 @@ selectedEpisode.addEventListener("change", () => {
 // ORDENANDO POR NOMBRE
 const selectedSort = document.getElementById("selectedSortHTML") //llamado alboton, le dimos evento y funcion a ejecutar
 selectedSort.addEventListener("change", () => {
- //llamamos los atributos que le dimos en HTML ordenar según y, ordenar como
- let sortBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("sortby"); //ordenar segun nombre
- let orderBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("orderby");
- let sorted = window.sorter(data, sortBy , orderBy); //entregamos parametros para ejecutar la funcion
-   createCards(sorted);
+  //llamamos los atributos que le dimos en HTML ordenar según y, ordenar como
+  let sortBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("sortby"); //ordenar segun nombre
+  let orderBy = selectedSort.options[selectedSort.selectedIndex].getAttribute("orderby");
+  let sorted = window.sorter(data, sortBy, orderBy); //entregamos parametros para ejecutar la funcion
+  createCards(sorted);
 });
 
-//CALCULO PORCENTAJE
+/*CALCULO PORCENTAJE
 let percentContainer = document.getElementById("percentajeTotal");
-
+*/
