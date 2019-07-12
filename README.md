@@ -160,7 +160,9 @@ Por último, se obtuvo _"feedback"_ positivo sobre las elecciones de diseño, co
 
 A continuación te dejamos el link del [video](https://www.youtube.com/watch?v=5Zxx1SawSqA&feature=youtu.be).
 
+### Link para ir a la pagina web.
 
+https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html 
 
 
 
