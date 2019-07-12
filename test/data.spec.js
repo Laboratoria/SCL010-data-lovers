@@ -204,7 +204,7 @@ describe("computeStats", () => {
   it("El % total de pokemones de agua en testData debería ser de 33.33%", () => {
     assert.equal(`${(water.length/testData.length * 100).toFixed(2)}%`,"33.33%");
   });
-  it('Debería retornar "Los pokemones de tipo Water son el 33.33% de los pokemones de Kanto", usando la testData como total', () => {
-    assert.deepEqual(window.computeStats(water, testData, "Water"),"Los pokemones de tipo Water son el 33.33% de los pokemones de Kanto")
+  it('Debería retornar "Water pokemons are 33.33% of the Kanto pokemons", usando la testData como total', () => {
+    assert.deepEqual(window.computeStats(water, testData, "Water"),"Water pokemons are 33.33% of the Kanto pokemons")
   });
 });
