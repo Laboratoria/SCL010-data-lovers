@@ -10,32 +10,23 @@ La colección de pokemones será nuestra guía en el proyecto KANTODEX
 
 ![logo](https://i.ibb.co/2vGgY6r/logo-b.png)
 
-<<<<<<< HEAD
 ## **¿Qué es KANTODEX?**
-=======
-## *¿Qué es KANTODEX?*
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
 
-KANTODEX es un proyecto donde construiremos una web app para visualizar un grupo de datos que se acomodará a las necesidades detectadas por los usuarios, las cuales se detectaron a través de encuestas y testeos UX.
+KANTODEX es un proyecto donde construiremos una web app para visualizar un grupo de datos que se acomodará a las necesidades de los usuarios, las cuales se detectaron a través de encuestas y testeos UX.
 El usuario, a través de sus necesidades, podrá filtrar, ordenar y hacer algún cálculo adicional que sea relevante.
 
-<<<<<<< HEAD
 ### **Flujo**
-=======
-### *Flujo*
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
 
 Una de las primeras tareas que definimos fue realizar un fljo de las acciones que podría tener la aplicación, sin tener el usuario definido, con el motivo de tener una idea de cómo se iban a mostrar las acciones.
 
 Aquí presentamos el flujo antes de conocer al usuario y después de conocerlo:
 
 <a href="https://ibb.co/PCQr02R"><img src="https://i.ibb.co/7y4SL3H/IMG-20190627-061528805.jpg" alt="IMG-20190627-061528805" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br /><a href="https://ibb.co/1Xb0ZND"><img src="https://i.ibb.co/n1RwryH/flujo.jpg" alt="flujo" border="0"></a>
-<<<<<<< HEAD
 
 
 ### **Definición de usuario (UX)**
 
-En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer las necesidades principales de nuestros usuarios. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
+En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer sus necesidades principales. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener información relevante de los usuarios, una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
 
 [Link del formulario](https://docs.google.com/spreadsheets/d/1MHKQvyeXej_gJM13vSrrJqYACKMsNMiNy3xyihP8SM0/edit?usp=sharing)
 
@@ -50,33 +41,12 @@ En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una e
 <a href="https://ibb.co/ZTwCPB7"><img src="https://i.ibb.co/5czVyrw/8atributos.png" alt="8atributos" border="0"></a>
 <a href="https://ibb.co/xH8bGnc"><img src="https://i.ibb.co/6BJSbKp/9ordenar.png" alt="9ordenar" border="0"></a>
 
-=======
-
-
-### *Definición de usuario (UX)*
-
-En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que lograra satisfacer las necesidades principales de nuestros usuarios. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener de los usuarios una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
-
-[Link del formulario](https://docs.google.com/spreadsheets/d/1MHKQvyeXej_gJM13vSrrJqYACKMsNMiNy3xyihP8SM0/edit?usp=sharing)
-
-<a href="https://ibb.co/hFWvpKx"><img src="https://i.ibb.co/7tWF7Gx/1edad.png" alt="1edad" border="0"></a>
-<a href="https://ibb.co/hFWvpKx"><img src="https://i.ibb.co/7tWF7Gx/1edad.png" alt="1edad" border="0"></a>
-<a href="https://ibb.co/qn04PzL"><img src="https://i.ibb.co/7zgT6Hx/2identidad.png" alt="2identidad" border="0"></a>
-<a href="https://ibb.co/NZBZZL4"><img src="https://i.ibb.co/kQCQQhd/3niveljugador.png" alt="3niveljugador" border="0"></a>
-<a href="https://ibb.co/48CcCLV"><img src="https://i.ibb.co/R3t1tKD/4frecuencia.png" alt="4frecuencia" border="0"></a>
-<a href="https://ibb.co/NjfJtTg"><img src="https://i.ibb.co/jMqQbJ9/5razones.png" alt="5razones" border="0"></a>
-<a href="https://ibb.co/BZh9Lh6"><img src="https://i.ibb.co/85yHMyx/6importancia.png" alt="6importancia" border="0"></a>
-<a href="https://ibb.co/0B8n18q"><img src="https://i.ibb.co/7g8SB8v/7motivaciones.png" alt="7motivaciones" border="0"></a>
-<a href="https://ibb.co/ZTwCPB7"><img src="https://i.ibb.co/5czVyrw/8atributos.png" alt="8atributos" border="0"></a>
-<a href="https://ibb.co/xH8bGnc"><img src="https://i.ibb.co/6BJSbKp/9ordenar.png" alt="9ordenar" border="0"></a>
-
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
 Según las respuestas (78 en total) de los usuarios que juegan Pokemon GO, se determina lo siguiente:
 1.- El rango de edad varía entre los 20 y 32 años
 2.- Mujeres y hombres
 3.- El nivel de jugadores es intermedio (nivel 27 a 40)
-4.- Un 66,2% de los usuarios juega diariamente
-5.- La razón principal de los usuarios cuando juegan Pokemon GO es coleccionar pokemones (85,7%)
+4.- Un 65,4% de los usuarios juega diariamente
+5.- La razón principal de los usuarios cuando juegan Pokemon GO es coleccionar pokemones (85,9%)
 6.- Los atributos de la Pokedex que más consideran son:
     a. Caramelos para evolucionar
     b. Siguiente evolución
@@ -87,7 +57,7 @@ Según las respuestas (78 en total) de los usuarios que juegan Pokemon GO, se de
     c. Fortalezas/Debilidades
 
 ### *Historias de usuario*
-En base a las encuenstas, y lainformación del data que se nos entregó para el proyecto (pokemon.js), se definieron las siguientes historias de usuario:
+En base a las encuenstas, y la información del data que se nos entregó para el proyecto (pokemon.js), se definieron las siguientes historias de usuario:
 
 Historia de usuario Nº1:
 -"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
@@ -96,7 +66,7 @@ Historia de usuario Nº2:
 -"Yo, como usuario intermedio de Pokemon GO, quiero filtrar los pokemones según su tipo, para reconocer con mayor facilidad los pokemones que tengo y no tengo de cada tipo."
 
 Historia de usuario Nº3:
--"Yo, como usuario intermedio de Pokemon GO, quiero ordenar los pokemones alfabéticamente (ascendente y descendente) para familiarizarme mejor con cada pokemon, como si se tratara de una enciclopedia."
+-"Yo como usuario intermedio de Pokemon Go quisiera poder visualizar algún cálculo (como por ejemplo: la probabilidad de encontrar pokemones entre XX:XX hora y XX:XX hora), para obtener información relevante de mis pokemones."
 
 #### Prototipo de baja fidelidad
 Los prototipos de Baja Fidelidad implementan aspectos generales del sistema sin entrar en detalles. Permiten abarcar un espectro mayor de la interacción a realizar. También los prototipos de baja fidelidad permiten aplicar la primera ley de la creatividad de FUDD: «Para obtener una buena idea, obtén un montón de ideas» , y en este caso se puede obtener una gran retroalimentación.
@@ -109,15 +79,15 @@ A continuación se presentan las modificaciones que tuvo nuestro prototipo de ba
 <a href="https://ibb.co/Qkrdqj7"><img src="https://i.ibb.co/KDFwQzc/IMG-20190627-123230141.jpg" alt="IMG-20190627-123230141" border="0"></a>
 Videos:
 
-[Test usuario nº1 (compañera Laboratoria)](https://youtu.be/yDA6KDHWFX4)<br>
-[Test usuario nº2 (compañera Laboratoria)](https://youtu.be/qOTkf90T7yg)<br>
+[Test usuario nº1 (Laboratoria)](https://youtu.be/yDA6KDHWFX4)<br>
+[Test usuario nº2 (Laboratoria)](https://youtu.be/qOTkf90T7yg)<br>
+[Test usuario nº3 (Laboratoria)](https://www.youtube.com/watch?v=PfNKrHZMpvw)<br>
+[Test usuario nº4 (Laboratoria)](https://www.youtube.com/watch?v=ZVHpMJr0QSk)<br>
+[Test usuario nº5 (Laboratoria)](https://youtu.be/qOTkf90T7yg)<br>
+
 
 Prototipo de baja fidelidad final:
-<<<<<<< HEAD
 <a href="https://ibb.co/TmYYYwg"><img src="https://i.ibb.co/nz666wL/prototipo-baja-fidelidad-final.jpg" alt="prototipo-baja-fidelidad-final" border="0"></a> 
-=======
-<a href="https://ibb.co/TmYYYwg"><img src="https://i.ibb.co/nz666wL/prototipo-baja-fidelidad-final.jpg" alt="prototipo-baja-fidelidad-final" border="0"></a>
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
 
 
 Luego de simplificar nuestro protipado de baja fidelidad, debemos formular la guía de tareas que el usuario puede realizar, en base a preguntas que haremos tanto a los usuarios como a las tareas designadas.
@@ -146,37 +116,20 @@ Preguntas y comentarios al usuario:
 Si no se completó la tarea ¿Por qué no pensaste que podría ser así?
 ¿Qué esperabas ver?
 ¿Cuál otra manera pensaste para completar la tarea?
-<<<<<<< HEAD
 ****Enlazar videos testeos ux exterior
-=======
-**Enlazar videos testeos ux exterior
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
 
 #### Prototipo de alta fidelidad
-Redactar paletas de colores
+Para empezar a desarrollar el prototipo de alta fidelidad, obtuvimos dos paletas de colores en base a ciertas pantallas de la app Pokemon GO, con el objetivo de que el usuario al ocupar KANTODEX, estuviera visualmente familiarizado.
+
 ![paleta1](https://i.ibb.co/YfK1R2p/paleta-colores-btns.png)
 ![paleta2](https://i.ibb.co/xhw3ZwZ/paleta-colores-pokedex-y-btn.png)
 
+#### Figma
 [Figma](https://www.figma.com/file/at4qIz0DY7NyRVXgKU53oSoh/DataLovers-Estefan%C3%ADa-Nataly?node-id=0%3A1)
-<<<<<<< HEAD
-****colocar captura de pantalla figma
-=======
-**colocar captura de pantalla figma
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
+<a href="https://ibb.co/QQ9gXKm"><img src="https://i.ibb.co/zxsMN4f/FIGMA.png" alt="FIGMA" border="0"></a>
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
-User Interface). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
-una herramienta que funciona en el navegador y, además, puedes crear una cuenta
-gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la identidad
-gráfica correspondiente a cada set de datos que elijas.
-
-El diseño debe representar el ideal de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para hackear. Además, tu
-diseño debe seguir los fundamentos de visual design. También, deberás exportar
-tu diseño a [Zeplin](https://zeplin.io/) y utilizar las especificaciones de
-estilo que te dé Zeplin al momento de implementar tus diseños en código.
+#### Zeplin
+[Zeplin](zpl://project?pid=5d282271819fbe63b415940c)
 
 #### Testeos de usabilidad
 ![hola](https://media3.giphy.com/media/U2nN0ridM4lXy/giphy.gif)
@@ -186,15 +139,40 @@ estilo que te dé Zeplin al momento de implementar tus diseños en código.
 <a href="https://ibb.co/y627NBY"><img src="https://i.ibb.co/Pck0rz9/IMG-20190628-WA0013.jpg" alt="IMG-20190628-WA0013" border="0" width="300"></a>
 <a href="https://ibb.co/ZHgT7xk"><img src="https://i.ibb.co/3fFhQcL/IMG-20190628-WA0022.jpg" alt="IMG-20190628-WA0022" border="0" width="300"></a>
 <a href="https://ibb.co/WK291hN"><img src="https://i.ibb.co/bdKhn0j/IMG-20190628-WA0023.jpg" alt="IMG-20190628-WA0023" border="0" width="300"></a>
-<<<<<<< HEAD
 
-****redactar primer testeo:
+El primer testeo se desarrolló en el interior de las instalaciones de Laboratoria, en donde obtuvimos varias observaciones en el campo de la interacción con los botones y selectores de la app, lo cual tratamos de pulir antes de desarrollarlo en Figma
 
-=======
 
-**redactar primer testeo:
->>>>>>> e18480709664350ff6f9cf8396e2ad1cc534f4da
+#### Testeo UX Parque Forestal
+También se realizaron testeos en el Parque Forestal, donde van frecuentemente usuarios de Pokemon GO
 
+[Test UX exterior/Usuario 1](https://youtu.be/bzQZWALaBW8)
+[Test UX exterior/Usuario 2](https://youtu.be/eVHTYBQVRBA)
+[Test UX exterior/Usuario 3 y 4](https://youtu.be/UWxxWwcNoVk)
+
+Toda esta experiencia de testear nos generó mucho más retroalimentación ya que al testear con personas que uno no conoce, es mayor la observación hacia las acciones del usuario, porque tendrá reacciones más naturales que una persona conocida
+
+Observaciones / problemas detectados Testeos UX en Laboratoria y Parque Forestal:
+
+1. Hubo reconocimiento del lugar donde se podía "hacer touch"
+2. Un usuario no pudo reconocer el pokemon que se le pidió seleccionar
+3. Los selectores se veían "planos" al no colorear, en algunos casos no pudieron seguir con la tarea
+4. Reconocían las referencias formales que se implementaron en el prototipo
+5. Hubo casos en donde el usuario tomó el papel donde estaba dibujado el prototipo en vez de apretar el botón para pasar a la siguiente pantalla
+6. Algunos usuarios pedían mucha más información relevante, la cual no estaba ingresada en el DATA (ataques más poderosos, nivel IV, entre otros)
+7. No hubo una conversación más técnica e introductoria cuando nos acercábamos a los usuarios para pedirles un testeo, para que no empezaran a testear con confusión o incertidumbre
+
+#### Responsive
+Aquí presentamos algunas configuraciones a través de @media queries, para adaptar la app a 3 principales dimensiones
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/7jnW67Y/Tablet.png" alt="Tablet" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/w6P79jp/Laptop.png" alt="Laptop" border="0"></a>
+<a href="https://ibb.co/QNVsL4w"><img src="https://i.ibb.co/Z8ry50D/Mobile.png" alt="Mobile" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
+
+
+[Evaluación heurística](https://docs.google.com/spreadsheets/d1H3MyRaX7Uj-Y50oFSDAQkWp1tHVjQmwLMGGy8Vr8bPk/edit?usp=sharing)
+
+#### Resumen Usuario
+A nivel proyectivo, el trabajo realizado puede seguir en proceso de mejora, ya que la retroalimentación por parte de los usuarios nos genera la guía hacia un producto mínimo víable en base a sus primeras experiencias con el producto
 
 ### *5.4 Implementación de la Interfaz de Usuario (HTML/CSS/JS)*
 
@@ -541,17 +519,17 @@ c-core-commoncore-scl008/courses/diseno-visual)
 
 ## *Checklist*
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+* [x] Usa VanillaJS.
+* [x] No hace uso de `this`.
+* [x] Pasa linter (`npm pretest`)
+* [x] Pasa tests (`npm test`)
+* [x] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
   lines y branches.
-* [ ] Incluye Definición del producto clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye sketch de la solución (prototipo de baja fidelidad) en
+* [x] Incluye Definición del producto clara e informativa en `README.md`.
+* [x] Incluye historias de usuario en `README.md`.
+* [x] Incluye sketch de la solución (prototipo de baja fidelidad) en
   `README.md`.
-* [ ] Incluye Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
+* [x] Incluye Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
   en `README.md`.
 * [ ] Incluye link a Zeplin en `README.md`.
 * [ ] Incluye el listado de problemas que detectaste a través de tests de
