@@ -47,14 +47,22 @@ h2 {
   color: #D7B445;
   position: sticky;
   background-color: black;
-  min-width: 150px;
-  min-height: 50px;
+  width: 310px; 
+  height: 50px;
   border: none;
   transition: background-color 2s ease-out;
+  margin: 5px;
+}
+.menuBtn{
+  position: fixed;
+  top: 400px;
+  left: 0;
+
 }
 
 .menu:hover {
   background-color: #D7B445;
+  color: black;
 
 }
 
@@ -109,8 +117,9 @@ h2 {
 .clear {
   color: black;
   background-color: #D7B445;
-  min-width: 150px;
+  width: 310px;
   min-height: 50px;
   border: none;
+  margin: 5px;
    }
 
