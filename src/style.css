@@ -49,9 +49,14 @@ h2 {
   min-width: 150px;
   min-height: 50px;
   border: none;
-  
+  transition: background-color 2s ease-out;
+}
+
+.menu:hover {
+  background-color: #D7B445;
 
 }
+
 
 .season {
   background-color: #454A44;
@@ -106,5 +111,5 @@ h2 {
   min-width: 150px;
   min-height: 50px;
   border: none;
+   }
 
-}
