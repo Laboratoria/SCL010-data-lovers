@@ -57,7 +57,7 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66465449_2430729147148473_5622872738977808384_n.jpg?_nc_cat=109&_nc_oc=AQl_wx9lUZWC9Lhq7JGOpaJtStVWpTK0uCoS0IJX_Tx8VmgFgV1ukYyE1lscV3NyGIA&_nc_ht=scontent.fscl11-1.fna&oh=2b05b1828318542a09200794696831db&oe=5DB37B62)
 #### Pseudo códigos
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
-### Paleta de colores 
+#### Paleta de colores 
 
 Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta. Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
 
