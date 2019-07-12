@@ -9,7 +9,7 @@ function init() {
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Aparece en el ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
       </div>`;
   }
 }
