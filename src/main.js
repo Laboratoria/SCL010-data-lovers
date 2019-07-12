@@ -22,7 +22,6 @@ const createCards = (data) => {
             <p> Specie: ${element.species}</p>
             <p> Gender: ${element.gender}</p>
             <p> Appearances: ${window.calculePercent(character[i].episode.length)}% </p>
-
             <p> Location: ${element.location.name}</p>
             <p> Origin: ${element.origin.name}</p>
 
