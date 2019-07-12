@@ -27,6 +27,8 @@ El contenido de una serie tiende a ser complejo y muchas veces difícil de reten
 
 El trabajo se implemento en base a metodología ágil orientada a historias que usuarios, **_¿Qué son las historias de usuarios?_** Las historias de usuario son descripciones, simples  **cortas y esquemáticas**, que resumen la necesidad concreta de un usuario al utilizar un producto o servicio, así como la solución que la satisface. Como muchas otras herramientas Ágiles, las historias de usuario surgieron como una respuesta orientada al sector de desarrollo de software.  Su función principal es identificar problemas y nos ayudan a orientar los esfuerzos para su solución en base al desarrollo.
 
+El proyecto se realizó en base a _Historias de Usuario_, se avanzaba en cuanto a código y diseño a la par con el objetivo de cada _Historia de Usuario_. Para llegar al resultado final del _"Mundo de Rick and Morty"_ nuestro proyecto contó con 3 historias, te las mostramos a continuación:
+
 ### Historia de Usuario 1.
 YO, COMO fans de Rick and Morty, QUIERO poder acceder a una plataforma web con información sobre la serie, PARA poder tener más conocimientos de los personajes de ella.
 
@@ -41,57 +43,123 @@ YO, COMO audiencia de Rick and Morty, QUIERO poder conocer el porcentaje de vece
 "El Mundo de Rick and Morty" puede ser ejecutado desde cualquier navegador web, tablet o teléfono inteligente, y desde cualquier navegador. No necesita mayores requerimientos para su funcionamiento.
 
  1. Dirígete a la dirección web de la aplicación, puedes ingresar mediante este link ["Mundo de Rick and Morty".](https://ayma27.github.io/SCL010-data-lovers/src/index.html)
- 2. Ingresa, encontrarás una barra superior de navegación, donde pueden refrescar la página inicial "Home" o ir directamente a la página de "Personajes", haciendo "click" en el link.
+ 2. Ingresa, encontrarás una barra superior de navegación, donde pueden refrescar la página inicial "Home" o ir directamente a la página de "Personajes", haciendo "click" en el link.  
   ![enter image description here](https://lh3.googleusercontent.com/Z1PIdBXIiE-Fh4g_Qwt-6fSeQIAmDERcG7xsISX7wJjxYA44kRQ7TsTG6jq58u81ti0C11Sp2Zmfyg)
  3. Al bajar en "Home" encontrarás una breve descripción de la serie, y un apartado de "Personajes" el cual también te rediccionará a la siguiente página al hacer "click" en el botón.
  ![enter image description here](https://lh3.googleusercontent.com/fUl_BDoEVQe1iHJI8F4ot0xxnS2RQ1C6BrlxkjPqXRcLzgjZmoBtccrJ3KbZyCLOPmGZiZAYs1Ge2A)
- 4. En la página de "Personajes" podrás ver "cards" que contienen información sobre cada personaje y su fotografía correspondiente.
+
+ 4. En la página de "Personajes" podrás ver "cards" que contienen información sobre cada personaje y su fotografía correspondiente en miniatura.
+
  ![enter image description here](https://lh3.googleusercontent.com/VRd0AJEODV3qYKc2a7EeA6VA4jbCHNMra-y6d9kVkKqTcXuWbNf-jAn9jxW4Wrcc7PsJtjce9VaiOA)
- 5. Tendrás además una barra de filtrado, donde podrás buscar de manera especifica según su especie, género o estado, también podrás ordenarlas por sus nombres de A a Z o de manera inversa (Z-A). Para ello solos debes hacer "clik" en el filtro que deseas usar y se desplegará una lista de opciones, selecciona la que más te guste y las "cards" se mostrarán según el filtro usado.
+
+   5. Tendrás además una barra de filtrado, donde podrás buscar de manera especifica según su especie, género o estado, también podrás ordenarlas por sus nombres de A a Z o de manera inversa (Z-A). Para ello solos debes hacer "clik" en el filtro que deseas usar y se desplegará una lista de opciones, selecciona la que más te guste y las "cards" se mostrarán según el filtro usado.  
+
  ![enter image description here](https://lh3.googleusercontent.com/UBvTVnBPXNKyZ_kulxGZ7K85tpPjYEprsjVT9RVyg9qd52CbHWglKE3ggQR6hgL3juwJ5dQBg1wsfQ)
- 7. ¡Listo!, ya puedes filtrar y buscar tus personajes a gusto.
+
+ 6. ¡Listo!, ya puedes filtrar y buscar tus personajes a gusto.
 
 
-## Visual design y prototipado.
+## Visual Design y Prototipado.
 ![enter image description here](https://lh3.googleusercontent.com/0L6ZL6ae0201V-Z6W9L8yjrANJs1s5aRgaFrOvxOxgWD34l609Z0F5O65Iifr5Q4vXSwGi7x1Hg5eQ=s1340)
 
-Nuestro proceso de diseño se fue gestando en diferentes etapas, y durante todas ellas se recibió feedback constantemente. Tanto de posible usuarios como de otros squad's de trabajo y de coach's especialistas en código (_Front-End Developers_) y en experiencia de usuario (_UX design_). Te detallamos estas etapas a continuación:
+Durante el proceso de diseño se trabajo en diferentes etapas, y en el transcurso de todas ellas se recibió _"feedback"_ constantemente. Tanto de posibles usuarios, como de otros _"squad's"_ de trabajo en Laboratoria. Además que guía y revisión permanente por parte de los _"coach"_ especializadas en código (_Front-End Developers_) y también _"coach"_ de experiencia de usuario (_UX design_). Te detallamos estas etapas de trabajo a continuación:
 
- 1. El proceso de diseño fue pensado y creado en función del usuario, para ello se utilizaron los principios de diseño, y se fue maqueteando desde una idea inicial hasta llegar al sitio web final.
- 2. El proceso siempre fue pensado en el usuario y la experiencia (_UX design_) que tendrá al usar nuestra página web, por ello antes de empezar a prototipar, se realizó una encuesta para saber que contenido debería contener la página. Puedes ver la encuesta [aquí](https://docs.google.com/forms/d/1ADnjurOxEhXtIwNOUxjQZbGd-_d_Uus1Abx4fhK_WC4/edit).
- 3. Luego se realizó el prototipo de alta en Figma, el cual probar en el siguiente [enlace](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=2:4&scaling=scale-down). Este diseño se fue adaptando en medida que era testado con los usuarios, puedes verlos aquí.
- 4. Finalmente, se llega al diseño final, tomando en cuenta la funcionalidad y el feedback recibido en los testeos, estos fueron realizados a cinco personas con la finalidad de que el diseño sea lo más amigable posible.
+1. El proceso de diseño fue pensado y creado en función al usuario (UX), para ello se utilizaron los principios de _"Visual Design"_, puedes verlos [aquí](https://docs.google.com/document/d/1JNckD62PKwBTgUn15-_e6pA10rAk8SlIPnik5E2SHY4/edit).  
+ 2. Nos propusimos crear un producto amigable,  pensado para que la experiencia de usuario fuera simple y limpia (_UX design_). Para ellos esquematizamos el flujo que tendría nuestra web en un modelo de control de flujo en conjunto se realizaron diseños scketch en papel.
+    #### Control de flujo
+![enter image description here](https://lh3.googleusercontent.com/szhlmFuIiuxRPiryHNduwO57FUYOdEyfR5Alohq8IlFs-ZgUTw9WZ-mPlZfIusVaN3zUMwcBVEN1Jw)
 
-### Prototipando
-Para comenzar a crear el proyecto, previamente se realizaron prototipados de baja calidad. En primer lugar se dibujo el control de flujo que tendría el programa y un primer scketch en papel de como se verían sus pantallas. Luego de presentar esta idea a posibles usuarios y recibir feedback se realizó un segundo scketch solucionando los problemas de flujo encontrados en el prototipado inicial. Para terminar finalmente con un wireframe de como se vería el producto final realizado en Figma.
+ 3.  El tercer paso luego de tener en mente que tipo de sitio web queríamos crear y cual sería su flujo. Fue diseñarlo nuevamente en papel. Este fue el diseño en base al cual se comenzó a trabajar y para posteriormente poder ser desarrollado en Figma.
 
-#### Control de flujo
+     #### Scketch en papel
+![enter image description here](https://lh3.googleusercontent.com/aBS0MwSS_FsXNgG72wFK66A6jwhezGBVpw3goz_Epc7QVAgSKhha8ohLjVAJXBRkZedJBVknucJwrA)
+![enter image description here](https://lh3.googleusercontent.com/KyKcFbtacxLMtaVZv7i0o-1ACxTVudPUXk24-STYiVXI7nwZGJPLk72U2C_eHMcIjqkWR0YCC4CkXQ)
+    4. Finalmente en nuestro proceso de maquetado, se realizó un primer prototipo en Figma, el cual se componía de 5 pantallas, e incluía mayor número de funcionalidad. En base a las encuestas con usuario y al tiempo de trabajo, se decidió eliminar 3 de estas pantallas. Te mostramos este primer diseño a continuación, también puedes probarlo en el siguiente enlace: [primer prototipo en Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=2:4&scaling=scale-down).
 
-#### Scketch en papel
 
-#### Mockup
+#### Mockup inicial (Mobile)
 
+![enter image description here](https://lh3.googleusercontent.com/CDG-xF-EFo15P6p9rdmwhYlredGkouVrdLuQiL_N0Lp4runCpzuAgPx_gBAYFQW9IT4ZYE6Rqgr8AA)
+
+#### Mockup Final (Mobile)
+Finalmente, en base a la experiencia de usuario obtenida de los testeos con el _usuario objetivo_, se adapto el prototipo inicial a solo 2 pantallas, donde el usuario podría acceder de manera más simple al contenido de la data. Este prototipo fue testeado con usuarios (_más adelante te lo detallamos_), y obtuvo una buena recepción. También puedes probarlo en el siguiente link:    [Prototipado final Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=167:4&scaling=min-zoom).
+
+![enter image description here](https://lh3.googleusercontent.com/eguDzVvVu2ez6T5SRTcieTWO_hb6kVmXn1pZC-xW9eioxCRaPnRGPMBSpZxsItW6svuG8gdUAZ717g)
 
 ## RESEARCH
 
-### Evaluación Hueristica  
+### Evaluación Huerística  
+La evaluación Hueristica es una herramienta utiliza a nivel de UX, se utilizan para evaluar una interfaz por inspección, sin la necesidad de testear en un usuario. Es decir, en una  **evaluación heurística**  un experto en usabilidad (evaluador) analiza la calidad de un sistema o producto utilizando una serie de principios que han sido consensuados y reconocidos por la comunidad del User Centered Design (Diseño Centrado en el Usuario). Estos elementos se recogen en El Decálogo de Principios Heurísticos publicados por Jakob Nielsen (1994).
+
+Aplicamos estos principios en nuestro proyecto para poder detectar posibles problemas de usabilidad. A continuación se muestran imágenes de la Evaluación Huerística que aplicamos al "Mundo de Rick and Morty", y también las conclusiones que sacamos según estos 10 principios que detallamos seguidamente:
+
+-   **Visibilidad del estado del sistema:** el usuario debe saber en todo momento qué está ocurriendo en el sistema.
+
+    No se detectaron problemas de usabilidad.
+
+-   **Coincidencia entre el sistema y el mundo real**: la información debe mostrarse siguiendo las convenciones del mundo offline, con un orden natural y lógico.
+
+    Se detecto un problema cosmético al mostrar el contenido, que se evaluó en nivel 1, el cual mejoramos para la entrega final.
+
+-   **Control y libertad del usuario**: el usuario es humano y susceptible de equivocarse, así que el sistema debe darle la oportunidad de retomar su camino fácilmente.
+
+    Se detecto un problema de usabilidad menor, la página web no era responsiva para todas las pantallas. Se mejoró en el producto final.
+
+-   **Coherencia y estándares**: el usuario reconoce los patrones utilizados, así que es importante mantenerlos a lo largo de todo el sistema para que una acción siempre signifique lo mismo.
+
+    Se detecto un problema de usabilidad menor, al los link de enlace no estar resueltos de manera estandarizada, así que fueron cambiados a colores neutros.
+-   **Prevención de errores:** por más que se dé la opción de rectificar, lo ideal es diseñar interfaces claras para evitar siempre que sea posible que los usuarios cometan errores.
+
+    Se detecto un problema de usabilidad menor, y "no aplica" en las otras dos secciones, si bien pudiese ser un problema en una versión más completa del proyecto, para nuestro objetivo no era necesario incluir prevenciones de errores, por lo cual, se mantuvo.
+-   **Reconocimiento antes que memoria**: no debemos obligar al usuario a tener que recordar dónde está o de dónde viene. Las instrucciones deben estar siempre visibles o ser fáciles de encontrar.
+  No aplica.
+-   **Flexibilidad y eficiencia de uso:**  hay que pensar en todos los usuarios, diferenciando entre los primeros visitantes y los habituales, para los que es útil implementar opciones rápidas que faciliten su navegación.
+
+     Se detecto un problema de usabilidad menor, la página web no era responsiva para todas las pantallas. Se mejoró en el producto final.
+
+-   **Estética y diseño minimalista:**  solo debemos incluir lo relevante. Toda la información que compita con la importante estará dificultando el camino del usuario.
+
+    Se detecto un problema cosmético al mostrar el contenido, ya que algunos elementos no tenían los tamaños estandarizados y podían inducir a confusión, se mejoró para la entrega final.
+
+-   **Ayudar al usuario a reconocer los errores, diagnosticarlos y recuperarse de ellos**: los mensajes de error deben ser claros, informar sobre el problema y sugerir de forma constructiva una solución.
+
+     No aplica.
+
+-   **Ayuda y documentación**: aunque lo ideal es que el sistema pueda utilizarse sin necesidad de documentación, en algunos casos – especialmente si el sistema es demasiado complejo – puede ser necesario proveer al usuario de ayuda y documentación. Esta debe ser fácil de encontrar, clara y concisa.
+
+    No aplica.
+
 ![enter image description here](https://lh3.googleusercontent.com/1hAoZeAa_6BY25NOTUe3jCnv4ndm8giofqiOb4maO8bY5jNRqiYtdzltRGe3nL09YGYeuMwYVCWbLg=s1000)
 ![enter image description here](https://lh3.googleusercontent.com/OJ4C5CJluYETQUW0BkRvfPD37XfBwiS72lAPLSad0F38I59wh_WlO5w4Mut5dVyxdVXpoES_6SgtpA)
 ![enter image description here](https://lh3.googleusercontent.com/swomYveq_YBBEY6Z19-QNRzL9GBNOAKRHknrEPq1aJ8b5gj_GzqNzdm3hE43EoXRJpr7BxrJ1kwHrA)
 ![enter image description here](https://lh3.googleusercontent.com/FX8I3EUtbvJLDhwJOsAaZspJwrmHN_yJEEA1aWfPLrjT81ubXQc2Xi2aWf5DpOcwVlx1C49JldAejg)
 ![enter image description here](https://lh3.googleusercontent.com/0uY6k_2r-mK7SxdbdFn1g_B-uq6PLOKZKa3d2Rmfb_aV88MEMgfAzKeNtMFi_6aDaxtMyO7jZ5mPZw)
 
-### Test de usabilidad
-Luego de contar con el Wireframe con el modelo final, se le agregó funcionalidad al programa mediante ES6, Con el programa ya funcionando se realizaron test con posibles usuario para obtener feedback del diseño y funcionamiento.
+## Test de usabilidad
+Los test con usuarios se realizaron durante todo el proyecto, el _feedback_ recibido fue una gran herramienta para nosotras como desarrolladoras, ya que nos ayudo a detectar los problemas de usabilidad que tenía nuestra página y a poder mejorar la aplicación web reiterativamente, hasta dar con el producto final. Se realizaron test con usuarios objetivos y encuestas vía online. Aquí te detallamos y mostramos lo realizado;
 
-### Testing y feedback.
+### Testing con usuarios.
+#### Encuesta.
+La encuesta se realizo vía online y se aplico a 10 personas. Lo primero que se hizo para poder llegar a conocer qué seria relevante para el interés de los usuarios, fue preguntarle si realmente era útil una página de información sobre _"Rick And Morty", también se les preguntó sobre ese contenido; y que específicamente querían ver. Se dieron las opciones de filtros de búsqueda, para analizar que quería ver el usuario, y de que manera le gustaría poder ordenarlo, también se consulto por preferencias de diseño, para guiarnos en el diseño visual.  
 
-Al aplicar el testing a usuarios, nos encontramos con problemas con la recepción de los códigos de invitación, ya que al ingresarlo en la appweb se volvía complicado, esto en el caso de los usuarios-invitados. (NO aplica lo mismo para los anfitriones).
-En primera instancia se pensaba entregar la invitación con el código a descrifrar en formato físico-papel, pero se detectó que no era práctico para el usuario, además de la posibles de perderlo o que se volviera ilegible. Por ello, se reformulo el concepto de entrega y se optó por entregarlo vía digital; para poder ser enviado vía whatsapp o email.
+ Realizamos preguntas como:
+![enter image description here](https://i.ibb.co/pQBpy9w/Be-Funky-sample.jpg)
+Con esta pregunta notamos que un 90% de las personas que realizaron el test les gustaría poder acceder a una pagina web con acceso a información sobre los personajes de la serie.
 
-En la primera imagen observamos el testing con usuarios.
+![enter image description here](https://i.ibb.co/fNqKG8Y/Be-Funky-sample-1.jpg)
+ Aquí notamos que mas del 70% prefería tener la opción de poder conocer la especie de cada personaje, ademas a un 50% le gustaría saber cual era su planeta de procedencia.
 
-En la segunda imagen se muestra el primer prototipado de invitación en formato físico y el final en formato digital.
+ A continuación podrás revisar de los resultados mas completos y detallados de la [encuesta](https://docs.google.com/forms/d/1ADnjurOxEhXtIwNOUxjQZbGd-_d_Uus1Abx4fhK_WC4/edit#responses).
+
+#### Testing con prototipo de alta fidelidad
+ Se utilizó un prototipo realizado con Figma para poder testearlo con los usuarios, así recibimos _"feedback"_ de cosas que debíamos solucionar en el demo antes de llevarlo a código.
+
+En los _"feedback"_ notamos que debíamos colocar el menú _(Home-Personajes)_ mas grandes y de una forma mas llamativa para que el usuario pudiera acceder de mejor forma a la sección de personajes, ya que al tenerla de un tamaño pequeño el usuario no podía identificar de buena forma donde podía acceder para ir a dicha sección. También se detectó que el botón para ir a personajes debía estar en la pantalla principal a simple vista, para no causar confusiones de usabilidad.
+
+Por último, se obtuvo _"feedback"_ positivo sobre las elecciones de diseño, colores y funcionalidad general de la página, con lo que se comenzó a trabajar en la entrega final.
+
+A continuación te dejamos el link del [video](https://www.youtube.com/watch?v=5Zxx1SawSqA&feature=youtu.be).
+
 
 
 
@@ -99,9 +167,9 @@ En la segunda imagen se muestra el primer prototipado de invitación en formato 
 ## Recursos de organización  ![enter image description here](https://lh3.googleusercontent.com/lIxDaevl93kpTbZ_VlKpt3nxb3uD4GC9mSZ50xvZvolHYW8P9q8MRSyjOzFP992a7tG_rIZ-NKOonQ=s180)
 
 Para la realización del proyecto se usaron diferentes herramientas para su organización y creación. A continuación te mencionamos las más utilizadas:
-#### Trello fue la herramienta principal de organización, para llevar un control con orientación a la metodología Scrum.
-#### Para el proceso de codificación, se utilizó [Atom](https://atom.io/).
+#### [Trello](https://trello.com/b/eoY1xwrj/data-lovers) fue la herramienta principal de organización, para llevar un control con orientación a la metodología Scrum.
+#### Para el proceso de codificación, se utilizó [Atom](https://atom.io/) y [Visual Studio](https://visualstudio.microsoft.com/es/)
 #### Para el prototipado (sketching) se usó [Figma](https://www.figma.com/).
 #### Para compartir el prototipo de alta fidelidad se uso Zeplin.
 #### Para la realización del README.md se usó [Stackedit.io](http://stackedit.io/).
-#### Finalmente todo el proyecto esta trabajado y contenido desde GitHub [GitHub y GitHub Pages](https://guides.github.com/).
+#### Finalmente todo el proyecto esta trabajado y contenido desde GitHub colaborativo [GitHub y GitHub Pages](https://guides.github.com/).
