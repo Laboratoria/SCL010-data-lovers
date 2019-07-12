@@ -100,7 +100,7 @@ selectOrder.addEventListener("change", ()=> {
     // borra contenido de section
     pokeSection.innerHTML = "";
     // crea nuevos divs en base a array
-    newPokeArray = window.sortData(pokemons, condition, condition);
+    newPokeArray = window.sortData(pokemons, condition);
     createDivs(newPokeArray);
     infoStats.innerHTML = "";
   }

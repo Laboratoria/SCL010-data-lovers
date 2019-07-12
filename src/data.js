@@ -10,20 +10,20 @@ const filterData = (data,type) => {
 };
 
 // data = array | sortBy = select txt | sortOrder = ascendente o descendente
-const sortData = (data, sortBy, sortOrder) => {
+const sortData = (data, sortBy) => {
   let newArray = [];
   // ordenar strings nombres por orden alfabético
   let sortingAlph = data.sort((a, b) => a.name.localeCompare(b.name));
 
-  if (sortOrder == "A-Z")
+  if (sortBy == "A-Z")
   {
     newArray = sortingAlph;
   }
-  else if (sortOrder == "Z-A")
+  else if (sortBy == "Z-A")
   {
     newArray = sortingAlph.reverse();
   }
-  else if (sortOrder == "1-151")
+  else if (sortBy == "1-151")
   {
     // ordenar "id" por menor a mayor
     newArray = data.sort((first, last) => first.id - last.id);
@@ -35,9 +35,9 @@ const sortData = (data, sortBy, sortOrder) => {
   return newArray
 }
 
-// get data
+// calcula promedio de pokemones por tipo
 const computeStats = (type, data, condition) => {
-  return `Los pokemones de tipo ${condition} son el ${((type.length/data.length) * 100).toFixed(2)}% de los pokemones de Kanto`;
+  return `${condition} pokemons are ${((type.length/data.length) * 100).toFixed(2)}% of the Kanto pokemons`;
 }
 
 window.filterData = filterData;
