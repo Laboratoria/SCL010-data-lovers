@@ -19,7 +19,7 @@ const selectOrder=document.getElementById('order');
    selectOrder.addEventListener('change',()=>{
     let data = window.loadData();
     let option = selectOrder.value;
-    let characterData = window.orderData(data, option);
+    let characterData = window.orderData(data, option); 
     let htmlForInyect='';
     //for (let i = 0; i < 30; i++) {
     for (let i = 0; i < characterData.length; i++) {
@@ -32,7 +32,7 @@ const selectOrder=document.getElementById('order');
      }
      document.getElementById('characters').innerHTML = htmlForInyect;
    });
-
+   
 
 
 //filtrado por especie
