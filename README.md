@@ -77,7 +77,7 @@ Durante el proceso de diseño se trabajo en diferentes etapas, y en el transcurs
 ![enter image description here](https://lh3.googleusercontent.com/CDG-xF-EFo15P6p9rdmwhYlredGkouVrdLuQiL_N0Lp4runCpzuAgPx_gBAYFQW9IT4ZYE6Rqgr8AA)
 
 #### Mockup Final (Mobile)
-Finalmente, en base a la experiencia de usuario obtenida de los testeos con el _usuario objetivo_, se adapto el prototipo inicial a solo 2 pantallas, donde el usuario podría acceder de manera más simple al contenido de la data. Este prototipo fue testeado con usuarios (_más adelante te lo detallamos_), y obtuvo una buena recepción. También puedes probarlo en el siguiente link [prototipado final Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=167:4&scaling=min-zoom).
+Finalmente, en base a la experiencia de usuario obtenida de los testeos con el _usuario objetivo_, se adapto el prototipo inicial a solo 2 pantallas, donde el usuario podría acceder de manera más simple al contenido de la data. Este prototipo fue testeado con usuarios (_más adelante te lo detallamos_), y obtuvo una buena recepción. También puedes probarlo en el siguiente link    [prototipado final Figma](https://www.figma.com/proto/LAAXwP2WkufzKZhpcBzlUz8m/Rick-and-Morty?node-id=167:4&scaling=min-zoom).
 ![enter image description here](https://lh3.googleusercontent.com/eguDzVvVu2ez6T5SRTcieTWO_hb6kVmXn1pZC-xW9eioxCRaPnRGPMBSpZxsItW6svuG8gdUAZ717g)
 ## RESEARCH
 
