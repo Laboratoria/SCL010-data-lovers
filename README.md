@@ -85,8 +85,7 @@ Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuari
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 #### Prototipo de alta fidelidad 
-
-    !Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz.
+!Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz.
 
 
 ![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66492746_2431095467111841_9183748309259386880_n.jpg?_nc_cat=107&_nc_oc=AQnFYKSKVncmgZzEDATFm-p8pEw2T01GJnT9vPk-3SXIZxVNNu1rJStdxoWeN0cyxu8&_nc_ht=scontent.fscl3-1.fna&oh=a88e9cd6081cd6c98fafd9a8d4ae68b5&oe=5DBA806B)
