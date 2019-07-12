@@ -17,16 +17,10 @@ init();
 //FILTRADO ASCENDENTE Y DESCENDENTE
 const selectOrder=document.getElementById('order');
    selectOrder.addEventListener('change',()=>{
-    let characterData = window.loadData();
+    let data = window.loadData();
+    let option = selectOrder.value;
+    let characterData = window.orderData(data, option); 
     let htmlForInyect='';
-
-    if(selectOrder.value == '1'){
-      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
-    }else{
-      characterData.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
-      characterData.reverse();
-    }
-
     //for (let i = 0; i < 30; i++) {
     for (let i = 0; i < characterData.length; i++) {
        htmlForInyect+= `

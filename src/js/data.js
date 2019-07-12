@@ -5,6 +5,26 @@ const loadData = () => {
 };
 window.loadData = loadData;
 
+//orden ascendente de la A-Z
+const orderData = (data, option) => {
+  let filterOrder;
+if(option == 'az'){
+  filterOrder = data.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+//  data.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+}
+if(option== 'za') {
+  filterOrder = data.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
+ 
+  filterOrder.reverse();
+}
+return filterOrder;
+};
+
+window.orderData=orderData;
 
 
 
