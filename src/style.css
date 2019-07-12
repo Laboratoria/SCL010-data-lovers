@@ -4,15 +4,12 @@ body {
   font-family: 'Lato',
     sans-serif;
 }
-
-
 .sticky {
   background-color: black;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
-
 #tittle {
   font-size: 30px;
   letter-spacing: 1px;
@@ -21,26 +18,21 @@ body {
   box-sizing: border-box;
   vertical-align: center;
 }
-
 h2 {
   font-family: 'Lato',
     sans-serif;
   color: #454A44;
   font-size: 20px;
   margin-bottom: 90px;
-
 }
-
 #principalPage {
   display: flex;
 }
-
 #container_datos {
   display: flex;
   position: sticky;
   flex-direction: column;
 }
-
 .menu {
   font-family: 'Lato', sans-serif;
   color: #D7B445;
@@ -51,37 +43,33 @@ h2 {
   border: none;
   transition: background-color 2s ease-out;
 }
-
+#selectedSortHTML {
+  position: sticky;
+}
+#selectedEpisodeHTML {
+  position: sticky; 
+}
 .menu:hover {
   background-color: #D7B445;
-
 }
-
-
 .season {
   background-color: #454A44;
   color: #D7B445;
 }
-
 #container_cards {
   display: flex;
 }
-
 #cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
-
 .characterCards {
   max-width: 200px;
   background-color: #454A44;
   border-radius: 5px;
   margin: 5px;
-
 }
-
 .imagenCharacters {
   width: 90%;
   padding: 10px;
@@ -96,7 +84,6 @@ h2 {
   min-zoom: 60%;
   color: #D7B445;
 }
-
 #name {
   background-color: #D7B445;
   width: 100%;
@@ -104,7 +91,6 @@ h2 {
   font-size: 130%;
   text-align: center;
 }
-
 .clear {
   color: black;
   background-color: #D7B445;
@@ -112,4 +98,3 @@ h2 {
   min-height: 50px;
   border: none;
    }
-

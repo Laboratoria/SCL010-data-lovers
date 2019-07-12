@@ -72,7 +72,7 @@ Basamos nuesta paleta de colores en una iamgen representativa de los dos persona
 
 Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuarios.
 
-[video 1]().
+[video 1](https://youtu.be/1FKU47e5Jx8).
 
 [video 2]().
 
