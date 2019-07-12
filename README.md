@@ -10,7 +10,7 @@
 Rick y Morty es un estadounidense de animación para adultos de ciencia ficción comedia creada por Justin Roiland y Dan Harmon para Cartoon Network nocturno 's bloque de programación Adult Swim . La serie sigue las desventuras del cínico científico loco Rick Sanchez y su nieto de buen corazón pero inquieto Morty Smith , quien dividió su tiempo entre la vida doméstica y las aventuras interdimensionales.
 
 Roiland da voz a los personajes del mismo nombre, con Chris Parnell , Spencer Grammer y Sarah Chalke expresando al resto de la familia. La serie se originó a partir de una corta parodia animada de Back to the Future , creada por Roiland para Channel 101 , un festival de cortometrajes co-fundado por Harmon. La serie ha sido aclamada por la crítica por su originalidad, creatividad y humor.
-El espectáculo gira en torno a las aventuras de los miembros de la familia Smith, que consta de los padres Jerry y Beth , sus hijos Summer y Morty , y el padre de Beth, Rick Sanchez , que vive con ellos como invitado. Según Justin Roiland, la familia vive fuera de Seattle , Washington . [2] Las aventuras de Rick y Morty , sin embargo, tienen lugar en un número infinito de realidades, con los personajes viajando a otros planetas y dimensiones a través de portales y el auto volador de Rick.
+El espectáculo gira en torno a las aventuras de los miembros de la familia Smith, que consta de los padres Jerry y Beth , sus hijos Summer y Morty , y el padre de Beth, Rick Sanchez , que vive con ellos como invitado. Según Justin Roiland, la familia vive fuera de Seattle , Washington. Las aventuras de Rick y Morty , sin embargo, tienen lugar en un número infinito de realidades, con los personajes viajando a otros planetas y dimensiones a través de portales y el auto volador de Rick.
 
 Rick es un científico loco , excéntrico y alcohólico , que evita muchas convenciones comunes como la escuela, el matrimonio, el amor y la familia. Con frecuencia continúa sus aventuras con su nieto de 14 años, Morty, un chico de buen corazón pero que se angustia fácilmente, cuya brújula moral ingenua pero fundamentada juega un contrapunto al ego maquiavélico de Rick. La hermana de 17 años de Morty, Summer, es una adolescente más convencional, que se preocupa por mejorar su estatus entre sus compañeros y, a veces, sigue a Rick y Morty en sus aventuras. La madre de los niños, Beth, es una persona generalmente sensata y una fuerza asertiva en el hogar, aunque consciente de su papel profesional como cirujana de caballos. Está insatisfecha con su matrimonio con Jerry, una persona sencilla e insegura, que desaprueba a Rick '
 
@@ -48,7 +48,7 @@ El objetivo de esta página web es facilitar al usuario la búsqueda de episodio
 
 
 ### **Proceso de Diseño**
-Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA(https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
+Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
 Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers), donde organizamos tareas, definimos historias de usuario, y jerarquizamos nuestro trabajo.  
 
 #### Primeros bosquejos e ideas 
@@ -59,10 +59,12 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
 ### Paleta de colores 
 
-Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta.
+Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta. Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
+
+
 ![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66403564_2431092957112092_8878541464984879104_n.jpg?_nc_cat=107&_nc_oc=AQlObLYPdU9A37R3ptVeViy2lGudQDDqv-srR3sZeQUR6VDBKHGpoyxQeFZDysWOKU0&_nc_ht=scontent.fscl3-1.fna&oh=b005acbda0d064e14b16eb2680378435&oe=5DC67D45)
 
-Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
+
 
 
 
@@ -83,8 +85,13 @@ Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuari
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 #### Prototipo de alta fidelidad 
+
     !Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz.
+
+
 ![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66492746_2431095467111841_9183748309259386880_n.jpg?_nc_cat=107&_nc_oc=AQnFYKSKVncmgZzEDATFm-p8pEw2T01GJnT9vPk-3SXIZxVNNu1rJStdxoWeN0cyxu8&_nc_ht=scontent.fscl3-1.fna&oh=a88e9cd6081cd6c98fafd9a8d4ae68b5&oe=5DBA806B)
+
+También puedes hallarlo como imagen en [Figma](https://www.figma.com/file/fXHSwMEe8L1OLSvDEQsw80Cs/Untitled?node-id=0%3A1).
 
 
 
@@ -92,7 +99,7 @@ Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 
 ## **Historias de usuario**
-El proyecto se resume a 3 historias de usuario.
+El proyecto se resume a 4 historias de usuario.
 
 * Historia 1: Mostrar.
 
@@ -136,7 +143,7 @@ El proyecto se resume a 3 historias de usuario.
   `README.md`.
 * [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
   en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
+* [x] Incluye link a Figma en `README.md`.
 * [x] Incluye el listado de problemas que detectaste a través de tests de
   usabilidad en el `README.md`.
 * [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
