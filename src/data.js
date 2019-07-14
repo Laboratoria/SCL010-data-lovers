@@ -12,7 +12,6 @@ const filter = (data, condition) => {
 }
 // global
 window.filter = filter;
-
 // ordenando data por nombre
 const sorter = (data, sortBy, sortOrder) => {
   let sortedData = [""]; // arreglo vacio donde enviaremos el nuevo orden de la data
@@ -24,11 +23,8 @@ const sorter = (data, sortBy, sortOrder) => {
   return sortedData;
 }
 window.sorter = sorter; //global
-
-
-
 //calculo 
- const apparitionPercent = (episodes) => {
+const apparitionPercent = (episodes) => {
   let percentajeTotal = Math.round((episodes * 100) / 31);
   return percentajeTotal;
 };

@@ -1,4 +1,4 @@
-const data = RICKANDMORTY.results;
+const data = window.RICKANDMORTY.results;
 window.data = data; //declaramos la data global
 
 // creando tarjetas
@@ -45,7 +45,7 @@ const selectedEpisode = document.getElementById("selectedEpisodeHTML");
 selectedEpisode.addEventListener("change", () => {
   let condition = selectedEpisode.value;
 
-  let resultFilter = filter(data, condition);
+  let resultFilter = window.filter(data, condition);
   createCards(resultFilter);
 
 });
@@ -66,6 +66,7 @@ selectedSort.addEventListener("change", () => {
 // refrescar index 
 
 let index = document.getElementById("clear")
-clear.addEventListener('click', () => {
+window.clear.addEventListener('click', () => {
   location.reload();
+  return index;
   });
