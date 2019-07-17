@@ -35,7 +35,7 @@ const sortData = (data, sortBy) => {
   return newArray
 }
 
-// calcula promedio de pokemones por tipo
+// calcula promedio de pokemones
 const computeStats = (type, data, condition) => {
   return `${condition} pokemons are ${((type.length/data.length) * 100).toFixed(2)}% of the Kanto pokemons`;
 }

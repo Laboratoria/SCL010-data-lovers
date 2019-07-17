@@ -4,6 +4,17 @@ const startingModal = document.getElementById('modalWCont');
 const infoStats = document.getElementById('info-stats');
 let newPokeArray;
 
+//Calling JSON data
+window.addEventListener("load", () => {
+  fetch("https://raw.githubusercontent.com/zotapianola/SCL010-data-lovers/src/data/pokemon/pokeEast.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+		console.log(JSON.stringify(data));
+    })
+  });
+
 // crear cartas
 function createDivs(array)
 {
