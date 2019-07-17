@@ -1,4 +1,4 @@
-const data = window.RICKANDMORTY.results;
+const data = RICKANDMORTY.results;
 window.data = data; //declaramos la data global
 
 // creando tarjetas
@@ -67,5 +67,4 @@ selectedSort.addEventListener("change", () => {
 document.getElementById("clear").addEventListener('click', () => {
 
   location.reload();
-  return index;
-  });
+

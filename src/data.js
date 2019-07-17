@@ -23,6 +23,7 @@ const sorter = (data, sortBy, sortOrder) => {
   return sortedData;
 }
 window.sorter = sorter; //global
+
 //calculo 
 const apparitionPercent = (episodes) => {
   let percentajeTotal = Math.round((episodes * 100) / 31);
