@@ -8,7 +8,7 @@ function init() {
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Porcentaje aparación: ${window.calculePercent(characterData[i].episode.length)}%.</p>
       </div>`;
   }
 }
@@ -28,7 +28,7 @@ const selectOrder=document.getElementById('order');
            <img src="${characterData[i].image}" alt="">
            <h3>${characterData[i].name}</h3>
            <p>Especie: ${characterData[i].species}</p>
-           <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+           <p class="percent">Porcentaje aparación: ${window.calculePercent(characterData[i].episode.length)}%.</p>
          </div>`;
      }
      document.getElementById('characters').innerHTML = htmlForInyect;
@@ -47,7 +47,7 @@ const filterSpices = document.getElementById('specie');
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Porcentaje aparación: ${window.calculePercent(characterData[i].episode.length)}%.</p>
       </div>`;
       }
    });
@@ -63,7 +63,7 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].gender}</p>
-         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Porcentaje aparación: ${window.calculePercent(characterData[i].episode.length)}%.</p>
        </div>`;
    }});
 
@@ -79,6 +79,6 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].status}</p>
-         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Porcentaje aparación: ${window.calculePercent(characterData[i].episode.length)}%.</p>
        </div>`;
    }});
