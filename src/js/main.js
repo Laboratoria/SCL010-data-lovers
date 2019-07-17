@@ -1,7 +1,7 @@
 //DOM
 function init() {
   let characterData = window.loadData();
-  for (let i = 0; i < 40; i++) {
+  for (let i = 0; i < 42; i++) {
    // for (i = 0; i < characterData.length; i++) {
     document.getElementById('characters').innerHTML += `
       <div class="card">

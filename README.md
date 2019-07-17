@@ -174,6 +174,7 @@ Para la realización del proyecto se usaron diferentes herramientas para su orga
 #### Finalmente todo el proyecto esta trabajado y contenido desde GitHub colaborativo [GitHub y GitHub Pages](https://guides.github.com/).
 
 
-### Link para ir a la pagina web.
+## Link para ir a la pagina web.
 
 https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html 
+ ""

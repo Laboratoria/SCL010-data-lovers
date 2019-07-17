@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 body{
 font-family: "Roboto", sans-serif;
-background: #FSFSFS;
+background: #F2F2F2;
 color:#484848;
 cursor:pointer;
 }
@@ -235,7 +235,7 @@ flex-direction: column;
 	flex-direction: column;
 	height: 300px;
 	width:auto;
-}
+}}
 
 @media all and (max-width: 600px){
 	*{
