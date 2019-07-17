@@ -1,4 +1,6 @@
 ![uh](http://sidesixmedia.com/media/1074/rickandmortyrickstaversearticleimage.jpg)
+[visitar página](file:///C:/Users/Victoria%20Mart%C3%ADnez/Desktop/SCL010-data-lovers/src/index.html)
+
 
 # **DATA LOVERS; Rick and Morty**
 
