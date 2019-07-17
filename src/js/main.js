@@ -8,7 +8,7 @@ function init() {
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
       </div>`;
   }
 }
@@ -19,7 +19,7 @@ const selectOrder=document.getElementById('order');
    selectOrder.addEventListener('change',()=>{
     let data = window.loadData();
     let option = selectOrder.value;
-    let characterData = window.orderData(data, option); 
+    let characterData = window.orderData(data, option);
     let htmlForInyect='';
     //for (let i = 0; i < 30; i++) {
     for (let i = 0; i < characterData.length; i++) {
@@ -28,11 +28,12 @@ const selectOrder=document.getElementById('order');
            <img src="${characterData[i].image}" alt="">
            <h3>${characterData[i].name}</h3>
            <p>Especie: ${characterData[i].species}</p>
+           <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
          </div>`;
      }
      document.getElementById('characters').innerHTML = htmlForInyect;
    });
-   
+
 
 
 //filtrado por especie
@@ -46,7 +47,7 @@ const filterSpices = document.getElementById('specie');
         <img src="${characterData[i].image}" alt="">
         <h3>${characterData[i].name}</h3>
         <p>Especie: ${characterData[i].species}</p>
-        <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+        <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
       </div>`;
       }
    });
@@ -62,7 +63,7 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].gender}</p>
-         <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
 
@@ -78,6 +79,6 @@ const filterSpices = document.getElementById('specie');
          <img src="${characterData[i].image}" alt="">
          <h3>${characterData[i].name}</h3>
          <p>Status: ${characterData[i].status}</p>
-         <p>Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
+         <p class="percent">Aparece en ${window.calculePercent(characterData[i].episode.length)}% de los capitulos</p>
        </div>`;
    }});
