@@ -6,7 +6,7 @@ let newPokeArray;
 
 //Calling JSON data
 window.addEventListener("load", () => {
-  fetch("https://raw.githubusercontent.com/zotapianola/SCL010-data-lovers/src/data/pokemon/pokeEast.json")
+  fetch("https://github.com/Zotapianola/SCL010-data-lovers/blob/master/src/data/pokemon/pokeEast.json")
   .then((response) => {
     return response.json();
   })
