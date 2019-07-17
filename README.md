@@ -79,6 +79,7 @@ Basamos nuesta paleta de colores en una imagen representativa de los dos persona
 
 Con este sencillo prototipo ejecutamos nuestros  [testeos](https://www.youtube.com/watch?v=1FKU47e5Jx8&feature=youtu.be) a los potenciales usuarios.
 
+
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 #### Prototipo de alta fidelidad 
