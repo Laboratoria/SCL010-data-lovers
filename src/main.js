@@ -24,7 +24,6 @@ const createCards = (data) => {
             <p> Location: ${element.location.name}</p>
             <p> Origin: ${element.origin.name}</p>
             <h3> APPEARANCE PERCENT: ${window.apparitionPercent(element.episode.length)} % </h3>
-
             
            
             </div>
@@ -65,8 +64,8 @@ selectedSort.addEventListener("change", () => {
 
 // refrescar index 
 
-let index = document.getElementById("clear")
-window.clear.addEventListener('click', () => {
+document.getElementById("clear").addEventListener('click', () => {
+
   location.reload();
   return index;
   });

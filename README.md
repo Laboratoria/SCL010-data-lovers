@@ -1,5 +1,8 @@
 ![uh](http://sidesixmedia.com/media/1074/rickandmortyrickstaversearticleimage.jpg)
 
+[visitar página](https://victmartinez.github.io/SCL010-data-lovers/src/index.html)
+
+
 # **DATA LOVERS; Rick and Morty**
 
 
@@ -74,13 +77,8 @@ Basamos nuesta paleta de colores en una imagen representativa de los dos persona
 #### Prototipo baja fidelidad
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66382840_2430731283814926_8445785533812047872_n.jpg?_nc_cat=111&_nc_oc=AQlhZhV03RGW_MLcfHEoXepOujaKx534XOryWRWI_YDhmCRf6W18OToYyphFI2ACLoA&_nc_ht=scontent.fscl11-1.fna&oh=5ea04b9de3e8bc3a3e1a934d614aa3de&oe=5DA7FDE9)
 
-Con este sencillo prototipo ejecutamos nuestros testeos a los potenciales usuarios.
+Con este sencillo prototipo ejecutamos nuestros  [testeos](https://www.youtube.com/watch?v=1FKU47e5Jx8&feature=youtu.be) a los potenciales usuarios.
 
-[video 1](https://youtu.be/1FKU47e5Jx8).
-
-[video 2]().
-
-[video 3]().
 
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
