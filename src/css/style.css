@@ -7,6 +7,7 @@ body{
 font-family: "Roboto", sans-serif;
 white-space: normal;
 background: #FCFFF5;
+
 color:#484848;
 }
 .padre{
@@ -174,6 +175,7 @@ flex-direction: column;
 	width:auto;
 }
 }
+
 @media all and (max-width: 600px){
 	*{
 	margin:5px;

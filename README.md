@@ -163,7 +163,6 @@ A continuación te dejamos el link del [video](https://www.youtube.com/watch?v=5
 
 
 
-
 ## Recursos de organización  ![enter image description here](https://lh3.googleusercontent.com/lIxDaevl93kpTbZ_VlKpt3nxb3uD4GC9mSZ50xvZvolHYW8P9q8MRSyjOzFP992a7tG_rIZ-NKOonQ=s180)
 
 Para la realización del proyecto se usaron diferentes herramientas para su organización y creación. A continuación te mencionamos las más utilizadas:
@@ -173,3 +172,9 @@ Para la realización del proyecto se usaron diferentes herramientas para su orga
 #### Para compartir el prototipo de alta fidelidad se uso Zeplin.
 #### Para la realización del README.md se usó [Stackedit.io](http://stackedit.io/).
 #### Finalmente todo el proyecto esta trabajado y contenido desde GitHub colaborativo [GitHub y GitHub Pages](https://guides.github.com/).
+
+
+## Link para ir a la pagina web.
+
+https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html 
+ ""
