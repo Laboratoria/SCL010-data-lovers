@@ -65,6 +65,4 @@ selectedSort.addEventListener("change", () => {
 // refrescar index 
 
 document.getElementById("clear").addEventListener('click', () => {
-
-  location.reload();
-
+ location.reload()});
