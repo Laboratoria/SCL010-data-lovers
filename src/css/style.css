@@ -10,7 +10,7 @@ background: #FCFFF5;
 
 color:#484848;
 }
-.padre{
+.father{
 display: flex;
 flex-flow: column nowrap;
 }
