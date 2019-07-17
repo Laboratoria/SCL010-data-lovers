@@ -3,6 +3,7 @@ const pokeSection = document.getElementById('poke-section');
 const startingModal = document.getElementById('modalWCont');
 const infoStats = document.getElementById('info-stats');
 let newPokeArray;
+let newVar;
 
 //Calling JSON data
 window.addEventListener("load", () => {
@@ -11,7 +12,8 @@ window.addEventListener("load", () => {
     return response.json();
   })
   .then((data) => {
-		console.log(JSON.stringify(data));
+    newVar = JSON.stringify(data);
+		console.log(newVar);
     })
   });
 
