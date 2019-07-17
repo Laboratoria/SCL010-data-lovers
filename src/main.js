@@ -3,19 +3,21 @@ const pokeSection = document.getElementById('poke-section');
 const startingModal = document.getElementById('modalWCont');
 const infoStats = document.getElementById('info-stats');
 let newPokeArray;
-let newVar;
+let pokeEast;
 
-//Calling JSON data
-window.addEventListener("load", () => {
-  fetch("https://github.com/Zotapianola/SCL010-data-lovers/blob/master/src/data/pokemon/pokeEast.json")
-  .then((response) => {
+// JSON para capturar nombres orientales
+window.addEventListener("load", ()=>{
+  fetch("https://raw.githubusercontent.com/Zotapianola/SCL010-data-lovers/master/src/data/pokemon/pokeEast.json"
+  )
+  .then(function(response) {
+    console.log(response.status);
     return response.json();
   })
-  .then((data) => {
-    newVar = JSON.stringify(data);
-		console.log(newVar);
-    })
-  });
+  .then(function(jsn) {
+    pokeEast = jsn;
+    console.log(pokeEast);
+  })
+});
 
 // crear cartas
 function createDivs(array)
