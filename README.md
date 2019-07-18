@@ -116,6 +116,7 @@ A continuación se presentan las modificaciones que tuvo nuestro prototipo de ba
 #### Testeo de  usuarios en Laboratoria:
 A continuación se presentan el registro grabado de los testeos que se realizaron en Laboratoria, con el objetivo de aprender de cada usuario las observaciones y comentarios sobre el primer desarrollo del prototipo de baja fidelidad.
 <center><a  href="https://ibb.co/4TfmJrt"><img  src="https://i.ibb.co/pzP0nFw/IMG-20190628-WA0007.jpg"  alt="IMG-20190628-WA0007"  border="0"  width="200"></a><a  href="https://ibb.co/Dt36ftP"><img  src="https://i.ibb.co/nbhVMbq/IMG-20190628-WA0012.jpg"  alt="IMG-20190628-WA0012"  border="0"  width="200"></a><a  href="https://ibb.co/y627NBY"><img  src="https://i.ibb.co/Pck0rz9/IMG-20190628-WA0013.jpg"  alt="IMG-20190628-WA0013"  border="0"  width="200"></a><a  href="https://ibb.co/ZHgT7xk"><img  src="https://i.ibb.co/3fFhQcL/IMG-20190628-WA0022.jpg"  alt="IMG-20190628-WA0022"  border="0"  width="200"></a><a  href="https://ibb.co/WK291hN"><img  src="https://i.ibb.co/bdKhn0j/IMG-20190628-WA0023.jpg"  alt="IMG-20190628-WA0023"  border="0"  width="200"></a></center>
+
 #### Videos
 [Video / Test usuario nº1](https://youtu.be/yDA6KDHWFX4)
 Observaciones:
