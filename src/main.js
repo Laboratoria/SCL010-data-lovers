@@ -34,13 +34,13 @@ function createDivs(array)
     pokeIMG.setAttribute("src", array[i].img);
     newDiv.appendChild(pokeIMG);
     // insertar función que busca y pega nombre en japonés
-    if (pokeEast != null)
+    for (j = 0; j < pokeEast.length; j++)
     {
-      textNode = document.createTextNode(array[i].name);
-      newDiv.appendChild(textNode);
-    }
-    else {
-      console.log("pokeEast is empty");
+      if (pokeEast[j].name.english === array[i].name)
+      {
+        textNode = document.createTextNode(pokeEast[j].name.japanese);
+        newDiv.appendChild(textNode);
+      }
     }
     pokeSection.appendChild(newDiv);
   }
