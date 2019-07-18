@@ -6,7 +6,7 @@ let newPokeArray;
 let pokeEast;
 
 // JSON para capturar nombres orientales
-window.addEventListener("load", ()=>{
+function fetchJSON (array) {
   fetch("https://raw.githubusercontent.com/Zotapianola/SCL010-data-lovers/master/src/data/pokemon/pokeEast.json"
   )
   .then(function(response) {
@@ -15,9 +15,10 @@ window.addEventListener("load", ()=>{
   })
   .then(function(jsn) {
     pokeEast = jsn;
+    createDivs(array);
     console.log(pokeEast);
   })
-});
+}
 
 // crear cartas
 function createDivs(array)
@@ -32,12 +33,21 @@ function createDivs(array)
     let pokeIMG = document.createElement("img");
     pokeIMG.setAttribute("src", array[i].img);
     newDiv.appendChild(pokeIMG);
+    // insertar función que busca y pega nombre en japonés
+    if (pokeEast != null)
+    {
+      textNode = document.createTextNode(array[i].name);
+      newDiv.appendChild(textNode);
+    }
+    else {
+      console.log("pokeEast is empty");
+    }
     pokeSection.appendChild(newDiv);
   }
 }
 
 window.onload = function () {
-    createDivs(pokemons);
+    fetchJSON(pokemons);
     // modal de inicio
     startingModal.innerHTML =
     `<div class="modal-welcome">
@@ -84,19 +94,6 @@ for (let i = 0; i < typesArray.length; i++)
   selectType.appendChild(newOption);
 }
 
-// escuchar cambios en selector dropdown por tipos
-selectType.addEventListener("change", ()=> {
-  // el tipo seleccionado es almacenado en condition
-  let condition = selectType.options[selectType.selectedIndex].text;
-  // borra contenido de section
-  pokeSection.innerHTML = "";
-  // crea nuevos divs en base a array
-  newPokeArray = window.filterData(pokemons, condition);
-  createDivs(newPokeArray);
-  infoStats.innerHTML = `${window.computeStats(newPokeArray, pokemons, condition)}`;
-  }
-);
-
 // crear menú de orden
 document.getElementById("order-menu").innerHTML =
 `<select name="order-select" id="dropdown-order">
@@ -116,7 +113,20 @@ selectOrder.addEventListener("change", ()=> {
     pokeSection.innerHTML = "";
     // crea nuevos divs en base a array
     newPokeArray = window.sortData(pokemons, condition);
-    createDivs(newPokeArray);
+    fetchJSON(newPokeArray);
     infoStats.innerHTML = "";
+  }
+);
+
+// escuchar cambios en selector dropdown por tipos
+selectType.addEventListener("change", ()=> {
+  // el tipo seleccionado es almacenado en condition
+  let condition = selectType.options[selectType.selectedIndex].text;
+  // borra contenido de section
+  pokeSection.innerHTML = "";
+  // crea nuevos divs en base a array
+  newPokeArray = window.filterData(pokemons, condition);
+  fetchJSON(newPokeArray);
+  infoStats.innerHTML = `${window.computeStats(newPokeArray, pokemons, condition)}`;
   }
 );
