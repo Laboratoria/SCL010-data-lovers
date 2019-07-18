@@ -55,8 +55,9 @@ h2 {
 
 .menuBtn {
   position: fixed;
-  top: 400px;
+  top: 450px;
   margin-left: 10px;
+
 
 }
 
@@ -127,6 +128,7 @@ h2 {
   width: 310px;
   min-height: 50px;
   border: none;
+
   /* margin-left: 10px; */
 
 }
