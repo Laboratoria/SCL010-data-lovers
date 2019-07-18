@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Rick and Morty</title>
+  <meta charset="UTF-8">
+  <meta name="RickandMorty" content="Rick and Morty">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="logo-pag.png" rel="shortcut icon">
+
+</head>
+
+<body>
+  <header class="header">
+  </header>
+
+  <div class="father">
+    <section class="section">
+      <h1 class="welcome">Guia de personajes Rick and Morty</h1>
+      <p class="init">Acá te damos una guía completa con todos los personajes de la serie. Podrás buscarlos por los
+        filtros que más te gusten y saber cuanto en su porcentaje de aparición en la serie.</p>
+    </section>
+
+
+    <section class="selection_section">
+
+      <!-- select de orden de A-Z  -->
+      <div class="selection_control">
+        <label class="label">Ordenar</label>
+        <select class="filter_label" id="order">
+          <option value="">Selecciona</option>
+          <option value="az">A-Z</option>
+          <option value="za">Z-A</option>
+        </select>
+      </div>
+
+      <!-- select de especie -->
+      <div class="selection_control">
+        <label class="label">Especie</label>
+        <select class="filter_label" id="specie">
+          <option value="">Selecciona</option>
+          <option value="Humanoid">Humanoide</option>
+          <option value="Human">Humano</option>
+          <option value="Alien">Extraterreste</option>
+          <option value="Poopybutthole">Poopybutthole</option>
+          <option value="Robot">Robot</option>
+          <option value="Cronenberg">Cronenberg</option>
+          <option value="Animal">Animales</option>
+          <option value="Mytholog">Mitologico</option>
+          <option value="Vampire">Vampiros</option>
+          <option value="Disease">Enfermedades</option>
+          <option value="Parasite">Parasitos</option>
+          <option value="unknown">Otros</option>
+        </select>
+      </div>
+
+      <!-- select de genero -->
+      <div class="selection_control">
+        <label class="label">Genero</label>
+        <select class="filter_label" id="gender">
+          <option value="">Selecciona</option>
+          <option value="Male">Hombre</option>
+          <option value="Female">Mujer</option>
+          <option value="unknown">Otros</option>
+        </select>
+      </div>
+
+      <!-- select de estado -->
+      <div class="selection_control">
+        <label class="label">Estado</label>
+        <select class="filter_label" id="status">
+          <option value="">Selecciona</option>
+          <option value="Alive">Vivo</option>
+          <option value="Dead">Muerto</option>
+          <option value="unknown">Desconocido</option>
+        </select>
+      </div>
+
+      <!-- reseteo de filtros -->
+      <!-- <div class="selection_control">
+        <button id="clear-filter">Limpiar filtros</button>
+      </div> -->
+    </section>
+
+    <section class="section-cards" id="characters">
+    </section>
+
+  </div>
+  <footer class="footer">
+    <div class="pie">
+      <p class="parrafo">Copyright | 2019. Todos los derechos reservados. Laboratoria,Chile. </p>
+    </div>
+  </footer>
+  <script src="./data/rickandmorty/rickandmorty.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
