@@ -4,12 +4,15 @@ body {
   font-family: 'Lato',
     sans-serif;
 }
+
 .sticky {
   background-color: black;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  margin-left: 10px;
 }
+
 #tittle {
   font-size: 30px;
   letter-spacing: 1px;
@@ -18,67 +21,83 @@ body {
   box-sizing: border-box;
   vertical-align: center;
 }
+
 h2 {
   font-family: 'Lato',
     sans-serif;
-    letter-spacing: 5px;
-  color: #454A44;
-  font-size: 20px;
+  color: rgba(215, 181, 69, 0.335);
+  font-size: 30px;
+  font-weight: 10;
   margin-bottom: 90px;
 }
+
 #principalPage {
   display: flex;
 }
+
 #container_datos {
   display: flex;
   position: sticky;
   flex-direction: column;
 }
+
 .menu {
   font-family: 'Lato', sans-serif;
   color: #D7B445;
   position: sticky;
   background-color: black;
-  width: 310px; 
+  width: 310px;
   height: 50px;
   border: none;
   transition: background-color 2s ease-out;
-  margin: 5px;
+  /* margin: 5px; */
 }
-.menuBtn{
+
+.menuBtn {
   position: fixed;
   top: 400px;
-  left: 0;
+  margin-left: 10px;
 
 }
+
 #selectedSortHTML {
   position: sticky;
 }
+
 #selectedEpisodeHTML {
-  position: sticky; 
+  position: sticky;
 }
+
 .menu:hover {
   background-color: #D7B445;
   color: black;
 }
+
 .season {
-  background-color: #454A44;
+  background-color: #111111;
   color: #D7B445;
 }
+
 #container_cards {
   display: flex;
 }
+
 #cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .characterCards {
   max-width: 200px;
-  background-color: #454A44;
+  background-color: #111111;
   border-radius: 5px;
   margin: 5px;
+  /* border-color: #D7B445;
+  border: 1px; */
+
 }
+
 .imagenCharacters {
   width: 90%;
   padding: 10px;
@@ -89,24 +108,25 @@ h2 {
 .infoCards {
   padding: 10px;
   text-align: inherit;
-  font-size: 60%;
+  font-size: 80%;
   min-zoom: 60%;
   color: #D7B445;
 }
+
 #name {
   background-color: #D7B445;
   width: 100%;
-  color: #454A44;
+  color: #000000;
   font-size: 130%;
   text-align: center;
 }
+
 .clear {
   color: black;
   background-color: #D7B445;
   width: 310px;
   min-height: 50px;
   border: none;
+  /* margin-left: 10px; */
 
-   }
-
-
+}
