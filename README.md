@@ -178,3 +178,35 @@ Para la realización del proyecto se usaron diferentes herramientas para su orga
 
 https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html 
  ""
+<br>
+<br>
+<br>
+# Anexo Data Lovers.
+
+## Paleta de Colores.
+
+Antes de comenzar el proyecto se pensó en los colores que debía llevar la pagina y en los talleres aprendimos que debíamos usar dos colores además de las paletas de grises, al ir observando como eran los estilos de otras paginas web de la serie, nos dimos cuenta que tenían un patrón en común y era el color verde muy claro pero no era un color muy amigable, entonces haciendo ensayo y pruebas llegamos a un color final que era un verde agua que a la vez fue amigable a la vista.
+ 
+<a href="https://ibb.co/5x3YtLf"><img src="https://i.ibb.co/S7gQWB9/Captura-de-pantalla-2019-07-19-11-36-01.jpg" alt="Captura-de-pantalla-2019-07-19-11-36-01" border="0"></a>
+
+## Encuesta.
+
+Justo después de terminar el proyecto nos dimos cuenta que en general habían muchos detalles que arreglar y para poder estar segura de los cambios que se debían realizar y no afectar al usuario, se realizo una encuesta con preguntas directas sobre colores, formas y botones. 
+
+### Interfaz Amigable
+
+<a href="https://ibb.co/pZX2zQT"><img src="https://i.ibb.co/L6pStry/Captura-de-pantalla-2019-07-19-11-39-42.jpg" alt="Captura-de-pantalla-2019-07-19-11-39-42" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
+Con esta pregunta logramos percibir que el responsive de la pagina no esta llevado a cabo de buena forma y que no se adaptaba a todos los dispositivos web, lo cual llevo a que se hicieran los arreglos correspondientes para acotar el código del css y lograr que funcionara.
+
+### Botones
+
+<a href="https://ibb.co/28NLknC"><img src="https://i.ibb.co/6vBpWnT/Captura-de-pantalla-2019-07-19-11-39-52.jpg" alt="Captura-de-pantalla-2019-07-19-11-39-52" border="0"></a>
+En esta pregunta se encontró un error de usabilidad, el cual reflejo que tanto el menú como el botón que se encontraba al final de la primera pagina, no eran lo suficientemente claros, por lo tanto el usuario no lograba identificarlos ya que debía hacer scroll para posicionarse en los elementos.
+
+recopilando todos estos errores se realizaron mejoras en la pagina, en el cual sacamos la primera pagina dejando solo las Card y se soluciono el responsive dejandolo funcionando de forma optima
+
+
+
+
+
+
