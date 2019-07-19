@@ -205,7 +205,8 @@ En esta pregunta se encontró un error de usabilidad, el cual reflejo que tanto 
 
 recopilando todos estos errores se realizaron mejoras en la pagina, en el cual sacamos la primera pagina dejando solo las Card y se soluciono el responsive dejandolo funcionando de forma optima
 
-
+link de la pagina
+https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html
 
 
 
