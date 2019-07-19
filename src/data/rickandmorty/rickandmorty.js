@@ -102,7 +102,7 @@ const RICKANDMORTY = {
     "created": "2017-11-04T19:26:56.301Z"
   }, {
     "id": 6,
-    "name": "Abadango Cluster Princess",
+    "name": "Abadango Cluster",
     "status": "Alive",
     "species": "Alien",
     "type": "",

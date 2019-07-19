@@ -1,67 +1,93 @@
-/* @media (max-width: 600px) {
- /* .sticky {
-  background-color: black;
+@media screen and (max-width: 600px) {
+
+  .sticky {
+     background-color: black;
   position: -webkit-sticky;
   position: sticky;
- margin: 0; */
-/* }
+  top: 0;
+  }
+
+
 #tittle {
-  font-size: 10px;
+  font-size: 20px;
   letter-spacing: 1px;
   color: #D7B445;
-  text-align: initial;
-}
-h2 {
-
-  color: rgba(215, 181, 69, 0.335);
-  font-size: 5px;
-  font-weight: 10;
+  text-align: start;
 }
 
+h2{
+  display: none;
+}
+.menuBtn {
+  display: inline-block;
+  position: static;
+  margin-top: 0;
+  width: 100%;
+}
+.menu {
+
+  color: #D7B445;
+  position: sticky;
+  background-color: black;
+  width: 95%;
+  height: 30px;
+  border: none;
+  transition: background-color 2s ease-out;
+  /* margin: 5px; */
+}
 .clear {
   color: black;
   background-color: #D7B445;
-  width: 100%;
-  min-height: 50px;
+  width: 95%;
+  min-height: 30px;
   border: none;
-}
 
+  /* margin-left: 10px; */
+
+}
 .imagenCharacters {
-  width: 30%;
-  padding: 10px;
+  width: 100px;
+  padding: 5px;
   border-radius: 5px;
-  align-content: left;
-  display: inline;
+  align-content: center;
 }
 .infoCards {
-  color: rgb(102, 96, 77);
-  position: fixed;
-
-}
-.characterCards {
-  max-width: 100%;
-  max-height: 200px;
-  background-color: #111111;
-  border-radius: 5px;
-  margin: 5px;
+ display: none;
 }
 
 #name {
   background-color: #D7B445;
-  width: 50%
+  width: 100%;
   color: #000000;
-  margin: 0;
-  position: fixed;
+  font-size: 80%;
+  text-align: center;
+}
+
+.characterCards {
+  max-width: 210px;
+  background-color: #111111;
+  border-radius: 5px;
+  margin: 5px;
+   align-content: center;
+  /* border-color: #D7B445;
+  border: 1px; */
 
 }
 
+#container_datos {
+position: fixed;
+width: 100%;
+top: 0;
+background: black;
+height: 200px; 
+margin: 0;
+
+}
+.menuBtn {
+  position: fixed;
+  top: 80px;
+  width: 100%;
 
 
-
-
-
-
-
-
-
-} */ 
+}
+}
