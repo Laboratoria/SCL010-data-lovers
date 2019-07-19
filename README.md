@@ -3,44 +3,8 @@
 
 
 # **DATA LOVERS; Rick and Morty**
-
-
-
-## **Rick and Morty**🚀
-### TIME TO GET SCHWIFTY!
-
-Rick y Morty es un estadounidense de animación para adultos de ciencia ficción comedia creada por Justin Roiland y Dan Harmon para Cartoon Network nocturno 's bloque de programación Adult Swim . La serie sigue las desventuras del cínico científico loco Rick Sanchez y su nieto de buen corazón pero inquieto Morty Smith , quien dividió su tiempo entre la vida doméstica y las aventuras interdimensionales.
-
-Roiland da voz a los personajes del mismo nombre, con Chris Parnell , Spencer Grammer y Sarah Chalke expresando al resto de la familia. La serie se originó a partir de una corta parodia animada de Back to the Future , creada por Roiland para Channel 101 , un festival de cortometrajes co-fundado por Harmon. La serie ha sido aclamada por la crítica por su originalidad, creatividad y humor.
-El espectáculo gira en torno a las aventuras de los miembros de la familia Smith, que consta de los padres Jerry y Beth , sus hijos Summer y Morty , y el padre de Beth, Rick Sanchez , que vive con ellos como invitado. Según Justin Roiland, la familia vive fuera de Seattle , Washington. Las aventuras de Rick y Morty , sin embargo, tienen lugar en un número infinito de realidades, con los personajes viajando a otros planetas y dimensiones a través de portales y el auto volador de Rick.
-
-Rick es un científico loco , excéntrico y alcohólico , que evita muchas convenciones comunes como la escuela, el matrimonio, el amor y la familia. Con frecuencia continúa sus aventuras con su nieto de 14 años, Morty, un chico de buen corazón pero que se angustia fácilmente, cuya brújula moral ingenua pero fundamentada juega un contrapunto al ego maquiavélico de Rick. La hermana de 17 años de Morty, Summer, es una adolescente más convencional, que se preocupa por mejorar su estatus entre sus compañeros y, a veces, sigue a Rick y Morty en sus aventuras. La madre de los niños, Beth, es una persona generalmente sensata y una fuerza asertiva en el hogar, aunque consciente de su papel profesional como cirujana de caballos. Está insatisfecha con su matrimonio con Jerry, una persona sencilla e insegura, que desaprueba a Rick '
-
-Diferentes versiones de los personajes habitan otras dimensiones a lo largo del multiverso y sus características personales pueden variar de una realidad a otra. El Rick original del programa se identifica a sí mismo como "Rick Sánchez de la Dimensión de la Tierra C-137", en referencia a su universo original, pero esto no se aplica necesariamente a todos los demás miembros de la familia Smith. Por ejemplo, en el episodio de la primera temporada " Rick Potion # 9 ", después de convertir a toda la población mundial en monstruos, Rick y Morty se mudan a una dimensión diferente, dejando a Summer, Beth y Jerry atrás.
-
-
-
-## **Episodios**
-
-* Temporada 1 (2013-2014). 
-
-Rick convence a su hija, Beth, y a su yerno, Jerry, para permitir que su hijo, Morty, continúe siguiéndolo en sus aventuras interdimensionales, prometiendo que esto mejorará su rendimiento escolar. Morty, sus padres y su hermana, Summer, se ven arrastrados a peligrosas aventuras a lo largo del multiverso, de las que logran escapar, en gran parte gracias al ingenio de Rick. Cuando Rick y Morty accidentalmente convierten a la población de la Tierra en monstruos, se mueven a una dimensión alternativa donde se evitó el desastre, dejando a Beth, Jerry y Summer atrás. Se adaptan a una realidad aparentemente idéntica, ya que toman el lugar de versiones alternativas de sí mismos que murieron momentos antes de su llegada. Se revela que Rick sigue utilizando a Morty como su compañero, porque sus ondas cerebrales inferiores neutralizan las ondas cerebrales geniales de Rick, haciéndolo indetectable. Cuando Beth y Jerry se van de vacaciones, Rick y los niños tienen una fiesta con numerosos invitados que convierten la casa en un desastre. Rick congela el tiempo para que él y los niños puedan reparar la casa antes de que sus padres regresen.
-![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66448487_2429661567255231_2589591372243664896_n.jpg?_nc_cat=107&_nc_oc=AQnJsKKk9HWlQb3M67AZ2jdL3kBIBQNDNx26SshcikqVJ71AG8tibYiBjHYICubVfeQ&_nc_ht=scontent.fscl11-2.fna&oh=42a5e600f9d3a67e7b240a39a825bda4&oe=5DAD5104).
-
-
-* Temporada 2 (2015). 
-
-Seis meses más tarde, Rick descongela el tiempo pero termina con sus nietos en una dimensión en descomposición, dividida en numerosas líneas de tiempo. En uno de ellos, Rick se sacrifica para salvar la vida de Morty, pero al final los tres logran salir a salvo. Mientras Rick y Morty continúan aventuras, Morty enfrenta dilemas morales relacionados con la libertad y el valor de la vida, mientras que Rick está deprimido por su soledad y vejez. La Tierra se convierte en un protectorado de la Federación Galáctica, una organización intergaláctica contra la cual Rick se ha rebelado. La Federación intenta arrestar a Rick, quien se esconde junto con los otros miembros de la familia Smith. Finalmente, Rick se entrega a sí mismo y es encarcelado en una prisión de máxima seguridad, para garantizar la seguridad de su familia.
-![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66384721_2429661580588563_1002008761985925120_n.jpg?_nc_cat=111&_nc_oc=AQmJY5jNHGLHWmbmzOTnjG81jhIgHlTH1pbLITrM1w44GRtYC3M09WFZFaHe9qOxZ2E&_nc_ht=scontent.fscl11-1.fna&oh=6ea07b56acfc05c24a625aed347b7ab0&oe=5DB83DBF).
-
-* Temporada 3 (2017). 
-
-Rick logra escapar y obligar a la Federación a salir de la Tierra. Jerry quiere que Rick sea eliminado de sus vidas, así que le pide a Beth que elija entre él y Rick. Beth elige a su padre y Jerry sale de la casa. Mientras Jerry lucha por manejar su nueva vida, Beth utiliza su tiempo lejos de su marido para descubrir su independencia nuevamente, pero se encuentra en una crisis existencial. Los niños manejan la separación de sus padres haciendo un esfuerzo para determinar sus propias vidas. Morty comienza a desafiar frecuentemente a Rick en sus aventuras mientras cuestiona la moralidad de Rick, mientras que Summer muestra un lado más oscuro de sí misma. A pesar de su éxito en sacar a su yerno de la casa, Rick sigue sin poder vincularse con su hija y sus nietos. Esto les hace darse cuenta de lo mucho que necesitan a Jerry, quien finalmente será bienvenido de nuevo a la familia.
-
-![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/66377084_2429662027255185_8098514488510119936_n.jpg?_nc_cat=101&_nc_oc=AQnW1DH1PH_7XVm5zms57_aX3avtJntUerDEWKBiIxflCt42zze5oszaytm1TcDE3Fs&_nc_ht=scontent.fscl11-2.fna&oh=fea6ac5ca22c56b0968754f7cca07a77&oe=5DC47CD7)
-
-
-## **TIME TO GET SCHWIFTY IN HERE🎊**
+## **TIME TO GET SCHWIFTY IN HERE🚀**
+Esta página web está basada en el programa de televisión Rick and Morty, una serie estadounidense para mayores de 16 años, que narra las aventuras de un científico loco  y su nieto. El usuario, a través de Schwifty, tendrá acceso a cientos de personajes, imágenes, ubicaciones y episodios por las  miles de interdimensiones y planetas en los que los capítulos se desarrollan.
 
 ### **Objetivos del proyecto**
 
@@ -50,7 +14,7 @@ El objetivo de esta página web es facilitar al usuario la búsqueda de episodio
 
 
 ### **Proceso de Diseño**
-Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
+Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que **nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔**. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
 Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers), donde organizamos tareas, definimos historias de usuario, y jerarquizamos nuestro trabajo.  
 
 #### Primeros bosquejos e ideas 
@@ -60,11 +24,10 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 #### Pseudo códigos
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
 #### Paleta de colores 
-
 Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta. Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
 
 
-![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66403564_2431092957112092_8878541464984879104_n.jpg?_nc_cat=107&_nc_oc=AQlObLYPdU9A37R3ptVeViy2lGudQDDqv-srR3sZeQUR6VDBKHGpoyxQeFZDysWOKU0&_nc_ht=scontent.fscl3-1.fna&oh=b005acbda0d064e14b16eb2680378435&oe=5DC67D45)
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/67580304_2436571246564263_1566544361498345472_n.jpg?_nc_cat=104&_nc_oc=AQmaRSyeqlWPNKmQ3QDBVk14UH0jW_F-zxenm8f6g_Suroq21e2G_BQH4JyD7rvaEzA&_nc_ht=scontent.fscl11-1.fna&oh=c9f72a76819204fa0441f08fe4c3087a&oe=5DB53596)
 
 
 
@@ -82,12 +45,18 @@ Con este sencillo prototipo ejecutamos nuestros  [testeos](https://www.youtube.c
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
 #### Prototipo de alta fidelidad 
-!Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz.
-
+!Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz. Llegando a este resultado, ejecutamos nuestra [evaluación Heurística](https://docs.google.com/spreadsheets/d/1w6vrSOT1S3ar_XNE4KDfcrG1stB8t0M00sVbhlqPWIg/edit?usp=sharing), y afinamos los últimos detalles. 
+También puedes hallarlo como imagen en [Figma](https://www.figma.com/file/fXHSwMEe8L1OLSvDEQsw80Cs/Untitled?node-id=0%3A1).
 
 ![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66492746_2431095467111841_9183748309259386880_n.jpg?_nc_cat=107&_nc_oc=AQnFYKSKVncmgZzEDATFm-p8pEw2T01GJnT9vPk-3SXIZxVNNu1rJStdxoWeN0cyxu8&_nc_ht=scontent.fscl3-1.fna&oh=a88e9cd6081cd6c98fafd9a8d4ae68b5&oe=5DBA806B)
 
-También puedes hallarlo como imagen en [Figma](https://www.figma.com/file/fXHSwMEe8L1OLSvDEQsw80Cs/Untitled?node-id=0%3A1).
+### Producto 
+
+Después de esta última evaluación, concluimos que podíamos resumir aún más la gama de colores, que debíamos agrandar la letra para que todos pudiesen leerla sin dificultad, y detalles de sensibilidad en los botones. Además, trabajar la parte responsiva, la mayoría de los usuarios acceden a páginas web desde su teléfono,¡así que es urgente!. 
+Reparando los defectos visuales, este fue el resultado.
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/67527356_2436581773229877_2596796471940481024_n.jpg?_nc_cat=102&_nc_oc=AQljCzOE2TbbMIx5Kz35zbo307f-hQzY1yA_vpQOuSsJWPLwwnOIB2ibPfrNABuG3ds&_nc_ht=scontent.fscl11-2.fna&oh=40d4b2e58966f5cb9c8f132e2bb8b6ca&oe=5DE765ED) 
+
+
 
 
 
