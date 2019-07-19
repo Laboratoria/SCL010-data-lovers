@@ -6,14 +6,14 @@
 ## **TIME TO GET SCHWIFTY IN HERE🚀**
 Esta página web está basada en el programa de televisión Rick and Morty, una serie estadounidense para mayores de 16 años, que narra las aventuras de un científico loco  y su nieto. El usuario, a través de Schwifty, tendrá acceso a cientos de personajes, imágenes, ubicaciones y episodios por las  miles de interdimensiones y planetas en los que los capítulos se desarrollan.
 
-### **Objetivos del proyecto**
+## **Objetivos del proyecto**
 
 El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
 
 ![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/67093621_2436608563227198_5723705664711163904_n.jpg?_nc_cat=103&_nc_oc=AQnTY3EAM5ZtN8FlwryQ1yuZIhATPlXgXtlbHHqSJ88uJ6CvZfTXiyD3sC2Qf9pooh4&_nc_ht=scontent.fscl11-2.fna&oh=f161f6293ab213bdc57fb0f2c17feeab&oe=5DB65B88)
 
 
-### **Proceso de Diseño**
+## **Proceso de Diseño**
 Para comenzar, sentimos que era necesario conocer más a nuestro usuario, para esto desarrollamos una [encuesta](https://forms.gle/qKC51WMMVavy2vQLA), que arrojó que **nuestro usuario objetivo tiene por edad promedio 30 años, lo ve según el ordenamiento por defecto de netflix, y tienen una gama infinita de personajes favoritos, como "El señor pantalones de popó" y "Bird Man", y le encantaría volver a ver los episodios con ese personaje que tanto quieren pero no saben como hallarlo💔**. En base a esto, maquineamos una forma de poner ayudar a nuestro usuario interpretando la data,y ofreciendole la búsqueda de personajes por episodios y temporadas. 
 Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers), donde organizamos tareas, definimos historias de usuario, y jerarquizamos nuestro trabajo.  
 
@@ -23,7 +23,7 @@ Para ordenar ideas, armamos un [trello](https://trello.com/b/mNuAkMav/datalovers
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66465449_2430729147148473_5622872738977808384_n.jpg?_nc_cat=109&_nc_oc=AQl_wx9lUZWC9Lhq7JGOpaJtStVWpTK0uCoS0IJX_Tx8VmgFgV1ukYyE1lscV3NyGIA&_nc_ht=scontent.fscl11-1.fna&oh=2b05b1828318542a09200794696831db&oe=5DB37B62)
 #### Pseudo códigos
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66429413_2430728993815155_7559279867028570112_n.jpg?_nc_cat=109&_nc_oc=AQkwwiGAKCAA8aYJrejraO55tDdRx4RO946jwutyO1G9qC0RvZIR44RlPU9MqPHO9Ag&_nc_ht=scontent.fscl11-1.fna&oh=842bc23fa9f9d77abfdaf919e7fce1ff&oe=5DAADA15)
-#### Paleta de colores 
+### Paleta de colores 
 Basamos nuesta paleta de colores en una imagen representativa de los dos personajes principales de la serie, Rick y Morty, y a través de *Coolors*, creamos la paleta. Decidimos usar 2 colores en su respectiva escala de grises para no quitarle protagonismo a las imágenes y también cumplir con principios de diseño visual, ¡LESS IS MORE!.
 
 
@@ -36,7 +36,7 @@ Basamos nuesta paleta de colores en una imagen representativa de los dos persona
 
 
 
-#### Prototipo baja fidelidad
+### Prototipo baja fidelidad
 ![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/66382840_2430731283814926_8445785533812047872_n.jpg?_nc_cat=111&_nc_oc=AQlhZhV03RGW_MLcfHEoXepOujaKx534XOryWRWI_YDhmCRf6W18OToYyphFI2ACLoA&_nc_ht=scontent.fscl11-1.fna&oh=5ea04b9de3e8bc3a3e1a934d614aa3de&oe=5DA7FDE9)
 
 Con este sencillo prototipo ejecutamos nuestros  [testeos](https://www.youtube.com/watch?v=1FKU47e5Jx8&feature=youtu.be) a los potenciales usuarios.
@@ -44,13 +44,13 @@ Con este sencillo prototipo ejecutamos nuestros  [testeos](https://www.youtube.c
 
 Limpiamos por última vez el modelo, y ¡nos fuimos de lleno con los códigos!
 
-#### Prototipo de alta fidelidad 
+### Prototipo de alta fidelidad 
 !Y así resultó después de muuuchas iteraciones!. Tomamos todos los feedbacks de nuestros testeos,  y decidimos sólo crear un navegador lateral. Esto le daba más jerarquía a los botones y también le daba más espacio a las tarjetas para moverse y verse. Además, nos quedaba menos vacío en la interfaz. Llegando a este resultado, ejecutamos nuestra [evaluación Heurística](https://docs.google.com/spreadsheets/d/1w6vrSOT1S3ar_XNE4KDfcrG1stB8t0M00sVbhlqPWIg/edit?usp=sharing), y afinamos los últimos detalles. 
 También puedes hallarlo como imagen en [Figma](https://www.figma.com/file/fXHSwMEe8L1OLSvDEQsw80Cs/Untitled?node-id=0%3A1).
 
 ![](https://scontent.fscl3-1.fna.fbcdn.net/v/t1.0-9/66492746_2431095467111841_9183748309259386880_n.jpg?_nc_cat=107&_nc_oc=AQnFYKSKVncmgZzEDATFm-p8pEw2T01GJnT9vPk-3SXIZxVNNu1rJStdxoWeN0cyxu8&_nc_ht=scontent.fscl3-1.fna&oh=a88e9cd6081cd6c98fafd9a8d4ae68b5&oe=5DBA806B)
 
-### Producto 
+## Producto 
 
 Después de esta última evaluación, concluimos que podíamos resumir aún más la gama de colores, que debíamos agrandar la letra para que todos pudiesen leerla sin dificultad, y detalles de sensibilidad en los botones. Además, trabajar la parte responsiva, la mayoría de los usuarios acceden a páginas web desde su teléfono,¡así que es urgente!. 
 Reparando los defectos visuales, este fue el resultado.
