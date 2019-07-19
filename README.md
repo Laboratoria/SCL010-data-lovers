@@ -10,7 +10,7 @@ Esta página web está basada en el programa de televisión Rick and Morty, una 
 
 El objetivo de esta página web es facilitar al usuario la búsqueda de episodios basándose en sus personajes favoritos. Para esto, contamos con tarjetas que muestran la información básica de cada personaje (nombre, especie, género, locación y origen) ordenados por jerarquía de aparición. Además de esta info, se le agregó un porcentaje total de apariciones, para hacer más visual el protagonismo de cada uno. También, incluímos un filtro de episodios por temporada y un ordenamiento alfabético, para agilizar aún más la búsqueda.
 
-![](https://media2.giphy.com/media/y1WEHrxMXAV7q/giphy.gif)
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/67093621_2436608563227198_5723705664711163904_n.jpg?_nc_cat=103&_nc_oc=AQnTY3EAM5ZtN8FlwryQ1yuZIhATPlXgXtlbHHqSJ88uJ6CvZfTXiyD3sC2Qf9pooh4&_nc_ht=scontent.fscl11-2.fna&oh=f161f6293ab213bdc57fb0f2c17feeab&oe=5DB65B88)
 
 
 ### **Proceso de Diseño**
